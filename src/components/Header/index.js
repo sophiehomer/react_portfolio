@@ -4,7 +4,7 @@ import Navigation from '../Navigation'
 
 const Header = (props) => {
   return (
-    <header>
+    <header className="header">
         <Navigation setPage = {props.setPage} />
     </header>
   )

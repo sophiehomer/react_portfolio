@@ -3,7 +3,7 @@ import './styles.css'
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div className="pageTitle">RESUME</div>
   )
 }
 

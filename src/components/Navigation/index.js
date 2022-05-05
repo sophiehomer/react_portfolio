@@ -11,10 +11,10 @@ const Navigation = (props) => {
     <a className="about" onClick={handleClick}>
         ABOUT
     </a>
-    <a className="RESUME" onClick={handleClick}>
+    <a className="resume" onClick={handleClick}>
         RESUME
     </a>
-    <a className="PORTFOLIO" onClick={handleClick}>
+    <a className="portfolio" onClick={handleClick}>
         PORTFOLIO
     </a>
     <a className="contact" onClick={handleClick}>
