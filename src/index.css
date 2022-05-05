@@ -87,7 +87,7 @@ label {
   margin-bottom: 10%;
 }
 
-.contactName {
+.contactName, .contactEmail {
   margin-bottom: 10%;
   padding: 5%;
   border:none;
@@ -97,6 +97,7 @@ label {
 .contactMessage {
   border: none;
   width: 200%;
+  padding: 30%;
 }
 
 .submitButton {
