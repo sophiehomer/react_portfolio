@@ -4,7 +4,7 @@ import './styles.css'
 const Contact = () => {
   return (
     <>
-    <div className="pageTitle">CONTACT</div>
+    {/* <div className="pageTitle">CONTACT</div> */}
     <div className="contactForm">
           <form className="contactForm">
             <label for="contact-name">Name</label>

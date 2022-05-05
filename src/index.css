@@ -110,3 +110,14 @@ label {
 .submitButton:hover {
   opacity: .7;
 }
+
+/* ----- RESUME ----- */
+
+.backEndList, .frontEndList {
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.frontEnd, .backEnd {
+  font-weight: normal;
+}

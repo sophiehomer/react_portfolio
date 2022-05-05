@@ -9,7 +9,7 @@ import workDaySchedulerImage from '../../assets/portfolio/work-day-scheduler.png
 const Portfolio = () => {
   return (
     <>
-    <div className="pageTitle">PORTFOLIO</div>
+    {/* <div className="pageTitle">PORTFOLIO</div> */}
     <div className="portfolioImages">
     <a href="https://blooming-anchorage-21473.herokuapp.com/">
     <img src={kitImage} className="kitImg" style={{ width: "40%" }} alt="kit"/>
