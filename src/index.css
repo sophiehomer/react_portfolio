@@ -50,3 +50,10 @@ html {
   display: flex;
   flex-direction: column;
 }
+
+.kitImg:hover, 
+.dinnerDrinksImg:hover, 
+.weatherDashboardImg:hover, 
+.workDaySchedulerImg:hover {
+  opacity: .5;
+}
