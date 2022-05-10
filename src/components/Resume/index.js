@@ -26,7 +26,7 @@ const Resume = () => {
           <li>GraphQL</li>
         </ul>
 
-      <h2 className="downloadResume">Download my resume</h2>      
+      <h2 className="downloadResume">DOWNLOAD MY RESUME</h2>      
 
     </>
   )

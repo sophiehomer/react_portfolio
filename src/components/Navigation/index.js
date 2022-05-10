@@ -7,19 +7,20 @@ const Navigation = (props) => {
     props.setPage(e.target.innerText)
   }
   return (
-    <nav className="nav">
-    <a className="about" onClick={handleClick}>
+    <nav className="nav">  
+    <button className="about" onClick={handleClick}>
         ABOUT
-    </a>
-    <a className="resume" onClick={handleClick}>
-        RESUME
-    </a>
-    <a className="portfolio" onClick={handleClick}>
+    </button>
+    <button className="portfolio" onClick={handleClick}>
         PORTFOLIO
-    </a>
-    <a className="contact" onClick={handleClick}>
+    </button>
+    <h1 className="sophieHomer">SOPHIE HOMER</h1>
+    <button className="contact" onClick={handleClick}>
         CONTACT
-    </a>
+    </button>
+    <button className="resume" onClick={handleClick}>
+        RESUME
+    </button>
   </nav>
   )
 }

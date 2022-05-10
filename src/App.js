@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'
-import Page from './components/Page'
 import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [page, setPage] = useState('ABOUT')
@@ -26,8 +26,8 @@ function App() {
   return (
     <div className="App">
       <Header setPage={setPage} />
-      {/* <Page /> */}
       {handlePage()}
+      <Footer />
     </div>
   );
 }

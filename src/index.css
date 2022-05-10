@@ -13,12 +13,13 @@ code {
 }
 
 html {
-  background-color: #F5F1E7;
+  background-color: #f5f2eb;
 }
 
 /* ----- HEADER----- */
 
 .header {
+  background-color: black;
   padding: 3%;
   margin-bottom: 2%;
 }
@@ -29,18 +30,33 @@ html {
   display:flex;
   flex-direction: row;
   justify-content: space-around;
+  color: #f5f2eb;
+
 }
 
 .about, .resume, .portfolio, .contact {
-  font-size: 1.5em;
+  font-size: .9em;
+  background-color: black;
+  border: none;
+  color: #f5f2eb;
 }
+
+/* ----- ABOUT ----- */
 
 .aboutText {
   font-weight: normal;
   font-size: 1.2em;
   line-height: 1.5em;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  width: 40%;
+
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
 }
 
 /* ----- PAGE TITLE ----- */
@@ -122,3 +138,33 @@ label {
 .frontEnd, .backEnd {
   font-weight: normal;
 }
+
+.downloadResume {
+  font-weight: normal;
+  font-size: 1.2em;
+
+}
+
+/* ----- FOOTER ----- */
+
+.githubIcon, 
+.linkedInIcon, 
+.stackOverflowIcon {
+  color: black;
+  margin-right: 2%;
+}
+
+/* .githubIcon:hover, 
+.linkedInIcon:hover, 
+.stackOverflowIcon:hover {
+  transform: scale(5);  
+} */
+
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+
