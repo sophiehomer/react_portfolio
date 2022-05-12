@@ -11,10 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/* 
 html {
-  background-color: #f5f2eb;
-}
+  
+} */
 
 /* ----- HEADER----- */
 
@@ -34,29 +34,54 @@ html {
 
 }
 
-.about, .resume, .portfolio, .contact {
+.about, 
+.resume, 
+.portfolio,
+.contact {
   font-size: .9em;
   background-color: black;
+  color: white;
   border: none;
-  color: #f5f2eb;
 }
+
+.about:hover, 
+.resume:hover, 
+.portfolio:hover,
+.contact:hover {
+  text-decoration: underline;
+}
+
 
 /* ----- ABOUT ----- */
 
-.aboutText {
-  font-weight: normal;
-  font-size: 1.2em;
-  line-height: 1.5em;
-  margin-left: 15%;
-  width: 40%;
+.aboutTextDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+}
 
+.aboutText {
+  font-family: arial,sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.9em;
+  /* width: 80%; */
+}
+
+.aboutImg {
+  padding: 2%;
 }
 
 .aboutContent {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  
+  justify-content: space-around;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 /* ----- PAGE TITLE ----- */
@@ -78,6 +103,7 @@ html {
 .weatherDashboardImg,
 .workDaySchedulerImg {
   margin-bottom: 1%;
+  margin-top: 1%;
 }
 
 .kitImg:hover, 
@@ -92,10 +118,11 @@ html {
 .contactForm {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-  max-width: 50%;
-  padding-left: 10%;
+  max-width: 100%;
+  padding-left: 5%;
+  padding-top: 5%;
 }
 
 label {
@@ -105,43 +132,65 @@ label {
 
 .contactName, .contactEmail {
   margin-bottom: 10%;
-  padding: 5%;
+  padding: 3%;
   border:none;
-  width: 100%;
+  border-bottom: 1px solid black;
+  width: 35%;
+  outline: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.contactEmail {
+  margin-left: 18%;
 }
 
 .contactMessage {
   border: none;
-  width: 200%;
-  padding: 30%;
+  border-bottom: 1px solid black;
+  width: 201.5%;
+  box-sizing: border-box;
+  resize: none;
+  outline: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
 .submitButton {
   margin-top: 10%;
   border: none;
-  padding: 5%;
+  padding: 3%;
   background-color: black;
   color: white;
+  font-size: .9em;
 }
 
 .submitButton:hover {
-  opacity: .7;
+  /* opacity: .7; */
+  transform: scale(1.1); 
 }
 
 /* ----- RESUME ----- */
 
 .backEndList, .frontEndList {
-  list-style: none;
-  line-height: 1.5em;
+  word-spacing: 1em;
+
+  /* padding-bottom: 3%; */
 }
 
 .frontEnd, .backEnd {
   font-weight: normal;
+  font-size: 1.2em;
+  padding-bottom: 3%;
+  padding-top: 5%;
 }
 
 .downloadResume {
   font-weight: normal;
   font-size: 1.2em;
+  padding-top: 10%;
 
 }
 
@@ -152,13 +201,15 @@ label {
 .stackOverflowIcon {
   color: black;
   margin-right: 2%;
+  transition: all .2s ease-in-out; 
+
 }
 
-/* .githubIcon:hover, 
+.githubIcon:hover, 
 .linkedInIcon:hover, 
 .stackOverflowIcon:hover {
-  transform: scale(5);  
-} */
+  transform: scale(1.1); 
+}
 
 
 footer {

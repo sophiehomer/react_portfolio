@@ -6,28 +6,15 @@ const Resume = () => {
   <>
     {/* <div className="pageTitle">RESUME</div> */}
       <h1 className="frontEnd">FRONT-END PROFICIENCIES</h1>
-        <ul className="backEndList">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>Responsive Design</li>
-          <li>React</li>
-          <li>Bootstrap</li>
-        </ul>  
-      <h1 className="backEnd">BACK-END PROFICIENCIES</h1>
-        <ul className="frontEndList">
-          <li>APIs</li>
-          <li>Node</li>
-          <li>Express</li>
-          <li>MySQL, Sequelize</li>
-          <li>MongoDB, Mongoose</li>
-          <li>REST</li>
-          <li>GraphQL</li>
-        </ul>
+        <p className="frontEndList">
+          HTML | CSS | JavaScript | jQuery | React | Responsive Design | Bootstrap
+        </p>  
+      <h2 className="backEnd">BACK-END PROFICIENCIES</h2>
+        <p className="backEndList">
+        APIs | Node | Express | MySQL | Sequelize | MongoDB | Mongoose | REST | GraphQL
+        </p>
 
-      <h2 className="downloadResume">DOWNLOAD MY RESUME</h2>      
-
+      <h3 className="downloadResume">DOWNLOAD MY RESUME</h3>     
     </>
   )
 }
