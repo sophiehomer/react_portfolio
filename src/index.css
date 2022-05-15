@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  min-height: 100vh;
 }
 
 code {
@@ -90,6 +92,37 @@ code {
 
 /* ----- PORTFOLIO ----- */
 
+/* a {
+  border:none;
+  border-bottom: 1px solid black;
+} */
+
+.gitHubLink {
+  color: black;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  transition: all .2s ease-in-out; 
+  word-spacing: 3px;
+  text-decoration: none;
+  border: none;
+  border-bottom: 1px solid black;}
+
+.gitHubLink:hover {
+  text-decoration: underline;
+}
+
+.workDaySchedulerLink {
+  color: black;
+  padding-bottom: 10%;
+  transition: all .2s ease-in-out; 
+  text-decoration: none;
+}
+
+.workDaySchedulerLink:hover {
+  text-decoration: underline;
+
+}
+
 .portfolioImages {
   display: flex;
   flex-direction: column;
@@ -106,13 +139,18 @@ code {
 .workDaySchedulerImg {
   margin-bottom: 1%;
   margin-top: 1%;
+  padding-top: 3%;
 }
+
+/* .workDaySchedulerImg {
+  padding-bottom: 5%;
+} */
 
 .kitImg:hover, 
 .dinnerDrinksImg:hover, 
 .weatherDashboardImg:hover, 
 .workDaySchedulerImg:hover {
-  opacity: .5;
+  opacity: .8;
 }
 
 /* ----- CONTACT ----- */
@@ -123,8 +161,8 @@ code {
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
-  padding-left: 5%;
   padding-top: 5%;
+  justify-content: center;
 }
 
 label {
@@ -134,10 +172,10 @@ label {
 
 .contactName, .contactEmail {
   margin-bottom: 10%;
-  padding: 3%;
+  padding-bottom: 3%;
   border:none;
   border-bottom: 1px solid black;
-  width: 35%;
+  width: 40%;
   outline: none !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -163,7 +201,10 @@ label {
 .submitButton {
   margin-top: 10%;
   border: none;
-  padding: 3%;
+  padding-top: 2%;
+  padding-bottom:2%;
+  padding-left: 8%;
+  padding-right: 8%;
   background-color: black;
   color: white;
   font-size: .9em;
@@ -199,22 +240,21 @@ label {
 .linkedInIcon, 
 .stackOverflowIcon {
   color: black;
-  margin-right: 10%;
   transition: all .2s ease-in-out; 
+  padding-left: 2%;
 
 }
 
 .githubIcon:hover, 
 .linkedInIcon:hover, 
 .stackOverflowIcon:hover {
-  color: rgb(117, 115, 112);
+  color: rgb(87, 150, 213);
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   width: 100%;
   bottom: 0;
-  width: 100%;
 }
 
 
