@@ -200,6 +200,11 @@ label {
   background-color: rgb(87, 150, 213); 
 }
 
+.errorMessage {
+  position: absolute;
+  left: 27.5%;
+
+}
 /* ----- RESUME ----- */
 
 .backEndList, .frontEndList {
