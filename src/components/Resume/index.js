@@ -10,23 +10,23 @@ const Resume = () => {
        <div className="proficiencyList">
           HTML<br></br>
           CSS<br></br>
-          JavaScript <br></br>
-          jQuery<br></br>
           React <br></br>
+          jQuery<br></br>
+          JavaScript <br></br>
           Responsive Design<br></br>
           Bootstrap<br></br>
-          APIs<br></br>
-          Node<br></br>
           MySQL <br></br>
           Sequelize <br></br>
           MongoDB  <br></br>
           Mongoose<br></br>
-          REST<br></br>
           GraphQL<br></br>
+          Node<br></br>
+          APIs<br></br>
+          REST<br></br>
         </div>
     </div>  
     <div>
-      <a download href= {Pdf} rel="noreferrer" target="_blank">DOWNLOAD MY RESUME</a>
+      <a download href= {Pdf} rel="noreferrer" target="_blank" className="downloadResume">DOWNLOAD RESUME</a>
     </div>
     </>
   )

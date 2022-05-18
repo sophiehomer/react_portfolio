@@ -59,7 +59,7 @@ code {
   flex-wrap: wrap;
   text-align: center;
   align-content: center;
-  width: 100%;  
+  width: 100%;
 }
 
 .aboutText {
@@ -72,12 +72,13 @@ code {
 
 .aboutImg {
   padding-left: 10%;
-  min-width: 32%;
+  min-width: 25%;
 }
 
 .aboutContent {
   display: flex;
   flex-direction: row;
+  padding-top: 5%;
 }
 
 /* ----- PORTFOLIO ----- */
@@ -211,20 +212,28 @@ label {
 .resumeTitle {
   border-bottom: 1px solid black;
   width: 25%;
-  padding-top: 1%;
   padding-bottom: .5%;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: lighter;
   font-family: arial, helvetica, sans-serif;
 }
 
 .proficiencyList {
-  padding-top: .5%;
   padding-bottom: 3%;
   font-weight: normal;
   font-size: 1em;
   line-height: 1.5em;
   font-family: arial, helvetica, sans-serif;
+}
+
+.downloadResume {
+  color: black;
+  text-decoration: none;
+  font-size: .9em;
+}
+
+.downloadResume:hover {
+  text-decoration: underline;
 }
 
 /* ----- FOOTER ----- */
