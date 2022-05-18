@@ -2,7 +2,7 @@
   "name": "react_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sophiehomer.github.io/react_portfolio",
+  "homepage": "https://sophiehomer.github.io/sophie_homer_portfolio/",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.4",

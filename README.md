@@ -15,7 +15,7 @@ Welcome to my react portfolio application. This application contains my projects
 npm install
 
 ## Usage
-[Deployed Site](https://sophiehomer.github.io/react_portfolio/)
+[Deployed Site](https://sophiehomer.github.io/sophie_homer_portfolio/)
 
 ## Credits
 Sophie Homer
