@@ -1,4 +1,4 @@
-# README Generator
+# Sophie Homer Portfolio
 
 ## Description 
 Welcome to my react portfolio application. This application contains my projects, resume, about and contact. I used custom css for a clean and minimal interface. This application remains a work in progress.
