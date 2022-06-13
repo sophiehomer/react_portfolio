@@ -83,7 +83,7 @@ code {
 
 /* ----- PORTFOLIO ----- */
 
-.gitHubLink {
+/* .gitHubLink {
   color: black;
   padding-bottom: 3%;
   padding-top: 3%;
@@ -93,46 +93,110 @@ code {
   border: none;
   border-bottom: 1px solid rgb(192, 192, 192);
   width: 100%;
-}
+} */
 
-.gitHubLink:hover {
+/* .gitHubLink:hover {
   text-decoration: underline;
-}
+} */
 
-.workDaySchedulerLink {
+/* .workDaySchedulerLink {
   color: black;
   padding-bottom: 10%;
   transition: all .2s ease-in-out; 
   text-decoration: none;
-}
+} */
 
-.workDaySchedulerLink:hover {
+/* .workDaySchedulerLink:hover {
   text-decoration: underline;
+} */
+
+/* .portfolioImages {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+section {
+  width: 100%;
 }
 
-.portfolioImages {
+.kitContainer,
+.weatherContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  padding-bottom: 10%;
+}
+
+.drawTheLineContainer {
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content: space-around;
+  padding-bottom: 10%;
+  width: 100%;
+}
+
+.dinnerDrinkContainer {
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content: center;
+  padding-bottom: 10%;
+  width: 100%;
+}
+
+.schedulerContainer {
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content: space-around;
+  padding-bottom: 10%;
+  width: 100%;
+}
+
+.app {
+ width: 50%;
+}
+
+.appSummary {
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.summary {
+text-align:left;
 }
 
 .project {
   font-weight: normal;
   font-size: 1em
 }
+.drawTheLineImg {
+  width: 80%;
+}
 
-.kitImg,
-.dinnerDrinksImg,
-.weatherDashboardImg,
+.kitImg{
+  width: 80%;
+}
+
+.dinnerDrinksImg{
+  width: 80%;
+}
+
+.weatherDashboardImg {
+  width: 80%;
+}
+
 .workDaySchedulerImg {
-  margin-bottom: 1%;
-  margin-top: 1%;
-  padding-top: 3%;
+  width: 80%;
 }
 
 .kitImg:hover, 
 .dinnerDrinksImg:hover, 
 .weatherDashboardImg:hover, 
-.workDaySchedulerImg:hover {
+.workDaySchedulerImg:hover,
+.drawTheLineImg:hover {
   opacity: .8;
 }
 
