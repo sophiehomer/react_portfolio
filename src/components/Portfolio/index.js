@@ -23,7 +23,10 @@ const Portfolio = () => {
         <div className="appSummary">
           <a href="https://github.com/Abarragan89/draw-the-line" className='gitHubLinkRight'> DEBATE PLATFORM APPLICATION <FaGithub size={15}/></a> 
           <p className="summary">
-            Built with React, html, css
+            Built with React, JavaScript, Node.js, GraphQL, Apollo, Mongoose, mongoDb, Bycrypt, Bad Words npm package.
+          </p>
+          <p className="summary">
+          Draw the Line is a community moderated debate platform. Users have the ability to downvote comments or posts they find offensive or unconstrucive. Once a comment's or post's downvote make up 60% of its overall likes and dislikes, it is removed.
           </p>
         </div>
       </section>
@@ -38,10 +41,10 @@ const Portfolio = () => {
         <div className="appSummary">
           <a href="https://github.com/kpbader/kit" className='gitHubLinkLeft'> SOCIAL APPLICATION <FaGithub size={15}/></a> 
           <p className="summary">
-            Built with Express, MySQL, Sequelize, Bycrypt, UUID, cloudinary
+            Built with Express, MySQL, Sequelize, Bycrypt, UUID, and Cloudinary.
           </p>
           <p className="summary">
-          The motivation behind KIT was fueled by the genuine friendships made during the hardships of this course. We felt our class has created a kind, helpful and outgoing community and we wanted to make sure that bond stayed true throughout time.
+            KIT is a social application where users can post, comment, like and dislike. The incentive behind the application began with genuine friendships made throughout the course of coding bootcamp. I felt our class had created a kind, helpful and outgoing community and I wanted that bond to continue.
           </p>
         </div>
       </section>
@@ -56,8 +59,8 @@ const Portfolio = () => {
 
         <div className="appSummary">
           <a href="https://github.com/Abarragan89/dinner-drinks" className='gitHubLinkRight'> RECIPE AND COCKTAIL SEARCH ENGINE <FaGithub size={15}/></a>
-          <p>
-            Built with Express, MySQL, Sequelize, Bycrypt, UUID, cloudinary
+          <p className="summary">
+            Built with  Javascript, HTML, CSS, Spoonacular API and Cocktails DB API.
           </p>
         </div>
       </section>
@@ -72,6 +75,9 @@ const Portfolio = () => {
 
         <div className="appSummary">
           <a href="https://github.com/sophiehomer/Weather-Dashboard" className='gitHubLinkLeft'> WEATHER APPLICATION <FaGithub size={15}/></a>
+          <p className="summary">
+            Built with html, css, JavaScript and jQuery.
+          </p>
         </div>
       </section>
 
@@ -84,6 +90,9 @@ const Portfolio = () => {
 
       <div className="appSummary">
         <a href="https://github.com/sophiehomer/work-day-scheduler" className='gitHubLinkLeft'> WORK DAY SCHEDULER <FaGithub size={15}/></a>
+        <p className="summary">
+            Built with JavaScript, jQuery, HTML and CSS.
+          </p>
       </div>  
       </section>
 
