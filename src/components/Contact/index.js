@@ -53,8 +53,11 @@ const Contact = () => {
     <>
     <div className="contactForm">
           <form ref={form} onSubmit={sendEmail} className="contactForm">
-            <input type="text" name="name" defaultValue={name} className="contactName" id="contact-name"  onBlur={handleChange} placeholder="YOUR NAME"/>
-            <input type="text"  name="email" defaultValue={email} className="contactEmail" id="contact-Email" onBlur={handleChange} placeholder="EMAIL ADDRESS"/>
+            <div className="contactDiv">
+                <input type="text" name="name" defaultValue={name} className="contactName" id="contact-name"  onBlur={handleChange} placeholder="YOUR NAME"/>
+                <input type="text"  name="email" defaultValue={email} className="contactEmail" id="contact-Email" onBlur={handleChange} placeholder="EMAIL ADDRESS"/>
+            </div>
+        
             <textarea name="message" id="contact-message" defaultValue={message} className="contactMessage" onChange={handleChange} placeholder="MESSAGE"></textarea>
             <button className="submitButton" type="submit">SUBMIT</button>
 
