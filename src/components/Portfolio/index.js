@@ -3,7 +3,7 @@ import './styles.css'
 import dinnerDrinksImage from '../../assets/portfolio/dinner-drinks.png'
 import kitImage from '../../assets/portfolio/kit-img.png'
 import weatherDashboardImage from '../../assets/portfolio/weather-dashboard.png'
-import workDaySchedulerImage from '../../assets/portfolio/work-day-scheduler.png'
+// import workDaySchedulerImage from '../../assets/portfolio/work-day-scheduler.png'
 import drawTheLineImage from '../../assets/portfolio/draw-the-line.png'
 import { FaGithub } from 'react-icons/fa';
 
@@ -62,6 +62,9 @@ const Portfolio = () => {
           <p className="summary">
             Built with  Javascript, HTML, CSS, Spoonacular API and Cocktails DB API.
           </p>
+          <p className="summary">
+            This application generates curated recipes around user preferences. The user can search up food recipes based on cuisine and dietary restrictions, as well as look up cocktails recipes based on alcohol preference. The user has the ability to favorite recipes which are displayed on the users favorites page.
+          </p>
         </div>
       </section>
 
@@ -76,12 +79,15 @@ const Portfolio = () => {
         <div className="appSummary">
           <a href="https://github.com/sophiehomer/Weather-Dashboard" className='gitHubLinkLeft'> WEATHER APPLICATION <FaGithub size={15}/></a>
           <p className="summary">
-            Built with html, css, JavaScript and jQuery.
+            Built with html, css, JavaScript, jQuery and Open Weather API.
+          </p>
+          <p className="summary">
+            A five-day weather application. Weather details include temperature, wind, humidity and UV index.
           </p>
         </div>
       </section>
 
-      <section className="schedulerContainer">
+      {/* <section className="schedulerContainer">
       <div className="app">
         <a href="https://sophiehomer.github.io/work-day-scheduler/" >
           <img src={workDaySchedulerImage} className="workDaySchedulerImg" alt="workDayScheduler"/>
@@ -94,7 +100,7 @@ const Portfolio = () => {
             Built with JavaScript, jQuery, HTML and CSS.
           </p>
       </div>  
-      </section>
+      </section> */}
 
     </main>
     </>
