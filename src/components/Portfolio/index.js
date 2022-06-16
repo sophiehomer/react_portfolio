@@ -11,8 +11,8 @@ import { FaGithub } from 'react-icons/fa';
 const Portfolio = () => {
   return (
     <>
-    <main className="portfolioImages">
-      
+   <h1 className="portfolioTitle">Portfolio</h1>
+    <main className="portfolioImages" id="portfolioImages">
     <section className="drawTheLineContainer">
         <div className="app">
           <a href="https://draw-the-line-repo.herokuapp.com/">
@@ -21,7 +21,7 @@ const Portfolio = () => {
         </div>
        
         <div className="appSummary">
-          <a href="https://github.com/Abarragan89/draw-the-line" className='gitHubLinkRight'> DEBATE PLATFORM APPLICATION <FaGithub size={15}/></a> 
+          <a href="https://github.com/Abarragan89/draw-the-line" className='gitHubLinkRight'> Debate Platform Application <FaGithub size={15}/></a> 
           <p className="summary">
             Built with React, JavaScript, Node.js, GraphQL, Apollo, Mongoose, mongoDb, Bycrypt, Bad Words npm package.
           </p>
@@ -39,7 +39,7 @@ const Portfolio = () => {
         </div>
        
         <div className="appSummary">
-          <a href="https://github.com/kpbader/kit" className='gitHubLinkLeft'> SOCIAL APPLICATION <FaGithub size={15}/></a> 
+          <a href="https://github.com/kpbader/kit" className='gitHubLinkLeft'> Social Application <FaGithub size={15}/></a> 
           <p className="summary">
             Built with Express, MySQL, Sequelize, Bycrypt, UUID, and Cloudinary.
           </p>
@@ -58,7 +58,7 @@ const Portfolio = () => {
         </div>
 
         <div className="appSummary">
-          <a href="https://github.com/Abarragan89/dinner-drinks" className='gitHubLinkRight'> RECIPE AND COCKTAIL SEARCH ENGINE <FaGithub size={15}/></a>
+          <a href="https://github.com/Abarragan89/dinner-drinks" className='gitHubLinkRight'> Recipe and Cocktail Search Engine <FaGithub size={15}/></a>
           <p className="summary">
             Built with  Javascript, HTML, CSS, Spoonacular API and Cocktails DB API.
           </p>
@@ -77,7 +77,7 @@ const Portfolio = () => {
         </div>
 
         <div className="appSummary">
-          <a href="https://github.com/sophiehomer/Weather-Dashboard" className='gitHubLinkLeft'> WEATHER APPLICATION <FaGithub size={15}/></a>
+          <a href="https://github.com/sophiehomer/Weather-Dashboard" className='gitHubLinkLeft'> Weather Application<FaGithub size={15}/></a>
           <p className="summary">
             Built with html, css, JavaScript, jQuery and Open Weather API.
           </p>

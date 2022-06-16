@@ -9,23 +9,26 @@ const Navigation = (props) => {
   return (
     <nav className="nav"> 
 
-      <button className="portfolio" onClick={handleClick}>
-        PORTFOLIO
-      </button>
+      <h1 className="sophieHomer">Sophie Homer</h1>
+ 
+      <div>
+        <a href="#portfolioImages" className="portfolio" onClick={handleClick}>
+        Portfolio
+        </a>
 
-      <button className="resume" onClick={handleClick}>
-        RESUME
-      </button>
+        <a href="#resumeList" className="resume" onClick={handleClick}>
+         Resume
+        </a>
 
-      <h1 className="sophieHomer">SOPHIE HOMER</h1>
+        <a href="#aboutContent" className="about" onClick={handleClick}>
+          About
+        </a>
 
-      <button className="about" onClick={handleClick}>
-        ABOUT
-      </button>
-
-      <button className="contact" onClick={handleClick}>
-        CONTACT
-      </button>
+        <a href="#contactForm" className="contact" onClick={handleClick}>
+          Contact
+        </a>
+      </div>
+    
   
   </nav>
   )

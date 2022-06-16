@@ -26,7 +26,11 @@ function App() {
   return (
     <div className="App">
       <Header setPage={setPage} />
-      {handlePage()}
+      {/* {handlePage()} */}
+      <About />
+      <Portfolio />
+      <Resume />
+      <Contact />
       <Footer />
     </div>
   );

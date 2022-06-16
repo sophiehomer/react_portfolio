@@ -13,7 +13,7 @@ const Contact = () => {
       if(e.target.name === 'email') {
           const isValid = validateEmail(e.target.value);
           if(!isValid) {
-              setErrorMessage('Invalid email address')
+              setErrorMessage('invalid email address')
           } else {
               setErrorMessage('');
           }
@@ -44,22 +44,23 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
-      console.log("hello robert")
       e.target.reset()
       setFormState({name: '', email: '', message: ''})
   };
 
   return (
     <>
-    <div className="contactForm">
+    <section className="contactSection">
+        <h2>Message me</h2>
+        <div className="contactForm" id="contactForm">
           <form ref={form} onSubmit={sendEmail} className="contactForm">
-            <div className="contactDiv">
-                <input type="text" name="name" defaultValue={name} className="contactName" id="contact-name"  onBlur={handleChange} placeholder="YOUR NAME"/>
-                <input type="text"  name="email" defaultValue={email} className="contactEmail" id="contact-Email" onBlur={handleChange} placeholder="EMAIL ADDRESS"/>
+                <div className="contactDiv">
+                <input type="text" name="name" defaultValue={name} className="contactName" id="contact-name"  onBlur={handleChange} placeholder="Name"/>
+                <input type="text"  name="email" defaultValue={email} className="contactEmail" id="contact-Email" onBlur={handleChange} placeholder="Email address"/>
             </div>
         
-            <textarea name="message" id="contact-message" defaultValue={message} className="contactMessage" onChange={handleChange} placeholder="MESSAGE"></textarea>
-            <button className="submitButton" type="submit">SUBMIT</button>
+            <textarea name="message" id="contact-message" defaultValue={message} className="contactMessage" onChange={handleChange} placeholder="Message"></textarea>
+            <button className="submitButton" type="submit">Send</button>
 
             {errorMessage && (
                     <div>
@@ -68,6 +69,7 @@ const Contact = () => {
                 )} 
           </form>
         </div>
+    </section>  
     </>
   )
 }

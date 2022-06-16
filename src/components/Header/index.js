@@ -6,6 +6,9 @@ const Header = (props) => {
   return (
     <header className="header">
         <Navigation setPage = {props.setPage} />
+        <>
+       {/* <h1 className="sophieHomer">SOPHIE HOMER</h1> */}
+        </>
     </header>
   )
 }

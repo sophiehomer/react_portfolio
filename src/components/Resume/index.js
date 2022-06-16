@@ -5,28 +5,35 @@ import Pdf from '../../assets/documents/sophie-homer-resume.pdf'
 const Resume = () => {
   return (
   <>
-    <div className="resumeList">
-      <h1 className="resumeTitle">PROFICIENCIES</h1>
+   <h1 className="resumeTitle">Proficiencies</h1>
+    <div className="resumeList" id="resumeList">
+    
        <div className="proficiencyList">
+          Figma<br></br>
           HTML<br></br>
           CSS<br></br>
+          {/* Responsive Design<br></br> */}
+       </div>   
+       <div className="proficiencyList">
+          JavaScript <br></br> 
           React <br></br>
+          Node<br></br>
           jQuery<br></br>
-          JavaScript <br></br>
-          Responsive Design<br></br>
-          Bootstrap<br></br>
+        </div>
+        <div className="proficiencyList">
           MySQL <br></br>
           Sequelize <br></br>
           MongoDB  <br></br>
           Mongoose<br></br>
+        </div>  
+        <div className="proficiencyList">
           GraphQL<br></br>
-          Node<br></br>
           APIs<br></br>
           REST<br></br>
-        </div>
+      </div>
     </div>  
-    <div>
-      <a download href= {Pdf} rel="noreferrer" target="_blank" className="downloadResume">DOWNLOAD RESUME</a>
+    <div className="downloadResumeDiv">
+      <a download href= {Pdf} rel="noreferrer" target="_blank" className="downloadResume">Download my resume</a>
     </div>
     </>
   )

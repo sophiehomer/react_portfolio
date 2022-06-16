@@ -1,14 +1,12 @@
 import React from 'react'
 import './styles.css'
-import aboutImage from '../../assets/about/neumorphism-poloroid.png';
+import aboutImage from '../../assets/about/profilepic.jpg';
 
 const About = () => {
   return (
 
-    <section className="aboutContent">
-      <div className="myPhotoContainer">
-      <img src={aboutImage} className="aboutImg" style={{ width: "60%" }} alt="about" />
-      </div>
+    <section className="aboutContent" id="aboutContent">
+      <img src={aboutImage} className="aboutImg" style={{ width: "30%" }} alt="about" />
       <div className="aboutTextDiv">
         <p className="aboutText">
           Sophie Homer is a multidisciplinary creative. She's always had a keen eye for clean, functional, design. Her creative appetite is fueled by believing good design begins with accessibility.
