@@ -12,7 +12,7 @@ const Resume = () => {
           Figma<br></br>
           HTML<br></br>
           CSS<br></br>
-          {/* Responsive Design<br></br> */}
+          Responsive Design<br></br>
        </div>   
        <div className="proficiencyList">
           JavaScript <br></br> 

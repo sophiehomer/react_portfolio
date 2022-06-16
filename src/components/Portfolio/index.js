@@ -13,6 +13,7 @@ const Portfolio = () => {
     <>
    <h1 className="portfolioTitle">Portfolio</h1>
     <main className="portfolioImages" id="portfolioImages">
+
     <section className="drawTheLineContainer">
         <div className="app">
           <a href="https://draw-the-line-repo.herokuapp.com/">
