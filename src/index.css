@@ -96,7 +96,8 @@ body {
   align-items: center;
   justify-content: space-evenly;
   padding-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 20%;
+  margin-top: 10%;
 }
 
 /* ----- PORTFOLIO ----- */
@@ -172,13 +173,10 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5%;
-  width: 90%;
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 40px;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  width: 100%;
+  background-color: #F6F9FC;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 .weatherContainer {
@@ -187,12 +185,10 @@ section {
   align-items: center;
   justify-content: center;
   margin-bottom: 10%;
-  width: 90%;
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 40px;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  width: 100%;
+  background-color: #F6F9FC;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 .drawTheLineContainer {
@@ -200,13 +196,10 @@ section {
   flex-direction:row;
   align-items: center;
   justify-content: center;
-  width: 90%;
-  margin-bottom: 5%;
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 40px;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 .dinnerDrinkContainer {
@@ -214,13 +207,10 @@ section {
   flex-direction:row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5%;
-  width: 90%;
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 40px;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 /* .schedulerContainer {
@@ -366,10 +356,7 @@ label {
 
 .submitButton {
   margin-top: 10%;
-  padding-top: 2%;
-  padding-bottom:2%;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding: 0.8em 3.6em;
   color: white;
   font-size: .9em;
   background-color:black;
@@ -379,8 +366,6 @@ label {
 }
 
 .submitButton:hover {
-  background-color: white; 
-  color: black;
   cursor: pointer;
 }
 
@@ -411,11 +396,18 @@ label {
   line-height: 2.5em;
 }
 
-.downloadResumeDiv {
-  background-color: rgb(251, 246, 246);
-  padding-top: 10%;
-  padding-bottom: 10%;
+.downloadResumeSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
+
+/* .downloadResumeButton {
+  background-color: rgb(251, 246, 246);
+  padding: 0.8em 3.6em;
+  border: none;
+  border-radius: 25px;
+} */
 
 .downloadResume {
   color:  black;
@@ -433,14 +425,16 @@ label {
 
 .githubIcon, 
 .linkedInIcon, 
-.emailIcon {
+.emailIcon,
+.twitterIcon {
   color: black;
   margin-right: 3%;
 }
 
 .githubIcon:hover, 
 .linkedInIcon:hover, 
-.emailIcon:hover {
+.emailIcon:hover,
+.twitterIcon {
   cursor: pointer;
 }
 

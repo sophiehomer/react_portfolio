@@ -32,9 +32,13 @@ const Resume = () => {
           REST<br></br>
       </div>
     </div>  
-    <div className="downloadResumeDiv">
-      <a download href= {Pdf} rel="noreferrer" target="_blank" className="downloadResume">Download my resume</a>
-    </div>
+    <section className="downloadResumeSection">
+      <div className="downloadResumeDiv">
+        <button className="downloadResumeButton">
+          <a download href= {Pdf} rel="noreferrer" target="_blank" className="downloadResume">Download my resume</a>
+        </button>
+      </div>
+    </section>
     </>
   )
 }

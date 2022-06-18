@@ -11,7 +11,6 @@ import { FaGithub } from 'react-icons/fa';
 const Portfolio = () => {
   return (
     <>
-   <h1 className="portfolioTitle">Portfolio</h1>
     <main className="portfolioImages" id="portfolioImages">
 
     <section className="drawTheLineContainer">
