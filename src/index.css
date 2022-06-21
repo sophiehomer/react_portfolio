@@ -409,6 +409,12 @@ label {
   border-radius: 25px;
 } */
 
+.downloadResumeButton {
+  border: none;
+  border-radius: 25px;
+  padding: 0.8em 3.6em;
+}
+
 .downloadResume {
   color:  black;
   text-decoration: none;
