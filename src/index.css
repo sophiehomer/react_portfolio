@@ -31,24 +31,31 @@ body {
 
 .nav {
   display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  color: #f5f2eb;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* color: #f5f2eb; */
+  /* background-color: orange; */
+  width: 80%;
 }
 
 .about, 
 .resume, 
 .portfolio,
 .contact {
-  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.7em;
   font-weight: bolder;
   color:  black;
   border: none;
   background-color: transparent !important;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
-  margin-left: 5%;
+  line-height: 2em;
 }
 
 .about:hover, 
@@ -69,13 +76,13 @@ body {
   flex-wrap: wrap;
   align-content: center;
   text-align: left;
-  width: 50%;
+  width: 80%;
 }
 
 .aboutText {
   font-weight: normal;
-  font-size: 1.1em;
-  line-height: 1.9em;
+  font-size: 1.7em;
+  line-height: 2em;
   /* max-width:600px; */
   color:  black;
 }
@@ -92,12 +99,11 @@ body {
 
 .aboutContent {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  padding-top: 10%;
-  padding-bottom: 20%;
-  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 15%;
 }
 
 /* ----- PORTFOLIO ----- */
@@ -287,7 +293,7 @@ section {
 /* ----- CONTACT ----- */
 
 .contactSection {
-  margin-top: 10%;
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
 }
@@ -298,8 +304,8 @@ section {
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 10%;
   justify-content: center;
 }
 
@@ -371,9 +377,17 @@ label {
 
 .errorMessage {
   position: absolute;
-  left: 31.5%;
+  left: 29%;
 }
 /* ----- RESUME ----- */
+
+/* #resumeDiv {
+  background-color: orange !important;
+  padding-top: 6%;
+  padding-bottom: 6%;
+
+} */
+
 .resumeList {
  display: flex;
  flex-direction: row;
@@ -409,11 +423,12 @@ label {
   border-radius: 25px;
 } */
 
-.downloadResumeButton {
+/* .downloadResumeButton {
   border: none;
-  border-radius: 25px;
-  padding: 0.8em 3.6em;
-}
+  border-radius: 24px;
+  padding: 1em 2.5em;
+  background-color: #FFFFFF;
+} */
 
 .downloadResume {
   color:  black;
@@ -435,14 +450,16 @@ label {
 .twitterIcon {
   color: black;
   margin-right: 3%;
-}
-
-.githubIcon:hover, 
-.linkedInIcon:hover, 
-.emailIcon:hover,
-.twitterIcon {
   cursor: pointer;
 }
+
+/* .githubIcon:hover, 
+.linkedInIcon:hover, 
+.emailIcon:hover,
+.twitterIcon:hover {
+ 
+
+} */
 
 footer {
   position: absolute;

@@ -1,5 +1,9 @@
 import React from 'react'
 import './styles.css'
+import { BsArrowRightShort } from 'react-icons/bs'
+import Pdf from '../../assets/documents/sophie-homer-resume.pdf'
+
+
 
 const Navigation = (props) => {
   const handleClick = (e) => {
@@ -8,28 +12,23 @@ const Navigation = (props) => {
   }
   return (
     <nav className="nav"> 
-
-      <h1 className="sophieHomer">Sophie Homer</h1>
- 
-      <div>
-        <a href="#portfolioImages" className="portfolio" onClick={handleClick}>
-        Portfolio
+        <a href="#portfolioImages" className="portfolio" onClick={handleClick} >
+        Check out my work <BsArrowRightShort />
         </a>
+{/* 
+        <a href="#resumeDiv" className="resume" onClick={handleClick}>
+         Download my resume <BsArrowRightShort />
+        </a> */}
 
-        <a href="#resumeList" className="resume" onClick={handleClick}>
-         Resume
-        </a>
+        <a download href= {Pdf} rel="noreferrer" target="_blank" className="resume">Download my resume <BsArrowRightShort /></a>
 
-        <a href="#aboutContent" className="about" onClick={handleClick}>
+        {/* <a href="/" className="about" onClick={handleClick}>
           About
-        </a>
+        </a> */}
 
         <a href="#contactForm" className="contact" onClick={handleClick}>
-          Contact
+          Reach out <BsArrowRightShort />
         </a>
-      </div>
-    
-  
   </nav>
   )
 }

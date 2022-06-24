@@ -15,13 +15,13 @@ const Portfolio = () => {
 
     <section className="drawTheLineContainer">
         <div className="app">
-          <a href="https://draw-the-line-repo.herokuapp.com/">
+          <a href="https://drawtheline2022.herokuapp.com/" target="_blank">
             <img src={drawTheLineImage} className="drawTheLineImg" alt="drawTheLine"/> 
           </a>
         </div>
        
         <div className="appSummary">
-          <a href="https://github.com/Abarragan89/draw-the-line" className='gitHubLinkRight'> Debate Platform Application <FaGithub size={15}/></a> 
+          <a href="https://github.com/Abarragan89/draw-the-line" className='gitHubLinkRight' target="_blank" > Debate Platform Application <FaGithub size={15}/></a> 
           <p className="summary">
             Built with React, JavaScript, Node.js, GraphQL, Apollo, Mongoose, mongoDb, Bycrypt, Bad Words npm package.
           </p>
@@ -33,13 +33,13 @@ const Portfolio = () => {
 
       <section className="kitContainer">
         <div className="app">
-          <a href="https://blooming-anchorage-21473.herokuapp.com/">
+          <a href="https://blooming-anchorage-21473.herokuapp.com/" target="_blank">
             <img src={kitImage} className="kitImg" alt="kit"/> 
           </a>
         </div>
        
         <div className="appSummary">
-          <a href="https://github.com/kpbader/kit" className='gitHubLinkLeft'> Social Application <FaGithub size={15}/></a> 
+          <a href="https://github.com/kpbader/kit" className='gitHubLinkLeft' target="_blank"> Social Application <FaGithub size={15}/></a> 
           <p className="summary">
             Built with Express, MySQL, Sequelize, Bycrypt, UUID, and Cloudinary.
           </p>
@@ -52,13 +52,13 @@ const Portfolio = () => {
 
       <section className="dinnerDrinkContainer">
         <div className="app">
-          <a href="https://abarragan89.github.io/dinner-drinks/">
+          <a href="https://abarragan89.github.io/dinner-drinks/" target="_blank">
             <img src={dinnerDrinksImage} className="dinnerDrinksImg" alt="dinnerDrinks"/>
           </a>
         </div>
 
         <div className="appSummary">
-          <a href="https://github.com/Abarragan89/dinner-drinks" className='gitHubLinkRight'> Recipe and Cocktail Search Engine <FaGithub size={15}/></a>
+          <a href="https://github.com/Abarragan89/dinner-drinks" className='gitHubLinkRight' target="_blank"> Recipe and Cocktail Search Engine <FaGithub size={15}/></a>
           <p className="summary">
             Built with  Javascript, HTML, CSS, Spoonacular API and Cocktails DB API.
           </p>
@@ -71,13 +71,13 @@ const Portfolio = () => {
 
       <section className="weatherContainer">
         <div className="app">
-          <a href="https://sophiehomer.github.io/Weather-Dashboard/" >
-            <img src={weatherDashboardImage} className="weatherDashboardImg" alt="weatherDashboard"/>
+          <a href="https://sophiehomer.github.io/Weather-Dashboard/">
+            <img src={weatherDashboardImage} className="weatherDashboardImg" alt="weatherDashboard" target="_blank"/>
           </a>
         </div>
 
         <div className="appSummary">
-          <a href="https://github.com/sophiehomer/Weather-Dashboard" className='gitHubLinkLeft'> Weather Application<FaGithub size={15}/></a>
+          <a href="https://github.com/sophiehomer/Weather-Dashboard" className='gitHubLinkLeft' target="_blank"> Weather Application<FaGithub size={15}/></a>
           <p className="summary">
             Built with html, css, JavaScript, jQuery and Open Weather API.
           </p>

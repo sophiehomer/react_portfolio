@@ -4,10 +4,10 @@ import Pdf from '../../assets/documents/sophie-homer-resume.pdf'
 
 const Resume = () => {
   return (
-  <>
-   <h1 className="resumeTitle">Proficiencies</h1>
+    <>
+   {/* <h1 className="resumeTitle" id="resumeTitle">Proficiencient in</h1>
+   <div id="resumeDiv">
     <div className="resumeList" id="resumeList">
-    
        <div className="proficiencyList">
           Figma<br></br>
           HTML<br></br>
@@ -31,14 +31,15 @@ const Resume = () => {
           APIs<br></br>
           REST<br></br>
       </div>
+      </div>
     </div>  
     <section className="downloadResumeSection">
       <div className="downloadResumeDiv">
-        <button className="downloadResumeButton">
+        <p className="downloadResumeButton">
           <a download href= {Pdf} rel="noreferrer" target="_blank" className="downloadResume">Download my resume</a>
-        </button>
+        </p>
       </div>
-    </section>
+    </section> */}
     </>
   )
 }
