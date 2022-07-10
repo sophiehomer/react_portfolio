@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   position: relative;
   min-height: 100vh;
   background-color:  #DDECFB;
@@ -16,7 +17,6 @@ body {
  left: 0;
  right: 0;
  background-color:#DDECFB;
-/* background-color: orange; */
  width:100%;
 
 }
@@ -32,11 +32,6 @@ body {
 .nav {
   display:flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
-  /* justify-content: space-around; */
-  /* align-items: center; */
-  /* color: #f5f2eb; */
-  /* background-color: orange; */
   width: 80%;
 }
 
@@ -81,10 +76,14 @@ body {
 
 .aboutText {
   font-weight: normal;
-  font-size: 1.7em;
+  font-size: 1.5em;
   line-height: 2em;
-  /* max-width:600px; */
   color:  black;
+}
+
+.arrow {
+  margin-left: 1%;
+  /* margin-right: 10%; */
 }
 
 .aboutImg {
@@ -107,6 +106,8 @@ body {
 }
 
 /* ----- PORTFOLIO ----- */
+
+
 
 /* .gitHubLink {
   color: black;
@@ -135,6 +136,7 @@ body {
   text-decoration: underline;
 } */
 
+
 .portfolioTitle {
   font-size: 1.5em;
   padding-bottom: 2%;
@@ -147,11 +149,14 @@ body {
   justify-content: space-evenly;
 }
 
+.githubLink {
+  padding-left: 5%
+}
+
 .gitHubLinkLeft {
   color: black;
   text-decoration: none;
   font-size: 1.4em;
-  /* padding-bottom: 2%; */
 
 }
 
@@ -160,10 +165,18 @@ body {
 }
 
 .gitHubLinkRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 14%;
+  padding-bottom: 4%;
   color:  black;
   text-decoration: none;
-  font-size: 1.4em;
-  /* margin-bottom: 2%; */
+}
+
+.websiteLink {
+  color: black;
 }
 
 .gitHubLinkRight:hover {
@@ -177,12 +190,11 @@ section {
 .kitContainer {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
-  background-color: #F6F9FC;
-  padding-top: 8%;
-  padding-bottom: 8%;
+  background-color: rgb(255, 255, 255, .3);
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 .weatherContainer {
@@ -193,17 +205,6 @@ section {
   margin-bottom: 10%;
   width: 100%;
   background-color: #F6F9FC;
-  padding-top: 8%;
-  padding-bottom: 8%;
-}
-
-.drawTheLineContainer {
-  display: flex;
-  flex-direction:row;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  background-color: #FFFFFF;
   padding-top: 8%;
   padding-bottom: 8%;
 }
@@ -233,22 +234,75 @@ section {
   width: 40%;
 }
 
+p.summary {
+
+font-size: 1em;
+}
+
 .appSummary {
   display: flex;
   flex-direction:column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 50%;
-  padding-top:2%;
-  padding-bottom:2%;
+  width: 30%;
 }
 
 .summary {
   text-align:left;
   font-weight: normal;
   line-height: 1.7;
-  margin-bottom: 0%;
+  margin-top: 0%;
+  margin-bottom: 3%;
 }
+
+.appName {
+  text-align:left;
+  font-weight: 550;
+  font-size: 1.2em;
+  line-height: 1.7;
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+.role {
+  text-align:left;
+  font-weight: normal;
+  line-height: 1.7;
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+
+.technologiesUsed {
+  text-align:left;
+  font-weight: normal;
+  line-height: 1.7;
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+
+
+
+
+.githubAndWebsiteIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%
+}
+
+.openWebsite {
+  display: flex;
+  flex-direction: row;
+}
+
+.openGithub {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* .arrow {
+  margin-right: 10%;
+} */
 
 .project {
   font-weight: normal;
@@ -261,8 +315,8 @@ section {
 }
 
 .kitImg{
-  width: 80%;
-  border-radius: 25px;
+  width: 110%;
+  /* border-radius: 25px; */
 }
 
 .dinnerDrinksImg{
