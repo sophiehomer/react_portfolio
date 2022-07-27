@@ -1,8 +1,8 @@
 import React from 'react'
 import './styles.css'
-import dinnerDrinksImage from '../../assets/portfolio/dinner-drinks.png'
+import femmeDept from '../../assets/portfolio/femme_dept.png'
 // import kitImage from '../../assets/portfolio/kit-img.png'
-import weatherDashboardImage from '../../assets/portfolio/weather-dashboard.png'
+// import weatherDashboardImage from '../../assets/portfolio/weather-dashboard.png'
 // import workDaySchedulerImage from '../../assets/portfolio/work-day-scheduler.png'
 // import drawTheLineImage from '../../assets/portfolio/draw-the-line.png'
 import kit from '../../assets/portfolio/kitLaptop.jpeg'
@@ -17,22 +17,17 @@ const Portfolio = () => {
     <main className="portfolioImages" id="portfolioImages">
 
     <section className="kitContainer">
-      {/* <a href="https://github.com/Abarragan89/draw-the-line" className='gitHubLinkRight'  rel="noreferrer" target="_blank" ><FaGithub size={20}/> </a> 
-      <a href="https://drawtheline2022.herokuapp.com/"  className='gitHubLinkRight' rel="noreferrer" target="_blank">
-      < BsFillArrowUpRightSquareFill size={20}/>
-      </a> */}
         <div className="app">
           <a href="https://drawtheline2022.herokuapp.com/"  rel="noreferrer" target="_blank">
             <img src={kit} className="kitImg" alt="drawTheLine"/> 
           </a>
         </div>
       <div className="appSummary">
-          {/* <a href="https://github.com/Abarragan89/draw-the-line" className='gitHubLinkRight'  rel="noreferrer" target="_blank" > KIT Social Application <FaGithub size={15}/></a>  */}
           <p className="appName">
             KIT Social Application
           </p>
           <p className="role">
-            Front-end developer, UX/UI
+            Role: Front-end developer, UX/UI
           </p>
           <p className="technologiesUsed">
             Built with React, JavaScript, Node.js, Apollo, Mongoose, mongoDb, Bycrypt.
@@ -42,7 +37,7 @@ const Portfolio = () => {
           </p>
           <div className="githubAndWebsiteIcon">
             <p className="openWebsite">
-              <a href="https://drawtheline2022.herokuapp.com/"  className='gitHubLinkRight' rel="noreferrer" target="_blank">View <AiOutlineArrowRight className="arrow" size={20}/></a>
+              <a href="https://drawtheline2022.herokuapp.com/"  className='gitHubLinkRight' rel="noreferrer" target="_blank">Application<AiOutlineArrowRight className="arrow" size={20}/></a>
             </p>
             <p className="openGithub"> 
               <a href="https://github.com/Abarragan89/draw-the-line" className='gitHubLinkRight'  rel="noreferrer" target="_blank">GitHub <FaGithub size={22} className="githubLink"/></a> 
@@ -51,29 +46,42 @@ const Portfolio = () => {
       </div>
       </section>
 
-      {/* <section className="kitContainer">
-        <div className="app">
-          <a href="https://blooming-anchorage-21473.herokuapp.com/" target="_blank">
-            <img src={kitImage} className="kitImg" alt="kit"/> 
+      <section className="femmeDeptContainer">
+      <div className="app">
+          <a href="https://www.figma.com/proto/sa327Zy6gLR6vb7wJH3fb1/Femme-Dept.?page-id=0%3A1&node-id=38%3A3576&viewport=363%2C242%2C0.02&scaling=scale-down&starting-point-node-id=38%3A3576"  rel="noreferrer" target="_blank">
+            <img src={femmeDept} className="femmeDeptImg" alt="femmeDept"/>
           </a>
         </div>
-       
-        <div className="appSummary">
-          <a href="https://github.com/kpbader/kit" className='gitHubLinkLeft' target="_blank"> Social Application <FaGithub size={15}/></a> 
-          <p className="summary">
-            Built with Express, MySQL, Sequelize, Bycrypt, UUID, and Cloudinary.
+      <div className="appSummary">
+          <p className="appName">
+            Femme Dept.
+          </p>
+          <p className="role">
+            Role: Designer and founder.
+          </p>
+          <p className="technologiesUsed">
+            Built with Figma.
           </p>
           <p className="summary">
-            KIT is a social application where users can post, comment, like and dislike. The incentive behind the application began with genuine friendships made throughout the course of coding bootcamp. I felt our class had created a kind, helpful and outgoing community and I wanted that bond to continue.
+            Femme Dept. Summary                    
           </p>
+          <div className="githubAndWebsiteIcon">
+            <p className="openWebsite">
+              <a href="https://www.figma.com/proto/sa327Zy6gLR6vb7wJH3fb1/Femme-Dept.?page-id=0%3A1&node-id=38%3A3576&viewport=363%2C242%2C0.02&scaling=scale-down&starting-point-node-id=38%3A3576"  className='gitHubLinkRight' rel="noreferrer" target="_blank">Prototype <AiOutlineArrowRight className="arrow" size={20}/></a>
+            </p>
         </div>
-      </section> */}
+      </div>
+      </section>
 
 
-      <section className="dinnerDrinkContainer">
+
+
+      {/* dinner&& drinks  */}
+
+      {/* <section className="dinnerDrinksContainer">
         <div className="app">
           <a href="https://abarragan89.github.io/dinner-drinks/"  rel="noreferrer" target="_blank">
-            <img src={dinnerDrinksImage} className="dinnerDrinksImg" alt="dinnerDrinks"/>
+            <img src={femmeDept} className="femmeDeptImg" alt="femmeDept"/>
           </a>
         </div>
 
@@ -86,10 +94,10 @@ const Portfolio = () => {
             This application generates curated recipes around user preferences. The user can search up food recipes based on cuisine and dietary restrictions, as well as look up cocktails recipes based on alcohol preference. The user has the ability to favorite recipes which are displayed on the users favorites page.
           </p>
         </div>
-      </section>
+      </section> */}
 
 
-      <section className="weatherContainer">
+      {/* <section className="weatherContainer">
         <div className="app">
           <a href="https://sophiehomer.github.io/Weather-Dashboard/">
             <img src={weatherDashboardImage} className="weatherDashboardImg" alt="weatherDashboard"  rel="noreferrer" target="_blank"/>
@@ -105,7 +113,7 @@ const Portfolio = () => {
             A five-day weather application. Weather details include temperature, wind, humidity and UV index.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* <section className="schedulerContainer">
       <div className="app">
