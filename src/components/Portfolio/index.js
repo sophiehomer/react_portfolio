@@ -5,7 +5,7 @@ import dinnerDrinksImage from '../../assets/portfolio/dinner-drinks.png'
 import weatherDashboardImage from '../../assets/portfolio/weather-dashboard.png'
 // import workDaySchedulerImage from '../../assets/portfolio/work-day-scheduler.png'
 // import drawTheLineImage from '../../assets/portfolio/draw-the-line.png'
-import kit from '../../assets/portfolio/kitLaptop.png'
+import kit from '../../assets/portfolio/kitLaptop.jpeg'
 import { FaGithub } from 'react-icons/fa';
 import { AiOutlineArrowRight } from 'react-icons/ai'
 
