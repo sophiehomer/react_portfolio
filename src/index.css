@@ -169,7 +169,6 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  /* margin-left: 14%; */
   padding-bottom: 4%;
   color:  black;
   text-decoration: none;
@@ -210,6 +209,17 @@ section {
 }
 
 .femmeDeptContainer{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.dinnerDrinksContainer {
   display: flex;
   flex-direction:row;
   align-items: center;
@@ -310,40 +320,18 @@ font-size: 1em;
   font-size: 1em
 }
 
-.drawTheLineImg {
-  width: 80%;
-  border-radius: 25px;
+.dinnerDrinksImg {
+  width: 120%;
 }
 
 .kitImg{
-  width: 140%;
-  /* border-radius: 25px; */
+  width: 120%;
 }
 
 .femmeDeptImg{
-  width: 140%;
-  border-radius: 25px;
+  width: 120%;
 }
 
-.weatherDashboardImg {
-  width: 80%;
-  border-radius: 25px;
-  margin-bottom: 4%;
-  margin-top: 4%;
-}
-
-/* .workDaySchedulerImg {
-  width: 80%;
-} */
-
-.kitImg:hover, 
-.femmeDeptContainer:hover, 
-.weatherDashboardImg:hover, 
-.workDaySchedulerImg:hover,
-.drawTheLineImg:hover {
-  /* opacity: .8; */
-  cursor: pointer;
-}
 
 /* ----- CONTACT ----- */
 
