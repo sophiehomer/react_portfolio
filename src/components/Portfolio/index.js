@@ -5,6 +5,8 @@ import kit from '../../assets/portfolio/kit.png'
 import dinnerDrinks from '../../assets/portfolio/dinner_drinks.png'
 import { FaGithub } from 'react-icons/fa';
 import { AiOutlineArrowRight } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -15,22 +17,25 @@ const Portfolio = () => {
 
     <section className="femmeDeptContainer">
       <div className="app">
-          <a href="https://www.figma.com/proto/sa327Zy6gLR6vb7wJH3fb1/Femme-Dept.?page-id=0%3A1&node-id=38%3A3576&viewport=363%2C242%2C0.02&scaling=scale-down&starting-point-node-id=38%3A3576"  rel="noreferrer" target="_blank">
-            <img src={femmeDept} className="femmeDeptImg" alt="femmeDept"/>
-          </a>
-        </div>
+        <Link to="/femme_dept" className="femmeDeptPageLink">
+          <img src={femmeDept} className="femmeDeptImg" alt="femmeDept"/>
+        </Link>
+      </div>
       <div className="appSummary">
-          <p className="appName">
+      <Link to="/femme_dept" className="femmeDeptPageLink">
+        <p className="appName">
             Femme Dept.
-          </p>
+        </p>
+      </Link>
+     
           <p className="role">
-            Role: Designer and founder.
+            PRODUCT DESIGN, USER RESEARCH
           </p>
-          <p className="technologiesUsed">
+          {/* <p className="technologiesUsed">
             Built with Figma.
-          </p>
+          </p> */}
           <p className="summary">
-            Femme Dept. Summary                    
+            Concious designed intimate soap to help dispel stigmas surrounding female intimate hygiene.                 
           </p>
           <div className="githubAndWebsiteIcon">
             <p className="openWebsite">
