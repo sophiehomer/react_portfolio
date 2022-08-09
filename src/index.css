@@ -4,9 +4,11 @@ body {
   /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   position: relative;
   min-height: 100vh;
-  background-color:  #DDECFB;
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-color:  #DDECFB; */
+  /* background-color:  #FBFBFD; */
+  background-color:#F5F5F7;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
 }
 
 /* ----- HEADER----- */
@@ -107,36 +109,6 @@ body {
 
 /* ----- PORTFOLIO ----- */
 
-
-
-/* .gitHubLink {
-  color: black;
-  padding-bottom: 3%;
-  padding-top: 3%;
-  transition: all .2s ease-in-out; 
-  word-spacing: 3px;
-  text-decoration: none;
-  border: none;
-  border-bottom: 1px solid rgb(192, 192, 192);
-  width: 100%;
-} */
-
-/* .gitHubLink:hover {
-  text-decoration: underline;
-} */
-
-/* .workDaySchedulerLink {
-  color: black;
-  padding-bottom: 10%;
-  transition: all .2s ease-in-out; 
-  text-decoration: none;
-} */
-
-/* .workDaySchedulerLink:hover {
-  text-decoration: underline;
-} */
-
-
 .portfolioTitle {
   font-size: 1.5em;
   padding-bottom: 2%;
@@ -188,64 +160,58 @@ section {
 
 .kitContainer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction:column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
   width: 100%;
-  background-color: white;
-  padding-top: 12%;
-  padding-bottom: 12%;
+  /* padding-bottom: 8%; */
+  margin-bottom: 10%;
+
 }
 
-/* .weatherContainer {
+.kitPageLink {
+  text-decoration: none !important;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin-bottom: 10%;
-  width: 100%;
-  background-color: #F6F9FC;
-  padding-top: 8%;
-  padding-bottom: 8%;
-} */
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 .femmeDeptContainer{
   display: flex;
-  flex-direction:row;
-  align-items: center;
-  justify-content: space-around;
+  flex-direction:column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
   width: 100%;
-  background-color: #FFFFFF;
-  padding-top: 12%;
-  padding-bottom: 12%;
+  padding-top: 8%;
+  margin-bottom: 10%;
 }
 
 .dinnerDrinksContainer {
   display: flex;
-  flex-direction:row;
-  align-items: center;
-  justify-content: space-around;
+  flex-direction:column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
   width: 100%;
-  background-color: #FFFFFF;
-  padding-top: 12%;
-  padding-bottom: 24%;
+  /* padding-bottom: 8%; */
+  margin-bottom: 10%;
+
 }
 
-/* .schedulerContainer {
-  display: flex;
-  flex-direction:row;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 10%;
-  width: 90%;
-  border-radius: 25px;
-} */
+.dinnerDrinkPageLink {
+  text-decoration: none !important; 
+}
 
 .app {
-  width: 40%;
+  width: 70%;
 }
 
 p.summary {
-
 font-size: 1em;
 }
 
@@ -254,8 +220,6 @@ font-size: 1em;
   flex-direction:column;
   justify-content: center;
   align-items: flex-start;
-  width: 30%;
-  margin-left: 3em;
 }
 
 .summary {
@@ -276,9 +240,13 @@ font-size: 1em;
   margin-bottom: 3%;
 }
 
+
 .femmeDeptPageLink {
   color: black !important;
   text-decoration: none !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .femmeDeptImg:hover {
@@ -287,10 +255,19 @@ font-size: 1em;
 .role {
   text-align:left;
   font-weight: normal;
-  line-height: 1.7;
-  margin-top: 0%;
-  margin-bottom: 3%;
-  font-size: 16px;
+  /* line-height: 1.7; */
+  margin: 0%;
+  /* margin-bottom: 3%; */
+  font-size: 18px;
+  color: #807D7D;
+}
+
+.product {
+  font-size: 20px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  color: black;
+  text-decoration: none !important;
 }
 
 .technologiesUsed {
@@ -332,17 +309,48 @@ font-size: 1em;
 }
 
 .dinnerDrinksImg {
-  width: 120%;
+  width: 100%;
 }
 
 .kitImg{
-  width: 120%;
+  width: 100%;
 }
 
 .femmeDeptImg{
-  width: 120%;
+  width: 100%;
 }
 
+.femmeDeptApp {
+  width: 70%;
+}
+/* ----- FEMME DEPT ----- */
+.femmeDeptPage {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.summaryContainer {
+  width: 30%;
+}
+
+.summary {
+  font-size: 20px !important;
+}
+
+.femmeDeptImage {
+  width: 120%;
+  padding-top: 10%;
+}
+
+.loom {
+  width: 40%;
+}
+
+/* .FemmeDeptSummary {
+} */
 
 /* ----- CONTACT ----- */
 
@@ -433,14 +441,6 @@ label {
   position: absolute;
   left: 29%;
 }
-/* ----- RESUME ----- */
-
-/* #resumeDiv {
-  background-color: orange !important;
-  padding-top: 6%;
-  padding-bottom: 6%;
-
-} */
 
 .resumeList {
  display: flex;
@@ -507,13 +507,6 @@ label {
   cursor: pointer;
 }
 
-/* .githubIcon:hover, 
-.linkedInIcon:hover, 
-.emailIcon:hover,
-.twitterIcon:hover {
- 
-
-} */
 
 footer {
   position: absolute;

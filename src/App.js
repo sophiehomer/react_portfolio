@@ -8,7 +8,9 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Home from './pages/home';
-import Femme_Dept from './pages/femme_dept'
+import FemmeDept from './pages/femme_dept'
+import Kit from './pages/kit'
+import DinnerDrinks from './pages/dinner_drinks'
 
 // importing components from react-router-dom package
 import {
@@ -38,7 +40,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/sophie_homer_portfolio" element={<Home />} />
-          <Route path="/femme_dept" element={<Femme_Dept />} />
+          <Route path="/femme_dept" element={< FemmeDept/>} />
+          <Route path="/kit" element={ <Kit /> } />
+          <Route path="/dinner_drinks" element={ <DinnerDrinks /> } />
          </Routes>
       </Router>
       <Footer /> 
