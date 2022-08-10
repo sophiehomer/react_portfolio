@@ -3,7 +3,6 @@ import './styles.css'
 import femmeDept from '../../assets/portfolio/femme_dept.png'
 import kit from '../../assets/portfolio/kit.png'
 import dinnerDrinks from '../../assets/portfolio/dinner_drinks.png'
-
 import { Link } from 'react-router-dom'
 
 
@@ -52,7 +51,7 @@ const Portfolio = () => {
 
       <section className="dinnerDrinksContainer">
           <div className="app">
-            <a href="https://www.figma.com/proto/sa327Zy6gLR6vb7wJH3fb1/Femme-Dept.?page-id=0%3A1&node-id=38%3A3576&viewport=363%2C242%2C0.02&scaling=scale-down&starting-point-node-id=38%3A3576"  rel="noreferrer" target="_blank">
+            <a href="ttps://www.figma.cohm/proto/sa327Zy6gLR6vb7wJH3fb1/Femme-Dept.?page-id=0%3A1&node-id=38%3A3576&viewport=363%2C242%2C0.02&scaling=scale-down&starting-point-node-id=38%3A3576"  rel="noreferrer" target="_blank">
               <img src={dinnerDrinks } className="dinnerDrinksImg" alt="dinnerDrinks"/>
             </a>
           </div>

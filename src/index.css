@@ -1,14 +1,9 @@
 body {
   margin: 0;
-  font-family: Nunito, sans-serif;
-  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   position: relative;
   min-height: 100vh;
-  /* background-color:  #DDECFB; */
-  /* background-color:  #FBFBFD; */
   background-color:#F5F5F7;
-  /* background-size: cover;
-  background-repeat: no-repeat; */
 }
 
 /* ----- HEADER----- */
@@ -50,7 +45,7 @@ body {
   color:  black;
   border: none;
   background-color: transparent !important;
-  font-family: Nunito, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-decoration: none;
   line-height: 2em;
 }
@@ -210,10 +205,9 @@ section {
 .app {
   width: 70%;
 }
-
+/* 
 p.summary {
-font-size: 1em;
-}
+} */
 
 .appSummary {
   display: flex;
@@ -222,12 +216,23 @@ font-size: 1em;
   align-items: flex-start;
 }
 
-.summary {
+/* .summary {
   text-align:left;
   font-weight: normal;
   line-height: 1.7;
   margin-top: 0%;
   margin-bottom: 3%;
+} */
+
+.femmeDeptSummary {
+  text-align:left;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-top: 0%;
+  font-size: 20px;
+  margin-bottom: 15%;
+  letter-spacing: 0.05em;
+
 }
 
 .appName {
@@ -249,9 +254,9 @@ font-size: 1em;
   align-items: flex-start;
 }
 
-.femmeDeptImg:hover {
+/* .femmeDeptImg:hover {
   opacity: .8;
-}
+} */
 .role {
   text-align:left;
   font-weight: normal;
@@ -276,6 +281,8 @@ font-size: 1em;
   line-height: 1.7;
   margin-top: 0%;
   margin-bottom: 3%;
+  letter-spacing: 0.05em;
+
 }
 
 
@@ -324,16 +331,28 @@ font-size: 1em;
   width: 70%;
 }
 /* ----- FEMME DEPT ----- */
+.projectTitle {
+  font-size: 40px;
+  font-weight: 550;
+  letter-spacing: 0.05em;
+
+  
+}
 .femmeDeptPage {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content:center;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
+.summaryAndImageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 .summaryContainer {
-  width: 30%;
+  width: 32.5%;
 }
 
 .summary {
@@ -347,6 +366,120 @@ font-size: 1em;
 
 .loom {
   width: 40%;
+}
+
+.prototypeButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 9.2%;
+}
+
+.prototype {
+  padding: .5em 2.5em;
+  border-radius: 24px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+}
+
+.roleAndTechnology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+.myRole{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+  margin: 0;
+  font-weight: 550;
+  letter-spacing: 0.05em;
+}
+
+.femmeDeptRole {
+  margin: 0;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+}
+
+.femmeDeptTechnology {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 550;
+  letter-spacing: 0.05em;
+}
+
+.femmeDeptRoleAndTechnology {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.5;
+
+}
+.figma {
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.problemContainer,
+.solutionContainer,
+.researchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
+.problem,
+.solution,
+.research {
+font-size: 40px;
+margin: 0;
+font-weight: 550;
+letter-spacing: 0.05em;
+}
+
+.problemSummary,
+.solutionSummary,
+.researchSummary {
+  width: 33%;
+  text-align: left;
+  margin: 0;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+
+}
+
+.competitiveAnalysis,
+.basicDesignElements {
+  font-size: 20px;
+  font-weight: 550;
+  letter-spacing: 0.05em;
+}
+
+
+.competitiveAnalysisImg,
+.basicDesignElementsImg {
+  width: 50%;
+}
+
+.competitiveAnalysisContainer,
+.basicDesignElementsContainer {
+  margin-top: 10%;
 }
 
 /* .FemmeDeptSummary {
@@ -388,7 +521,7 @@ label {
   padding-bottom: 3%;
   padding-right: 18%;
   outline: none !important;
-  font-family: Nunito, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border: none;
   border-bottom: 1px solid black;
   background-color: transparent;
@@ -401,7 +534,7 @@ label {
   padding-bottom: 3%;
   padding-right: 18%;
   outline: none !important;
-  font-family: Nunito, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border: none;
   border-bottom: 1px solid black;
   background-color: transparent;
@@ -416,7 +549,7 @@ label {
   box-sizing: border-box;
   resize: none;
   outline: none !important;
-  font-family: Nunito, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border: none;
   border-bottom: 1px solid black;
   background-color: transparent;
@@ -428,7 +561,7 @@ label {
   color: white;
   font-size: .9em;
   background-color:black;
-  font-family: Nunito, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border-radius: 5px;
   border: none;
 }
@@ -509,7 +642,7 @@ label {
 
 
 footer {
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 0;
   padding-top: 3%;

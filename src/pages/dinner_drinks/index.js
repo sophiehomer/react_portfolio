@@ -11,12 +11,13 @@ const DinnerDrinks = () => {
        
       <section className="dinnerDrinksContainer">
         <div className="app">
-          <a href="https://abarragan89.github.io/dinner-drinks/"  rel="noreferrer" target="_blank">
+          <a href="https://sophiehomer.github.io/dinner_and_drinks/"  rel="noreferrer" target="_blank">
+            Dinner & drinks
           </a>
         </div>
 
         <div className="appSummary">
-          <a href="https://github.com/Abarragan89/dinner-drinks" rel="noreferrer" className='gitHubLinkRight' target="_blank"> Recipe and Cocktail Search Engine <FaGithub size={15}/></a>
+          <a href="https://github.com/sophiehomer/dinner_and_drinks" rel="noreferrer" className='gitHubLinkRight' target="_blank"> Recipe and Cocktail Search Engine <FaGithub size={15}/></a>
           <p className="summary">
             Built with  Javascript, HTML, CSS, Spoonacular API and Cocktails DB API.
           </p>
