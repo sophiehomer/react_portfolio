@@ -1,6 +1,6 @@
 import React from 'react'
-import analysis from '../../assets/femme_dept/analysis.png'
-import basicDesignElements from '../../assets/femme_dept/basicDesignElements.png'
+import analysis from '../../assets/femme_dept/analysis.svg'
+import basicDesignElements from '../../assets/femme_dept/basicDesignElements.svg'
 import femmeDept from '../../assets/femme_dept/femmedept.png'
 import ScrollToTop from "react-scroll-to-top";
 
