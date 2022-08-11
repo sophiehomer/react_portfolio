@@ -227,7 +227,7 @@ p.summary {
 .femmeDeptSummary {
   text-align:left;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 35px;
   margin-top: 0%;
   font-size: 20px;
   margin-bottom: 15%;
@@ -238,9 +238,8 @@ p.summary {
 .appName {
   color: black !important;
   text-align:left;
-  font-weight: 550;
+  font-weight: 500;
   font-size: 35px;
-  line-height: 1.7;
   margin-top: 0%;
   margin-bottom: 3%;
 }
@@ -260,7 +259,6 @@ p.summary {
 .role {
   text-align:left;
   font-weight: normal;
-  /* line-height: 1.7; */
   margin: 0%;
   /* margin-bottom: 3%; */
   font-size: 18px;
@@ -272,13 +270,14 @@ p.summary {
   margin-bottom: 2%;
   margin-top: 2%;
   color: black;
+  font-weight: 500;
   text-decoration: none !important;
 }
 
 .technologiesUsed {
   text-align:left;
   font-weight: normal;
-  line-height: 1.7;
+  line-height: 35px;
   margin-top: 0%;
   margin-bottom: 3%;
   letter-spacing: 0.05em;
@@ -333,8 +332,9 @@ p.summary {
 /* ----- FEMME DEPT ----- */
 .projectTitle {
   font-size: 40px;
-  font-weight: 550;
+  font-weight: 500;
   letter-spacing: 0.05em;
+  margin-bottom: 4%;
 
   
 }
@@ -361,7 +361,7 @@ p.summary {
 
 .femmeDeptImage {
   width: 120%;
-  padding-top: 10%;
+  /* padding-top: 10%; */
 }
 
 .loom {
@@ -385,21 +385,13 @@ p.summary {
   font-size: 18px;
 }
 
-.roleAndTechnology {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-
-
 .myRole{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   font-weight: bold;
   margin: 0;
-  font-weight: 550;
+  font-weight: 500;
   letter-spacing: 0.05em;
 }
 
@@ -413,21 +405,27 @@ p.summary {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-weight: 550;
+  font-weight: 500;
   letter-spacing: 0.05em;
+  padding-left: 100%;
+  width: 120%;
 }
 
 .femmeDeptRoleAndTechnology {
   margin-top: 10%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: baseline;
   font-size: 20px;
   text-align: left;
-  line-height: 1.5;
-
+  line-height: 35px;
+  margin-left: 10%;
 }
+
+.femmedeptsvg {
+  width: 50%;
+}
+
 .figma {
   font-weight: 400;
   letter-spacing: 0.05em;
@@ -435,8 +433,16 @@ p.summary {
 }
 
 .problemContainer,
-.solutionContainer,
+.solutionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
 .researchContainer {
+  margin-left: -3.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -449,7 +455,7 @@ p.summary {
 .research {
 font-size: 40px;
 margin: 0;
-font-weight: 550;
+font-weight: 500;
 letter-spacing: 0.05em;
 }
 
@@ -459,7 +465,7 @@ letter-spacing: 0.05em;
   width: 33%;
   text-align: left;
   margin: 0;
-  line-height: 1.5;
+  line-height: 35px;
   letter-spacing: 0.05em;
 
 }
@@ -467,14 +473,17 @@ letter-spacing: 0.05em;
 .competitiveAnalysis,
 .basicDesignElements {
   font-size: 20px;
-  font-weight: 550;
+  font-weight: 500;
   letter-spacing: 0.05em;
 }
 
 
-.competitiveAnalysisImg,
+.competitiveAnalysisImg {
+  width: 70%;
+}
+
 .basicDesignElementsImg {
-  width: 50%;
+  width: 60%;
 }
 
 .competitiveAnalysisContainer,
@@ -491,6 +500,11 @@ letter-spacing: 0.05em;
   margin-top: 5%;
   display: flex;
   flex-direction: column;
+}
+
+.messageMe {
+  font-weight: 500;
+  letter-spacing: 0.05em;
 }
 
 .contactForm {
@@ -557,12 +571,14 @@ label {
 
 .submitButton {
   margin-top: 10%;
-  padding: 0.5em 6em;
+  padding: 0.6em 4em;
   color: white;
   font-size: .9em;
+  font-weight: 500;
+  letter-spacing: 0.05em;
   background-color:black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  border-radius: 5px;
+  border-radius: 24px;
   border: none;
 }
 
@@ -572,7 +588,7 @@ label {
 
 .errorMessage {
   position: absolute;
-  left: 29%;
+  left: 29.3%;
 }
 
 .resumeList {

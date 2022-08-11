@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import femmeDept from '../../assets/portfolio/femme_dept.png'
+import femmeDept from '../../assets/portfolio/femmedept.svg'
 import kit from '../../assets/portfolio/kit.png'
 import dinnerDrinks from '../../assets/portfolio/dinner_drinks.png'
 import { Link } from 'react-router-dom'

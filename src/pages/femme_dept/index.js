@@ -2,11 +2,12 @@ import React from 'react'
 import analysis from '../../assets/femme_dept/analysis.png'
 import basicDesignElements from '../../assets/femme_dept/basicDesignElements.png'
 import femmeDept from '../../assets/femme_dept/femmedept.png'
+import ScrollToTop from "react-scroll-to-top";
 
 const FemmeDept = () => {
   return (
     <>
-    <h1 className="projectTitle">Femme Dept.</h1>
+    <h1 id="projectTitle" className="projectTitle">Femme Dept.</h1>
     <div className="femmeDeptPage">
        <section className="summaryAndImageContainer">
        <section className="summaryContainer">
@@ -63,9 +64,9 @@ const FemmeDept = () => {
           </section>
 
           <section className="researchContainer">
-              <h4 className="research">RESEARCH</h4>
+              <h4 className="research">USER RESEARCH</h4>
               <p className="researchSummary">
-                I conducted interviews with multiple female friends, colleagues and family members to get an idea of where they stood with feminine hygiene products. I gathered insight from women from ages 18 to 65. My overall findings were they were unsatisfied with the current products available. The reasons varied from ingredients, stigmas around intimate soap, and shame fueling packaging.               
+                I conducted interviews with multiple female friends, colleagues and family members to get an idea of where they stood with feminine hygiene products. I gathered insight from women from ages 18 to 65. My overall findings were they were unsatisfied with the current products available. The reasons varied from ingredients, stigmas around intimate soap, and shame fueling packaging.   
               </p>
           </section>
 
@@ -78,10 +79,11 @@ const FemmeDept = () => {
             <h5 className="basicDesignElements">BASIC DESIGN ELEMENTS</h5>
             <img src={basicDesignElements} className="basicDesignElementsImg" alt="basicDesignElements"/> 
           </div>
+          <ScrollToTop smooth />
       </div>
     </>
   
   )
 }
 
-export default FemmeDept
+export default FemmeDept;

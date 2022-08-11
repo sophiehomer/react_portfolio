@@ -11,6 +11,7 @@ import Home from './pages/home';
 import FemmeDept from './pages/femme_dept'
 import Kit from './pages/kit'
 import DinnerDrinks from './pages/dinner_drinks'
+// import ScrollToTop from './ScrollToTop'
 
 // importing components from react-router-dom package
 import {
@@ -39,6 +40,7 @@ function App() {
       <Header setPage={setPage} />
       <Router>
         <Routes>
+          {/* <ScrollToTop> */}
           <Route path="/sophie_homer_portfolio" element={<Home />} />
           <Route path="/femme_dept" element={< FemmeDept/>} />
           <Route path="/kit" element={ <Kit /> } />
