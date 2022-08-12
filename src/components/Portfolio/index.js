@@ -5,9 +5,6 @@ import kit from '../../assets/portfolio/kit.svg'
 import dinnerDrinks from '../../assets/portfolio/dinner_drinks.svg'
 import { Link } from 'react-router-dom'
 
-
-
-
 const Portfolio = () => {
   return (
     <>

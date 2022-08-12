@@ -37,7 +37,7 @@ function App() {
   
   return (
     <div className="App">
-      <Header setPage={setPage} />
+      <Header />
       <Router>
         <Routes>
           {/* <ScrollToTop> */}

@@ -315,15 +315,19 @@ p.summary {
 }
 
 .dinnerDrinksImg {
-  width: 100%;
+  width: 90%;
 }
 
 .kitImg{
-  width: 100%;
+  width: 90%;
 }
 
 .femmeDeptImg{
-  width: 100%;
+  width: 90%;
+}
+
+.productImg {
+  width: 120%;
 }
 
 .femmeDeptApp {
@@ -375,6 +379,8 @@ p.summary {
   margin-left: 9.2%;
 }
 
+
+
 .prototype {
   padding: .5em 2.5em;
   border-radius: 24px;
@@ -384,6 +390,8 @@ p.summary {
   letter-spacing: 0.05em;
   font-size: 18px;
 }
+
+
 
 .myRole{
   display: flex;
@@ -489,6 +497,26 @@ letter-spacing: 0.05em;
 .competitiveAnalysisContainer,
 .basicDesignElementsContainer {
   margin-top: 10%;
+}
+
+
+
+/* ----------------------------------- KIT ---------------------------------- */
+.website {
+  padding: .5em 2.5em;
+  border-radius: 24px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+}
+
+.websiteButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 9.2%;
 }
 
 /* .FemmeDeptSummary {

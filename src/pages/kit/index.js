@@ -15,6 +15,14 @@ const Kit = () => {
           </p>
         </section>
 
+        <div className="websiteButtonContainer">
+          <a href="https://www.figma.com/proto/sa327Zy6gLR6vb7wJH3fb1/Femme-Dept.?page-id=0%3A1&node-id=38%3A3576&viewport=363%2C242%2C0.02&scaling=scale-down&starting-point-node-id=38%3A3576"  rel="noreferrer" target="_blank">
+            <button className="website">
+              VIEW APP
+            </button>
+          </a>
+        </div>
+
         <section className="loom">
         <p className="technologiesUsed">
             Built with React, JavaScript, Node.js, Apollo, Mongoose, mongoDb, Bycrypt.

@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import analysis from '../../assets/femme_dept/analysis.svg'
 import basicDesignElements from '../../assets/femme_dept/basicDesignElements.svg'
-import femmeDept from '../../assets/femme_dept/femmedept.png'
-import ScrollToTop from "react-scroll-to-top";
+import product from '../../assets/femme_dept/product.svg'
+import NavProject from '../../components/Navigation_project';
 
 const FemmeDept = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
+    <NavProject/>
     <h1 id="projectTitle" className="projectTitle">Femme Dept.</h1>
     <div className="femmeDeptPage">
        <section className="summaryAndImageContainer">
@@ -17,7 +21,7 @@ const FemmeDept = () => {
         </section>
         
         <section className="loom">
-          <img src={femmeDept} className="femmeDeptImage" alt="femmeDept"/>
+          <img src={product} className="productImg" alt="femmeDept"/>
         </section>
       </section> 
         
@@ -79,7 +83,6 @@ const FemmeDept = () => {
             <h5 className="basicDesignElements">BASIC DESIGN ELEMENTS</h5>
             <img src={basicDesignElements} className="basicDesignElementsImg" alt="basicDesignElements"/> 
           </div>
-          <ScrollToTop smooth />
       </div>
     </>
   
