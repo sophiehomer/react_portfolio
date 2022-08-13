@@ -1,7 +1,7 @@
 import React from 'react'
-import { AiOutlineArrowRight } from 'react-icons/ai'
+// import { Link } from 'react-router-dom'
 import Pdf from '../../assets/documents/sophie-homer-resume.pdf'
-
+import { Link } from 'react-router-dom'
 
 
 const NavProject = (props) => {
@@ -10,13 +10,18 @@ const NavProject = (props) => {
     props.setPage(e.target.innerText)
   }
   return (
-    <nav className="nav"> 
-        <a href="#portfolioImages" className="portfolio" onClick={handleClick} >
-        Check out my work <AiOutlineArrowRight className="arrow" size={20}/>
+    <nav className="projectNav"> 
+    <Link to="/sophie_homer_portfolio" className="femmeDeptPageLink">
+    About 
+    </Link>
+        {/* <a href="#portfolioImages" className="portfolioNav" onClick={handleClick} >
+            About 
+        </a> */}
+        <a download href= {Pdf} rel="noreferrer" target="_blank" className="resumeNav">
+            Resume
         </a>
-        <a download href= {Pdf} rel="noreferrer" target="_blank" className="resume">Download my resume <AiOutlineArrowRight className="arrow" size={20}/></a>
-        <a href="#contactForm" className="contact" onClick={handleClick}>
-          Reach out <AiOutlineArrowRight className="arrow" size={20}/>
+        <a href="#contactForm" className="contactNav" onClick={handleClick}>
+          Contact
         </a>
   </nav>
   )

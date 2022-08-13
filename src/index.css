@@ -59,7 +59,53 @@ body {
   border: none;
 }
 
+/* ----------------------------- PROJECT NAV BAR ---------------------------- */
+.projectNav {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+.portfolioNav {
+  font-size: 1.7em;
+  font-weight: 400;
+  color:  black;
+  border: none;
+  background-color: transparent !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+}
+
+.resumeNav {
+  font-size: 1.7em;
+  font-weight: 400;
+  color:  black;
+  border: none;
+  background-color: transparent !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  margin-left: 2%;
+}
+
+.contactNav {
+  font-size: 1.7em;
+  font-weight: 400;
+  color:  black;
+  border: none;
+  background-color: transparent !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 /* ----- ABOUT ----- */
+
+.introText {
+  font-size: 40px;
+}
 
 .aboutTextDiv {
   display: flex;
@@ -74,13 +120,12 @@ body {
 .aboutText {
   font-weight: normal;
   font-size: 1.5em;
-  line-height: 2em;
+  line-height: 35px;
   color:  black;
 }
 
 .arrow {
   margin-left: 1%;
-  /* margin-right: 10%; */
 }
 
 .aboutImg {
@@ -103,7 +148,6 @@ body {
 }
 
 /* ----- PORTFOLIO ----- */
-
 .portfolioTitle {
   font-size: 1.5em;
   padding-bottom: 2%;
@@ -116,6 +160,14 @@ body {
   justify-content: space-evenly;
 }
 
+.role {
+  text-align:left;
+  font-weight: normal;
+  margin: 0%;
+  font-size: 18px;
+  color: #807D7D;
+}
+
 .githubLink {
   padding-left: 5%
 }
@@ -124,7 +176,6 @@ body {
   color: black;
   text-decoration: none;
   font-size: 1.4em;
-
 }
 
 .gitHubLinkLeft:hover {
@@ -161,9 +212,7 @@ section {
   align-items: flex-start;
   justify-content: center;
   width: 100%;
-  /* padding-bottom: 8%; */
   margin-bottom: 10%;
-
 }
 
 .kitPageLink {
@@ -193,9 +242,7 @@ section {
   align-items: flex-start;
   justify-content: center;
   width: 100%;
-  /* padding-bottom: 8%; */
   margin-bottom: 10%;
-
 }
 
 .dinnerDrinkPageLink {
@@ -205,34 +252,12 @@ section {
 .app {
   width: 70%;
 }
-/* 
-p.summary {
-} */
 
 .appSummary {
   display: flex;
   flex-direction:column;
   justify-content: center;
   align-items: flex-start;
-}
-
-/* .summary {
-  text-align:left;
-  font-weight: normal;
-  line-height: 1.7;
-  margin-top: 0%;
-  margin-bottom: 3%;
-} */
-
-.femmeDeptSummary {
-  text-align:left;
-  font-weight: normal;
-  line-height: 35px;
-  margin-top: 0%;
-  font-size: 20px;
-  margin-bottom: 15%;
-  letter-spacing: 0.05em;
-
 }
 
 .appName {
@@ -252,40 +277,6 @@ p.summary {
   flex-direction: column;
   align-items: flex-start;
 }
-
-/* .femmeDeptImg:hover {
-  opacity: .8;
-} */
-.role {
-  text-align:left;
-  font-weight: normal;
-  margin: 0%;
-  /* margin-bottom: 3%; */
-  font-size: 18px;
-  color: #807D7D;
-}
-
-.product {
-  font-size: 20px;
-  margin-bottom: 2%;
-  margin-top: 2%;
-  color: black;
-  font-weight: 500;
-  text-decoration: none !important;
-}
-
-.technologiesUsed {
-  text-align:left;
-  font-weight: normal;
-  line-height: 35px;
-  margin-top: 0%;
-  margin-bottom: 3%;
-  letter-spacing: 0.05em;
-
-}
-
-
-
 
 .githubAndWebsiteIcon {
   display: flex;
@@ -339,9 +330,9 @@ p.summary {
   font-weight: 500;
   letter-spacing: 0.05em;
   margin-bottom: 4%;
-
-  
+  margin-top: 0%;
 }
+
 .femmeDeptPage {
   display: flex;
   flex-direction: column;
@@ -355,6 +346,7 @@ p.summary {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .summaryContainer {
   width: 32.5%;
 }
@@ -365,7 +357,34 @@ p.summary {
 
 .femmeDeptImage {
   width: 120%;
-  /* padding-top: 10%; */
+}
+
+.femmeDeptSummary {
+  text-align:left;
+  font-weight: normal;
+  line-height: 35px;
+  margin-top: 0%;
+  font-size: 20px;
+  margin-bottom: 15%;
+  letter-spacing: 0.05em;
+}
+
+.product {
+  font-size: 20px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  color: black;
+  font-weight: 500;
+  text-decoration: none !important;
+}
+
+.technologiesUsed {
+  text-align:left;
+  font-weight: normal;
+  line-height: 35px;
+  margin-top: 0%;
+  margin-bottom: 3%;
+  letter-spacing: 0.05em;
 }
 
 .loom {
@@ -379,8 +398,6 @@ p.summary {
   margin-left: 9.2%;
 }
 
-
-
 .prototype {
   padding: .5em 2.5em;
   border-radius: 24px;
@@ -390,8 +407,6 @@ p.summary {
   letter-spacing: 0.05em;
   font-size: 18px;
 }
-
-
 
 .myRole{
   display: flex;
@@ -499,8 +514,6 @@ letter-spacing: 0.05em;
   margin-top: 10%;
 }
 
-
-
 /* ----------------------------------- KIT ---------------------------------- */
 .website {
   padding: .5em 2.5em;
@@ -519,8 +532,6 @@ letter-spacing: 0.05em;
   margin-left: 9.2%;
 }
 
-/* .FemmeDeptSummary {
-} */
 
 /* ----- CONTACT ----- */
 
