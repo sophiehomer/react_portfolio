@@ -11,7 +11,7 @@ const NavProject = (props) => {
   }
   return (
     <nav className="projectNav"> 
-      <Link to="/sophie_homer_portfolio#aboutContent" className="aboutNav">
+    <Link to="/sophie_homer_portfolio#aboutContent" className="aboutNav">
       About
     </Link>
     <Link to="/sophie_homer_portfolio#femmeDeptContainer" className="portfolioNav">

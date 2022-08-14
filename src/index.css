@@ -68,8 +68,8 @@ body {
   padding-bottom: 1.5%;
 }
 
-.portfolioNav {
-  font-size: 1.7em;
+.aboutNav {
+  font-size: 20px;
   font-weight: 400;
   color:  black;
   border: none;
@@ -78,8 +78,19 @@ body {
   text-decoration: none;
 }
 
+.portfolioNav {
+  font-size: 20px;
+  font-weight: 400;
+  color:  black;
+  border: none;
+  background-color: transparent !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  margin-left: 2%;
+}
+
 .resumeNav {
-  font-size: 1.7em;
+  font-size: 20px;
   font-weight: 400;
   color:  black;
   border: none;
@@ -90,7 +101,7 @@ body {
 }
 
 .contactNav {
-  font-size: 1.7em;
+  font-size: 20px;
   font-weight: 400;
   color:  black;
   border: none;
@@ -168,17 +179,17 @@ body {
   color: #807D7D;
 }
 
-/* .githubLink {
+.githubLink {
   padding-left: 5%
-} */
+}
 
-/* .gitHubLinkLeft {
+.gitHubLinkLeft {
   color: black;
   text-decoration: none;
   font-size: 1.4em;
-} */
+}
 
-/* .gitHubLinkLeft:hover {
+.gitHubLinkLeft:hover {
   text-decoration: underline;
 }
 
@@ -190,7 +201,7 @@ body {
   padding-bottom: 4%;
   color:  black;
   text-decoration: none;
-} */
+}
 
 .websiteLink {
   color: black;
@@ -223,7 +234,7 @@ section {
   flex-wrap: wrap;
   align-content: center;
   width: 100%;
-  padding-top: 3.9%;
+  padding-top: 5%;
   margin-bottom: 10%;
 }
 
