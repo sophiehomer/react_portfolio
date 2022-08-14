@@ -10,7 +10,7 @@ const Portfolio = () => {
     <>
     <main className="portfolioImages" id="portfolioImages">
 
-    <section className="femmeDeptContainer">
+    <section id="femmeDeptContainer" className="femmeDeptContainer">
       <div className="femmeDeptApp">
         <Link to="/femme_dept" className="femmeDeptPageLink">
           <img src={femmeDept} className="femmeDeptImg" alt="femmeDept"/>
@@ -21,7 +21,7 @@ const Portfolio = () => {
           <p className="product">
               Intimate Soap
           </p>
-          <p className="role">
+          <p className="fdrole">
             Product design, user research
           </p>
         </Link>
@@ -29,7 +29,7 @@ const Portfolio = () => {
     </section>
 
     <section className="kitContainer">
-      <div className="app">
+      <div className="kitApp">
         <a href="https://drawtheline2022.herokuapp.com/"  rel="noreferrer" target="_blank">
           <img src={kit} className="kitImg" alt="drawTheLine"/> 
         </a>

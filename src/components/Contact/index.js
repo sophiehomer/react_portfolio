@@ -50,7 +50,7 @@ const Contact = () => {
 
   return (
     <>
-    <section className="contactSection">
+    <section id="contactSection" className="contactSection">
         <h2 className="messageMe">Message me</h2>
         <div className="contactForm" id="contactForm">
           <form ref={form} onSubmit={sendEmail} className="contactForm">
