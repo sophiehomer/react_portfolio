@@ -52,7 +52,7 @@ const Contact = () => {
     <>
     <section id="contactSection" className="contactSection">
         <h2 className="messageMe">Message me</h2>
-        <div className="contactForm" id="contactForm">
+        <div className="contactFormSection" id="contactForm">
           <form ref={form} onSubmit={sendEmail} className="contactForm">
                 <div className="contactDiv">
                 <input type="text" name="name" defaultValue={name} className="contactName" id="contact-name"  onBlur={handleChange} placeholder="Name"/>

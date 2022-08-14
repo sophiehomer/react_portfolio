@@ -209,17 +209,12 @@ section {
   flex-direction:column;
   flex-wrap: wrap;
   align-content: center;
-  /* align-items: flex-start;
-  justify-content: center; */
   width: 100%;
   margin-bottom: 10%;
 }
 
 .kitPageLink {
   text-decoration: none !important;
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-start; */
 }
 
 .femmeDeptContainer{
@@ -227,10 +222,8 @@ section {
   flex-direction:column;
   flex-wrap: wrap;
   align-content: center;
-  /* align-items: flex-start;
-  justify-content: center; */
   width: 100%;
-  padding-top: 8%;
+  padding-top: 3.9%;
   margin-bottom: 10%;
 }
 
@@ -239,8 +232,6 @@ section {
   flex-direction:column;
   flex-wrap: wrap;
   align-content: center;
-  /* align-items: flex-start; */
-  /* justify-content: center; */
   width: 100%;
   margin-bottom: 10%;
 }
@@ -258,12 +249,43 @@ section {
 }
 
 .appSummary {
-  background-color: orange;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.fdProductAndRole {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 5.8%;
+}
+
+.kitProductAndRole {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.ddProductAndRole {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 4%;
 }
 
 .appName {
@@ -557,7 +579,7 @@ letter-spacing: 0.05em;
   letter-spacing: 0.05em;
 }
 
-.contactForm {
+.contactFormSection {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -567,6 +589,18 @@ letter-spacing: 0.05em;
   padding-bottom: 10%;
   justify-content: center;
 }
+
+.contactForm {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  padding-top: 2%;
+  justify-content: center;
+}
+
+
 
 label {
   margin-top: 10%;
