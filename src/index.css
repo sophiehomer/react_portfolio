@@ -148,37 +148,37 @@ body {
 }
 
 /* ----- PORTFOLIO ----- */
-.portfolioTitle {
+/* .portfolioTitle {
   font-size: 1.5em;
   padding-bottom: 2%;
-}
+} */
 
 .portfolioImages {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .role {
-  text-align:left;
+  /* text-align:left; */
   font-weight: normal;
   margin: 0%;
   font-size: 18px;
   color: #807D7D;
 }
 
-.githubLink {
+/* .githubLink {
   padding-left: 5%
-}
+} */
 
-.gitHubLinkLeft {
+/* .gitHubLinkLeft {
   color: black;
   text-decoration: none;
   font-size: 1.4em;
-}
+} */
 
-.gitHubLinkLeft:hover {
+/* .gitHubLinkLeft:hover {
   text-decoration: underline;
 }
 
@@ -190,7 +190,7 @@ body {
   padding-bottom: 4%;
   color:  black;
   text-decoration: none;
-}
+} */
 
 .websiteLink {
   color: black;
@@ -209,17 +209,17 @@ section {
   flex-direction:column;
   flex-wrap: wrap;
   align-content: center;
-  align-items: flex-start;
-  justify-content: center;
+  /* align-items: flex-start;
+  justify-content: center; */
   width: 100%;
   margin-bottom: 10%;
 }
 
 .kitPageLink {
   text-decoration: none !important;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start; */
 }
 
 .femmeDeptContainer{
@@ -227,8 +227,8 @@ section {
   flex-direction:column;
   flex-wrap: wrap;
   align-content: center;
-  align-items: flex-start;
-  justify-content: center;
+  /* align-items: flex-start;
+  justify-content: center; */
   width: 100%;
   padding-top: 8%;
   margin-bottom: 10%;
@@ -239,8 +239,8 @@ section {
   flex-direction:column;
   flex-wrap: wrap;
   align-content: center;
-  align-items: flex-start;
-  justify-content: center;
+  /* align-items: flex-start; */
+  /* justify-content: center; */
   width: 100%;
   margin-bottom: 10%;
 }
@@ -253,11 +253,17 @@ section {
   width: 70%;
 }
 
+.kitApp {
+  width: 70%;
+}
+
 .appSummary {
+  background-color: orange;
   display: flex;
-  flex-direction:column;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
+  text-align: left;
 }
 
 .appName {
@@ -273,10 +279,15 @@ section {
 .femmeDeptPageLink {
   color: black !important;
   text-decoration: none !important;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
+
+.fdRole {
+    font-weight: normal;
+    font-size: 18px;
+    color: #807D7D;
+}
+
+
 
 .githubAndWebsiteIcon {
   display: flex;
