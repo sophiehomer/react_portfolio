@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
 import Pdf from '../../assets/documents/sophie-homer-resume.pdf'
 import { HashLink as Link } from 'react-router-hash-link';
 
