@@ -1,3 +1,4 @@
+/* ---------------------------------- BODY ---------------------------------- */
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -5,27 +6,7 @@ body {
   min-height: 100vh;
   background-color:#F5F5F7;
 }
-
-/* ----- HEADER----- */
-
-.header {
- position:fixed;
- top: 0;
- left: 0;
- right: 0;
- background-color:#DDECFB;
- width:100%;
-
-}
-
-.sophieHomer {
-  color:  black;
-  font-size: 2em;
-  margin-right: 20%;
-}
-
-/* ----- NAV BAR ----- */
-
+/* ----------------------------------- NAV ---------------------------------- */
 .nav {
   display:flex;
   flex-direction: column;
@@ -58,7 +39,6 @@ body {
   cursor: pointer;
   border: none;
 }
-
 /* ----------------------------- PROJECT NAV BAR ---------------------------- */
 .projectNav {
   display:flex;
@@ -112,8 +92,7 @@ body {
   margin-right: 2%;
 }
 
-/* ----- ABOUT ----- */
-
+/* ---------------------------------- ABOUT --------------------------------- */
 .introText {
   font-size: 40px;
 }
@@ -157,13 +136,7 @@ body {
   padding-top: 5%;
   padding-bottom: 15%;
 }
-
-/* ----- PORTFOLIO ----- */
-/* .portfolioTitle {
-  font-size: 1.5em;
-  padding-bottom: 2%;
-} */
-
+/* --------------------------------- MY WORK -------------------------------- */
 .portfolioImages {
   display: flex;
   flex-wrap: wrap;
@@ -172,7 +145,6 @@ body {
 }
 
 .role {
-  /* text-align:left; */
   font-weight: normal;
   margin: 0%;
   font-size: 18px;
@@ -308,7 +280,6 @@ section {
   margin-bottom: 3%;
 }
 
-
 .femmeDeptPageLink {
   color: black !important;
   text-decoration: none !important;
@@ -320,15 +291,6 @@ section {
     color: #807D7D;
 }
 
-
-/* 
-.githubAndWebsiteIcon {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  width: 100%
-} */
-
 .openWebsite {
   display: flex;
   flex-direction: row;
@@ -339,10 +301,6 @@ section {
   display: flex;
   flex-direction: row;
 }
-
-/* .arrow {
-  margin-right: 10%;
-} */
 
 .project {
   font-weight: normal;
@@ -368,7 +326,7 @@ section {
 .femmeDeptApp {
   width: 70%;
 }
-/* ----- FEMME DEPT ----- */
+/* ----------------------------- FEMME DEPT PAGE ---------------------------- */
 .projectTitle {
   font-size: 40px;
   font-weight: 500;
@@ -557,8 +515,7 @@ letter-spacing: 0.05em;
 .basicDesignElementsContainer {
   margin-top: 10%;
 }
-
-/* ----------------------------------- KIT ---------------------------------- */
+/* ----------------------------------- KIT PAGE ---------------------------------- */
 .kitPage {
   display: flex;
   flex-direction: row;
@@ -609,13 +566,6 @@ letter-spacing: 0.05em;
   margin-left: 80%;
 }
 
-/* .gitHubWebsiteContainer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: flex-start;
-} */
-
 .website {
   padding: .5em 2.5em;
   border-radius: 24px;
@@ -648,9 +598,68 @@ letter-spacing: 0.05em;
   align-items: center;
   justify-content: space-evenly
 }
+/* ----------------------------------- DINNER DRINKS PAGE ---------------------------------- */
+.dinnerDrinkPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 6%;
+  padding-bottom: 4%;
+}
 
-/* ----- CONTACT ----- */
+.dinnerDrinkSummaryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 59%;
+}
 
+.dinnerDrinkSummary {
+  text-align:left;
+  font-weight: normal;
+  line-height: 35px;
+  margin-top: 0%;
+  font-size: 20px;
+  margin-bottom: 5%;
+  letter-spacing: 0.05em;
+}
+
+.dinnerDrinkRoleAndTechnology {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  font-size: 20px;
+  text-align: left;
+  line-height: 35px;
+  width: 100%;
+} 
+
+.dinnerDrinkRole {
+  margin: 0;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  width: 120%;
+}
+
+.dinnerDrinkTechnology {
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  width: 120%;
+  margin-left: 80%;
+}
+
+.dinnerDrinkTechnologies {
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.dinnerDrinkImage {
+  width: 80%;
+  margin-bottom: 4%;
+}
+/* --------------------------------- CONTACT -------------------------------- */
 .contactSection {
   margin-top: 5%;
   display: flex;
@@ -682,8 +691,6 @@ letter-spacing: 0.05em;
   padding-top: 2%;
   justify-content: center;
 }
-
-
 
 label {
   margin-top: 10%;
@@ -757,48 +764,12 @@ label {
   position: absolute;
   left: 29.3%;
 }
-
-.resumeList {
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: space-around;
- padding-left: 20%;
- padding-right: 20%;
- padding-bottom: 10%;
-}
-
-.resumeTitle {
-  padding-bottom: 2%;
-  font-size: 1.5em;
-}
-
-.proficiencyList {
-  padding-bottom: 3%;
-  font-weight: normal;
-  font-size: 1em;
-  line-height: 2.5em;
-}
-
+/* --------------------------------- RESUME --------------------------------- */
 .downloadResumeSection {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-
-/* .downloadResumeButton {
-  background-color: rgb(251, 246, 246);
-  padding: 0.8em 3.6em;
-  border: none;
-  border-radius: 25px;
-} */
-
-/* .downloadResumeButton {
-  border: none;
-  border-radius: 24px;
-  padding: 1em 2.5em;
-  background-color: #FFFFFF;
-} */
 
 .downloadResume {
   color:  black;
@@ -811,9 +782,7 @@ label {
   text-decoration: underline;
   cursor: pointer;
 }
-
-/* ----- FOOTER ----- */
-
+/* --------------------------------- FOOTER --------------------------------- */
 .githubIcon, 
 .linkedInIcon, 
 .emailIcon,
@@ -823,16 +792,13 @@ label {
   cursor: pointer;
 }
 
-
 footer {
   position: relative;
   width: 100%;
   bottom: 0;
   padding-top: 3%;
   padding-bottom: 1%;
-  /* background-color: orange; */
 }
-
 /* ------------------------------- MEDIA QUERY ------------------------------ */
 
 @media only screen and (max-width: 1148px) {
