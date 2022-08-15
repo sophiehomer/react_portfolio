@@ -20,7 +20,7 @@ const FemmeDept = () => {
           </p>
         </section>
         
-        <section className="loom">
+        <section className="productImageContainer">
           <img src={product} className="productImg" alt="femmeDept"/>
         </section>
       </section> 
