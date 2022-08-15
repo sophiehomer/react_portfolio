@@ -96,7 +96,7 @@ body {
 /* ---------------------------------- ABOUT --------------------------------- */
 .introText {
   font-size: 40px;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .aboutTextDiv {
@@ -618,6 +618,7 @@ letter-spacing: 0.01em;
   flex-direction: row;
   justify-content: space-evenly;
   padding-left: 6%;
+  padding-top: 4%;
   padding-bottom: 4%;
 }
 

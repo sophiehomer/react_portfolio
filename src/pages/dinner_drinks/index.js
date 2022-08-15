@@ -11,7 +11,7 @@ const DinnerDrinks = () => {
   return (
     <>
      <NavProject/>
-      <h1 className="projectTitle">Dinner & Drinks</h1>
+      {/* <h1 className="projectTitle">Dinner & Drinks</h1> */}
       <div className="dinnerDrinkPage">
         <section className="dinnerDrinkSummaryContainer">
           <p className="dinnerDrinkSummary">
