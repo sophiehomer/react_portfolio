@@ -12,12 +12,12 @@ const Navigation = (props) => {
   }
   return (
     <nav className="nav"> 
-        <a href="#femmeDeptContainer" className="portfolio" onClick={handleClick} >
-        Check out my work <AiOutlineArrowRight className="arrow" size={20}/>
-        </a>
         <a download href= {Pdf} rel="noreferrer" target="_blank" className="resume">Download my resume <AiOutlineArrowRight className="arrow" size={20}/></a>
         <a href="#contactForm" className="contact" onClick={handleClick}>
           Reach out <AiOutlineArrowRight className="arrow" size={20}/>
+        </a>
+        <a href="#femmeDeptContainer" className="portfolio" onClick={handleClick} >
+        Check out my work <AiOutlineArrowRight className="arrow" size={20}/>
         </a>
   </nav>
   )

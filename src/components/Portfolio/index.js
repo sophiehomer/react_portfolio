@@ -17,7 +17,7 @@ const Portfolio = () => {
         </Link>
 
         <div className="fdProductAndRole">
-        <Link to="/femme_dept" className="femmeDeptPageLink">
+        <Link to="/femme_dept" className="femmeDeptProductAndRole">
           <p className="product">
               Intimate Soap
           </p>
@@ -32,7 +32,7 @@ const Portfolio = () => {
 
     <section className="kitContainer">
       <div className="kitApp">
-        <Link to="/kit" className="kitPageLink">
+        <Link to="/kit" className="kitImageLink">
           <img src={kit} className="kitImg" alt="drawTheLine"/>
         </Link> 
       </div>
@@ -50,7 +50,7 @@ const Portfolio = () => {
 
       <section className="dinnerDrinksContainer">
           <div className="app">
-            <Link to="/dinner_drinks" className="dinnerDrinkPageLink">
+            <Link to="/dinner_drinks" className="dinnerDrinkImageLink">
               <img src={dinnerDrinks } className="dinnerDrinksImg" alt="dinnerDrinks"/>
             </Link>
           </div>

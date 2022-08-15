@@ -18,7 +18,7 @@ const Kit = () => {
           <section className="kitRoleAndTechnology">
             <div>
               <p className="myRole">
-                MY ROLE
+                My Role
               </p>
               <p className="kitRole">
                 Front-end developer <br></br> UX/UI
@@ -26,14 +26,14 @@ const Kit = () => {
             </div>
             <div>
               <p className="kitTechnology">
-                BUILT WITH
+                Built With
                 <p className="figma">
                   React <br></br>
                   JavaScript <br></br>
                   Node.js <br></br>
                   Apollo <br></br>
                   Mongoose <br></br>
-                  mongoDb <br></br>
+                  MongoDb <br></br>
                   Bycrypt
                 </p>
               </p>

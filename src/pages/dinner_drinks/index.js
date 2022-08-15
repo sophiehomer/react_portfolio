@@ -20,7 +20,7 @@ const DinnerDrinks = () => {
           <section className="dinnerDrinkRoleAndTechnology">
             <div>
               <p className="myRole">
-                MY ROLE
+                My Role
               </p>
               <p className="dinnerDrinkRole">
                 Front-end developer <br></br> UX/UI
@@ -28,7 +28,7 @@ const DinnerDrinks = () => {
             </div>
             <div>
               <p className="dinnerDrinkTechnology">
-                BUILT WITH
+                Built With
                 <p className="dinnerDrinkTechnologies">
                   Javascript <br></br> HTML <br></br> CSS <br></br> Spoonacular API <br></br> Cocktails DB API
                 </p>
