@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/sophie_homer_portfolio/static/css/main.0c3870e6.css",
-    "main.js": "/sophie_homer_portfolio/static/js/main.694f9b07.js",
+    "main.css": "/sophie_homer_portfolio/static/css/main.2ae725d6.css",
+    "main.js": "/sophie_homer_portfolio/static/js/main.7e131d4b.js",
     "static/js/787.0e6c9168.chunk.js": "/sophie_homer_portfolio/static/js/787.0e6c9168.chunk.js",
     "static/media/femmedept.svg": "/sophie_homer_portfolio/static/media/femmedept.3c4ebc13306661c6154349c2cf160d9b.svg",
     "static/media/dinner_drinks.svg": "/sophie_homer_portfolio/static/media/dinner_drinks.91380845d6f18ad70a55aa0affe73e22.svg",
     "static/media/kit.svg": "/sophie_homer_portfolio/static/media/kit.7b6d30587fb4273236902ef559fed615.svg",
     "static/media/product.svg": "/sophie_homer_portfolio/static/media/product.43a9c0681ec40c5045141c0dd9d925a4.svg",
-    "static/media/basicDesignElements.svg": "/sophie_homer_portfolio/static/media/basicDesignElements.2c87dd905e51b19fa6065a016d2c24bd.svg",
+    "static/media/basicDesignElements.svg": "/sophie_homer_portfolio/static/media/basicDesignElements.d713e1499abd8dcaaea69ea2aed0d972.svg",
     "static/media/analysis.svg": "/sophie_homer_portfolio/static/media/analysis.d943bf0b00920ca440b9410e0a38dbf3.svg",
     "static/media/sophie-homer-resume.pdf": "/sophie_homer_portfolio/static/media/sophie-homer-resume.b592988df1b0da3e8242.pdf",
     "index.html": "/sophie_homer_portfolio/index.html",
-    "main.0c3870e6.css.map": "/sophie_homer_portfolio/static/css/main.0c3870e6.css.map",
-    "main.694f9b07.js.map": "/sophie_homer_portfolio/static/js/main.694f9b07.js.map",
+    "main.2ae725d6.css.map": "/sophie_homer_portfolio/static/css/main.2ae725d6.css.map",
+    "main.7e131d4b.js.map": "/sophie_homer_portfolio/static/js/main.7e131d4b.js.map",
     "787.0e6c9168.chunk.js.map": "/sophie_homer_portfolio/static/js/787.0e6c9168.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c3870e6.css",
-    "static/js/main.694f9b07.js"
+    "static/css/main.2ae725d6.css",
+    "static/js/main.7e131d4b.js"
   ]
 }
