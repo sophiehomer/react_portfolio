@@ -321,7 +321,7 @@ section {
 
 .productImg {
   margin-top: 2%;
-  width: 120%;
+  width: 100%;
 }
 
 .femmeDeptApp {
@@ -340,7 +340,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  padding-right: 6.8%;
 }
 
 .summaryAndImageContainer {
