@@ -1,11 +1,13 @@
-import React from 'react'
-// import { FaGithub } from 'react-icons/fa';
+import React, { useEffect } from 'react'
 import NavProject from '../../components/Navigation_project';
 import dinnerDrinks from '../../../src/assets/dinner_drinks/dinner_drinks.svg'
 
 
 
 const DinnerDrinks = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
      <NavProject/>
