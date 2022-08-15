@@ -320,6 +320,7 @@ section {
 }
 
 .productImg {
+  margin-top: 2%;
   width: 120%;
 }
 
@@ -339,8 +340,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-right: 6.8%;
 }
 
 .summaryAndImageContainer {
