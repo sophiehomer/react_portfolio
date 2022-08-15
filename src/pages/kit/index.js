@@ -9,7 +9,7 @@ const Kit = () => {
   return (
     <>
     <NavProject/>
-    <h1 id="projectTitle" className="projectTitle">KIT</h1>
+    {/* <h1 id="projectTitle" className="projectTitle">KIT</h1> */}
     <div className="kitPage">
         <section className="kitSummaryContainer">
           <p className="kitSummary">
@@ -49,7 +49,7 @@ const Kit = () => {
             <div className="githubAndWebsite">
               <a href="https://drawtheline2022.herokuapp.com/"  rel="noreferrer" target="_blank">
                 <button className="website">
-                  Open App
+                  View App
                 </button>
               </a>
               <p className="gitHub"> 

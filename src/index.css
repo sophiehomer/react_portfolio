@@ -1,8 +1,8 @@
 /* ---------------------------------- BODY ---------------------------------- */
 body {
   margin: 0;
-  /* font-family: aeonik regular; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: aeonik-regular, sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   position: relative;
   min-height: 100vh;
   background-color:#F5F5F7;
@@ -27,7 +27,7 @@ body {
   color:  black;
   border: none;
   background-color: transparent !important;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: aeonik-regular, sans-serif;
   text-decoration: none;
   line-height: 2em;
 }
@@ -55,7 +55,7 @@ body {
   color:  black;
   border: none;
   background-color: transparent !important;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: aeonik-regular, sans-serif;
   text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ body {
   color:  black;
   border: none;
   background-color: transparent !important;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: aeonik-regular, sans-serif;
   text-decoration: none;
   margin-left: 2%;
 }
@@ -76,7 +76,7 @@ body {
   color:  black;
   border: none;
   background-color: transparent !important;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: aeonik-regular, sans-serif;
   text-decoration: none;
   margin-left: 2%;
 }
@@ -87,7 +87,7 @@ body {
   color:  black;
   border: none;
   background-color: transparent !important;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: aeonik-regular, sans-serif;
   text-decoration: none;
   margin-left: 2%;
   margin-right: 2%;
@@ -96,6 +96,7 @@ body {
 /* ---------------------------------- ABOUT --------------------------------- */
 .introText {
   font-size: 40px;
+  margin: 0;
 }
 
 .aboutTextDiv {
@@ -110,9 +111,12 @@ body {
 
 .aboutText {
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 25px;
   line-height: 35px;
   color:  black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
 }
 
 .arrow {
@@ -332,12 +336,13 @@ section {
 .projectTitle {
   font-size: 40px;
   font-weight: 500;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
   margin-bottom: 4%;
   margin-top: 0%;
 }
 
 .femmeDeptPage {
+  padding-top: 4%;
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -367,8 +372,8 @@ section {
   line-height: 35px;
   margin-top: 0%;
   font-size: 20px;
-  margin-bottom: 5%;
-  letter-spacing: 0.05em;
+  margin-bottom: 10%;
+  letter-spacing: 0.01em;
 }
 
 .product {
@@ -386,7 +391,7 @@ section {
   line-height: 35px;
   margin-top: 0%;
   margin-bottom: 3%;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
 }
 
 .productImageContainer {
@@ -407,8 +412,10 @@ section {
   background-color: transparent;
   color: black;
   border: 2px solid black;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
   font-size: 18px;
+  font-family: aeonik-regular, sans-serif;
+
 }
 
 .myRole{
@@ -417,13 +424,13 @@ section {
   align-items: flex-start;
   font-weight: bold;
   margin: 0;
-  font-weight: 500;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
+  font-size: 25px;
 }
 
 .femmeDeptRole {
   margin: 0;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
   font-size: 20px;
 }
 
@@ -431,10 +438,12 @@ section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-weight: 500;
-  letter-spacing: 0.05em;
+  font-weight: bold;
+  letter-spacing: 0.01em;
   padding-left: 100%;
   width: 120%;
+  font-size: 25px;
+
 }
 
 .femmeDeptRoleAndTechnology {
@@ -454,8 +463,9 @@ section {
 
 .figma {
   font-weight: 400;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
   margin: 0;
+  font-size: 20px;
 }
 
 .problemContainer,
@@ -482,7 +492,7 @@ section {
 font-size: 40px;
 margin: 0;
 font-weight: 500;
-letter-spacing: 0.05em;
+letter-spacing: 0.01em;
 }
 
 .problemSummary,
@@ -492,20 +502,20 @@ letter-spacing: 0.05em;
   text-align: left;
   margin: 0;
   line-height: 35px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
 
 }
 
 .competitiveAnalysis,
 .basicDesignElements {
   font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0.05em;
+  font-weight: bold;
+  letter-spacing: 0.01em;
 }
 
 
 .competitiveAnalysisImg {
-  width: 70%;
+  width: 60%;
 }
 
 .basicDesignElementsImg {
@@ -522,7 +532,8 @@ letter-spacing: 0.05em;
   flex-direction: row;
   justify-content: space-evenly;
   padding-left: 6%;
-  padding-bottom: 4%;
+  padding-bottom: 6%;
+  padding-top: 4%
 }
 
 .kitSummaryContainer {
@@ -539,7 +550,7 @@ letter-spacing: 0.05em;
   margin-top: 0%;
   font-size: 20px;
   margin-bottom: 5%;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
 }
 
 .kitRoleAndTechnology {
@@ -555,14 +566,14 @@ letter-spacing: 0.05em;
 
 .kitRole {
   margin: 0;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
   font-size: 20px;
   width: 120%;
 }
 
 .kitTechnology {
-  font-weight: 500;
-  letter-spacing: 0.05em;
+  font-weight: bold;
+  letter-spacing: 0.01em;
   width: 120%;
   margin-left: 80%;
 }
@@ -573,8 +584,9 @@ letter-spacing: 0.05em;
   background-color: transparent;
   color: black;
   border: 2px solid black;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
   font-size: 18px;
+  font-family: aeonik-regular, sans-serif;
 }
 
 .gitHubLink {
@@ -584,8 +596,9 @@ letter-spacing: 0.05em;
   background-color: transparent;
   color: black;
   border: 2px solid black;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
   font-size: 18px;
+  font-family: aeonik-regular, sans-serif;
 }
 
 .kitImage {
@@ -622,7 +635,7 @@ letter-spacing: 0.05em;
   margin-top: 0%;
   font-size: 20px;
   margin-bottom: 5%;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
 }
 
 .dinnerDrinkRoleAndTechnology {
@@ -638,21 +651,21 @@ letter-spacing: 0.05em;
 
 .dinnerDrinkRole {
   margin: 0;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
   font-size: 20px;
   width: 120%;
 }
 
 .dinnerDrinkTechnology {
-  font-weight: 500;
-  letter-spacing: 0.05em;
+  font-weight: bold;
+  letter-spacing: 0.01em;
   width: 120%;
   margin-left: 80%;
 }
 
 .dinnerDrinkTechnologies {
   font-weight: 400;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
   margin: 0;
 }
 
@@ -669,7 +682,7 @@ letter-spacing: 0.05em;
 
 .messageMe {
   font-weight: 500;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
 }
 
 .contactFormSection {
@@ -709,10 +722,11 @@ label {
   padding-top: 3%;
   padding-bottom: 3%;
   padding-right: 18%;
+  font-size: 16px;
   outline: none !important;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1.5px solid black;
   background-color: transparent;
 }
 
@@ -722,10 +736,11 @@ label {
   padding-top: 3%;
   padding-bottom: 3%;
   padding-right: 18%;
+  font-size: 16px;
   outline: none !important;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1.5px solid black;
   background-color: transparent;
 }
 
@@ -735,26 +750,28 @@ label {
   padding-top: 2%;
   height: 42px;
   width: 100%; 
+  font-size: 16px;
+  padding-right: 18%;
   box-sizing: border-box;
   resize: none;
   outline: none !important;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1.5px solid black;
   background-color: transparent;
 }
 
 .submitButton {
   margin-top: 10%;
   padding: 0.6em 4em;
-  color: white;
-  font-size: .9em;
+  color: black;
+  font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.05em;
-  background-color:black;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.02em;
+  background-color:transparent;
+  font-family: aeonik-regular, sans-serif;
   border-radius: 24px;
-  border: none;
+  border: 1.5px solid black;
 }
 
 .submitButton:hover {
@@ -763,7 +780,7 @@ label {
 
 .errorMessage {
   position: absolute;
-  left: 29.3%;
+  left: 26.3%;
 }
 /* --------------------------------- RESUME --------------------------------- */
 .downloadResumeSection {

@@ -60,7 +60,7 @@ const Portfolio = () => {
                 Food & Cocktail Recipe Application          
               </p>
               <p className="role">
-                Front-end developer, UX UI.
+                Front-end developer, UX UI
               </p>
           </Link>
         </div>

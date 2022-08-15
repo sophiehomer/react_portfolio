@@ -15,7 +15,7 @@ const DinnerDrinks = () => {
       <div className="dinnerDrinkPage">
         <section className="dinnerDrinkSummaryContainer">
           <p className="dinnerDrinkSummary">
-          This application generates curated recipes around user preferences. The user can search up food recipes based on cuisine and dietary restrictions, as well as look up cocktails recipes based on alcohol preference. The user has the ability to favorite recipes which are displayed on the users favorites page.
+            A recipe generator curated around user preference. Users can search recipes based on cuisine and dietary restrictions, as well cocktail recipes based on alcohol preference. Users have the ability to favorite recipes which are displayed on the users favorites page.
           </p>
           <section className="dinnerDrinkRoleAndTechnology">
             <div>
@@ -45,7 +45,7 @@ const DinnerDrinks = () => {
             <div className="githubAndWebsite">
               <a href="https://sophiehomer.github.io/dinner_and_drinks/"  rel="noreferrer" target="_blank">
                 <button className="website">
-                  Open App
+                  View App
                 </button>
               </a>
               <p className="gitHub"> 

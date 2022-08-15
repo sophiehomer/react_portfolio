@@ -11,7 +11,7 @@ const FemmeDept = () => {
   return (
     <>
     <NavProject/>
-    <h1 id="projectTitle" className="projectTitle">Femme Dept.</h1>
+    {/* <h1 id="projectTitle" className="projectTitle">Femme Dept.</h1> */}
     <div className="femmeDeptPage">
        <section className="summaryAndImageContainer">
        <section className="summaryContainer">
@@ -29,7 +29,7 @@ const FemmeDept = () => {
         <div className="prototypeButtonContainer">
           <a href="https://www.figma.com/proto/7FAf3HpoJAngklRnpwSeXV/Femme-Dept.?page-id=0%3A1&node-id=2%3A6146&viewport=576%2C516%2C0.02&scaling=scale-down&starting-point-node-id=2%3A6146"  rel="noreferrer" target="_blank">
             <button className="prototype">
-              VIEW PROTOTYPE
+              View Prototype
             </button>
           </a>
         </div>
