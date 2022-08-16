@@ -11,7 +11,7 @@ body {
 /* -------------------------------- FONT FACE ------------------------------- */
 @font-face {
   font-family: aeonik-regular;
-  src: url(./fonts/aeonik.ttf), format('truetype');
+  src: local("aeonik-regular"), url("./fonts/Aeonik-Regular.ttf") format("truetype");
   /* src: local(aeonik-regular), url(../fonts/aeonik.ttf/aeonik-regular.ttf), format('truetype') */
 }
 /* ----------------------------------- NAV ---------------------------------- */
