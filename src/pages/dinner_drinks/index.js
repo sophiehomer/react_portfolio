@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import NavProject from '../../components/Navigation_project';
-import dinnerDrinks from '../../../src/assets/dinner_drinks/dinner_drinks.svg'
+import dinnerDrinks from '../../../src/assets/dinner_drinks/dinner_drinks.png'
 
 
 

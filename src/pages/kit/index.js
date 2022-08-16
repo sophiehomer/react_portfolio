@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import NavProject from '../../components/Navigation_project';
-import kit from '../../../src/assets/kit/kit.svg'
+import kit from '../../../src/assets/kit/kit.png'
 
 const Kit = () => {
   useEffect(() => {

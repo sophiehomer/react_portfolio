@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import analysis from '../../assets/femme_dept/analysis.svg'
-import basicDesignElements from '../../assets/femme_dept/basicDesignElements.svg'
-import product from '../../assets/femme_dept/product.svg'
+import analysis from '../../assets/femme_dept/analysis.png'
+import basicDesignElements from '../../assets/femme_dept/basicDesignElements.png'
+import product from '../../assets/femme_dept/product.png'
 import NavProject from '../../components/Navigation_project';
 
 const FemmeDept = () => {
