@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/sophie_homer_portfolio/static/css/main.87a5db23.css",
-    "main.js": "/sophie_homer_portfolio/static/js/main.709485fa.js",
+    "main.js": "/sophie_homer_portfolio/static/js/main.c6b33fd2.js",
     "static/js/787.0e6c9168.chunk.js": "/sophie_homer_portfolio/static/js/787.0e6c9168.chunk.js",
-    "static/media/femmedept.svg": "/sophie_homer_portfolio/static/media/femmedept.2de01ef19eee873342a94366ec0eb38f.svg",
+    "static/media/femme_dept.png": "/sophie_homer_portfolio/static/media/femme_dept.2d30f52547caec1cefcb.png",
     "static/media/dinner_drinks.svg": "/sophie_homer_portfolio/static/media/dinner_drinks.91380845d6f18ad70a55aa0affe73e22.svg",
     "static/media/kit.svg": "/sophie_homer_portfolio/static/media/kit.6d0df6adda709b86968f131ac049f679.svg",
     "static/media/product.svg": "/sophie_homer_portfolio/static/media/product.43a9c0681ec40c5045141c0dd9d925a4.svg",
@@ -12,11 +12,11 @@
     "static/media/sophie-homer-resume.pdf": "/sophie_homer_portfolio/static/media/sophie-homer-resume.b592988df1b0da3e8242.pdf",
     "index.html": "/sophie_homer_portfolio/index.html",
     "main.87a5db23.css.map": "/sophie_homer_portfolio/static/css/main.87a5db23.css.map",
-    "main.709485fa.js.map": "/sophie_homer_portfolio/static/js/main.709485fa.js.map",
+    "main.c6b33fd2.js.map": "/sophie_homer_portfolio/static/js/main.c6b33fd2.js.map",
     "787.0e6c9168.chunk.js.map": "/sophie_homer_portfolio/static/js/787.0e6c9168.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87a5db23.css",
-    "static/js/main.709485fa.js"
+    "static/js/main.c6b33fd2.js"
   ]
 }
