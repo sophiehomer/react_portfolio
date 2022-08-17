@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import analysis from '../../assets/femme_dept/analysis.png'
-import basicDesignElements from '../../assets/femme_dept/basicDesignElements.png'
-import product from '../../assets/femme_dept/product.png'
+import analysis from '../../assets/femme_dept/analysis.webp'
+import basicDesignElements from '../../assets/femme_dept/basicDesignElements.webp'
+import product from '../../assets/femme_dept/product.webp'
 import NavProject from '../../components/Navigation_project';
 
 const FemmeDept = () => {

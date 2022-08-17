@@ -1,8 +1,8 @@
 import React from 'react'
 import './styles.css'
 import femmeDept from '../../assets/portfolio/femme_dept.webp'
-import kit from '../../assets/portfolio/kit.png'
-import dinnerDrinks from '../../assets/portfolio/dinner_drinks.png'
+import kit from '../../assets/portfolio/kit.webp'
+import dinnerDrinks from '../../assets/portfolio/dinner_drinks.webp'
 import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
@@ -60,7 +60,7 @@ const Portfolio = () => {
                 Food & Cocktail Recipe Application          
               </p>
               <p className="role">
-                Front-end developer, UX UI
+                Front-end developer, UX/UI
               </p>
           </Link>
         </div>
