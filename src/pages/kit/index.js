@@ -13,7 +13,10 @@ const Kit = () => {
     <div className="kitPage">
         <section className="kitSummaryContainer">
           <p className="kitSummary">
-            A social application developed for the aulmni of my coding bootcamp class. Users can post, comment, like and dislike. The application served as a communication network for mutual support within the class.                     
+            A social application developed for the aulmni of my coding bootcamp class. Users can post, comment, like and dislike. The application served as a communication network for mutual support within the class. <br></br>       
+            *Requires a username and password to enter. <br></br>
+            username: sophiehomer94@gmail.com <br></br>
+            password: 12345              
           </p>
           <section className="kitRoleAndTechnology">
             <div>
