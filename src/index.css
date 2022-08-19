@@ -2,10 +2,10 @@
 body {
   margin: 0;
   font-family: aeonik-regular, sans-serif;
-  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   position: relative;
   min-height: 100vh;
   background-color:#F5F5F7;
+  width: 100%;
 }
 
 /* -------------------------------- FONT FACE ------------------------------- */
@@ -214,9 +214,9 @@ body {
   text-decoration: underline;
 }
 
-section {
+/* section {
   width: 100%;
-}
+} */
 
 .kitContainer {
   display: flex;
@@ -257,13 +257,14 @@ section {
   margin-left: 2%;
 }
 
-.app {
-  width: 70%;
-}
-
 .kitApp {
   width: 70%;
 }
+
+.dinnerDrinksApp {
+  width: 70%;
+}
+
 
 .appSummary {
   display: flex;
@@ -875,66 +876,150 @@ footer {
   padding-top: 3%;
   padding-bottom: 1%;
 }
-/* ------------------------------- MEDIA QUERY ------------------------------ */
 
+/* ---------------------------------- ABOUT MEDIA QUERIES --------------------------------- */
 @media only screen and (max-width: 1148px) {
   .aboutText {
-    width: 70%;
+    width: 100%;
   }
-
-  /* .aboutImg {
-    min-width: 32%;
-   } */
 }
-
-@media only screen and (max-width: 980px) {
- .aboutImg {
-  object-fit: contain;
-  
- }
-}
-
-/* @media only screen and (max-width: 921px) {
-  .aboutImg {
-   min-width: 32%
-  }
- } */
 
 @media only screen and (max-width: 900px) {
-  .aboutContent {
-    flex-direction: column;
-    width: 108%;
-    align-items: center;
-    padding-top: 5%
+.dinnerDrinksApp,
+.kitApp,
+.femmeDeptApp {
+  width: 100%;
+  }
+}
+
+@media only screen and (max-width: 654px) {
+  .title {
+    font-size: 70px
   }
 
-  .aboutImg {
-    width: 100%;
-    padding-bottom: 5%;
+  .introText {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 569px) {
+  .title {
+    font-size: 60px
+  }
+
+  .introText {
+    font-size: 35px;
   }
 
   .aboutText {
-    width: 100%;
-  }
-
-  .header {
-    margin-right: -10%;
-  }
-
-}
-
-@media only screen and (max-width: 450px) {
-  .sophieHomer{
-    padding-left: 2%;
-    padding-right: 2%;
+    font-size: 20px;
   }
 }
 
-@media only screen and (max-width: 380px) {
-  .header {
-    margin-right: -20%;
+@media only screen and (max-width: 479px) {
+  .title {
+    font-size: 50px;
+    padding-bottom: 4%
+  }
+
+  .introText {
+    font-size: 25px;
+  }
+
+  .aboutText {
+    font-size: 18px;
   }
 }
 
+@media only screen and (max-width: 399px) {
+  .title {
+    font-size: 40px
+  }
+}
 
+/* -------------------------- FEMME DEPT MEDIA QUERIES ------------------------- */
+@media only screen and (max-width: 900px) {
+ .summaryAndImageContainer {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .summaryContainer {
+  width: 80%;
+ }
+
+ .productImageContainer {
+  width: 80%;
+ }
+ .prototypeButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 4%;
+  margin-left: 0;
+ }
+
+ .femmeDeptSummary {
+  margin-bottom: 4%;
+ }
+
+ .femmeDeptRoleAndTechnology {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .femmeDeptTechnology {
+  padding: 0;
+ }
+
+ .problemContainer,
+ .solutionContainer,
+ .researchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10%;
+ }
+
+ .problemSummary, 
+ .solutionSummary, 
+.researchSummary {
+  width: 85%;
+ }
+
+ .problem, 
+ .solution, 
+ .research {
+  margin-bottom: 2%;
+  font-size: 30px;
+  font-family: aeonik-medium, sans-serif;
+ }
+
+ .competitiveAnalysisContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10%;
+ }
+
+ .competitiveAnalysisImg,
+ .basicDesignElementsImg {
+  width: 80%;
+ }
+
+ .basicDesignElementsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10%;
+ }
+
+ .competitiveAnalysis, 
+ .basicDesignElements {
+  margin-bottom: 4%;
+  font-size: 30px;
+ }
+}
 

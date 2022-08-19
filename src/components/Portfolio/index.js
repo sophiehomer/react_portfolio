@@ -49,9 +49,9 @@ const Portfolio = () => {
     </section>
 
       <section className="dinnerDrinksContainer">
-          <div className="app">
+          <div className="dinnerDrinksApp">
             <Link to="/dinner_drinks" className="dinnerDrinkImageLink">
-              <img src={dinnerDrinks } className="dinnerDrinksImg" alt="dinnerDrinks"/>
+              <img src={dinnerDrinks} className="dinnerDrinksImg" alt="dinnerDrinks"/>
             </Link>
           </div>
           <div className="ddProductAndRole">
