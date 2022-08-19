@@ -1047,10 +1047,29 @@ footer {
     width: 95%;
   }
 
-
   .kitRoleAndTechnology {
     margin-top: 2%;
-    margin-bottom: 8%;
+    margin-bottom: 7%;
   }
 
+  .gitHubWebsiteContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .githubAndWebsite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .kitImageSection {
+    width: 50%;
+  }
+
+  .kitImage {
+    width: 100%;
+  }
 } 
