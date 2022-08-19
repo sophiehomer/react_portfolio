@@ -1073,3 +1073,45 @@ footer {
     width: 100%;
   }
 } 
+
+
+/* ----------------------- DINNER DRINKS MEDIA QUERIES ---------------------- */
+@media only screen and (max-width: 950px) {
+  .dinnerDrinkPage {
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .dinnerDrinkSummaryContainer {
+    width: 95%;
+  }
+
+  .dinnerDrinkRoleAndTechnology {
+    margin-top: 2%;
+    margin-bottom: 7%;
+  }
+
+  .gitHubWebsiteContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .githubAndWebsite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .dinnerDrinkImageSection {
+    width: 50%;
+  }
+
+  .dinnerDrinkImage {
+    width: 100%;
+  }
+} 
+
