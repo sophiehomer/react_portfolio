@@ -600,6 +600,10 @@ font-family: aeonik-medium;
   width: 100%;
 }
 
+.kitUsernameAndPassword {
+  margin-bottom: 0;
+}
+
 .kitRoleAndTechnology {
   display: flex;
   flex-direction: row;
@@ -608,6 +612,7 @@ font-family: aeonik-medium;
   text-align: left;
   line-height: 35px;
   width: 100%;
+  margin-top: -5%;
 } 
 
 .kitRole {
@@ -648,11 +653,6 @@ font-family: aeonik-medium;
   font-size: 18px;
   font-family: aeonik-regular, sans-serif;
 }
-
-/* .kitImageSection {
-  width: 80%;
-  margin-right: 0;
-} */
 
 .gitHubWebsiteContainer {
   width: 80%;
@@ -1035,28 +1035,22 @@ footer {
 
 /* ---------------------------- KIT MEDIA QUERIES --------------------------- */
 
-/* @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
   .kitPage {
    display: flex;
    flex-direction:column;
    justify-content: center;
    align-items: center;
-   padding-left: 0;
-   padding-right: 0;
   }
 
-  .kitSummary {
-    width: 100%;
-    margin-bottom: 0;
+  .kitSummaryContainer {
+    width: 95%;
   }
+
 
   .kitRoleAndTechnology {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
+    margin-top: 2%;
+    margin-bottom: 8%;
   }
 
-  .kitTechnology {
-    margin-left: 0;
-  }
-}  */
+} 
