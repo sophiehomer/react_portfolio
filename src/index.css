@@ -894,6 +894,12 @@ footer {
 .femmeDeptApp {
   width: 100%;
   }
+
+.kitProductAndRole,
+.fdProductAndRole,
+.ddProductAndRole {
+    margin-left: 6%;
+  }
 }
 
 @media only screen and (max-width: 654px) {
