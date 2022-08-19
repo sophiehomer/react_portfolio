@@ -47,7 +47,7 @@ const Kit = () => {
 
         <section className="gitHubWebsiteContainer">
         <section className="kitImageSection">
-          <img src={kit} className="kitImage" alt="femmeDept"/>
+          <img src={kit} className="kitImage" alt="kit"/>
         </section>
             <div className="githubAndWebsite">
               <a href="https://drawtheline2022.herokuapp.com/"  rel="noreferrer" target="_blank">
