@@ -108,18 +108,18 @@ body {
 /* ---------------------------------- ABOUT --------------------------------- */
 .title {
   font-family: aeonik-medium, sans-serif;
-  font-size: 82px;
+  font-size: 100px;
   font-weight: 400;
   margin-bottom: 2%;
-  margin-top: 5%;
-
-
+  margin-top: 4%;
 }
+
 .introText {
-  font-size: 42px;
+  font-size: 60px;
   margin-bottom: 0;
   font-weight: 400;
   margin-top: 0;
+  color: #6E6E73;
   letter-spacing: 0.01em !important;
   font-family: aeonik-medium, sans-serif;
 }
@@ -138,8 +138,6 @@ body {
   font-weight: normal;
   font-size: 25px;
   line-height: 35px;
-  color:  black;
-  /* padding-top: 2%; */
   padding-bottom: 2%;
   letter-spacing: 0.01em !important;
 }
@@ -163,7 +161,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  /* padding-top: 7.2%; */
   padding-bottom: 10%;
 }
 /* --------------------------------- MY WORK -------------------------------- */
@@ -278,7 +275,6 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
-  /* margin-top: 2%; */
   margin-left: 5.8%;
 }
 
@@ -288,7 +284,6 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
-  /* margin-top: 2%; */
   margin-left: 4%;
 }
 
@@ -298,7 +293,6 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
-  /* margin-top: 2%; */
   margin-left: 4%;
 }
 
@@ -882,13 +876,17 @@ footer {
 }
 
 /* ---------------------------------- ABOUT MEDIA QUERIES --------------------------------- */
-@media only screen and (max-width: 1148px) {
-  .aboutText {
-    width: 100%;
+@media only screen and (max-width: 1088px) {
+  .introText {
+    font-size: 50px;
   }
 }
 
 @media only screen and (max-width: 900px) {
+.aboutText {
+    width: 90%;
+  }
+
 .dinnerDrinksApp,
 .kitApp,
 .femmeDeptApp {
@@ -900,25 +898,21 @@ footer {
 .ddProductAndRole {
     margin-left: 6%;
   }
+
+  .femmeDeptContainer {
+    padding-top: 0;
+  }
 }
 
-@media only screen and (max-width: 654px) {
+@media only screen and (max-width: 798px) {
   .title {
-    font-size: 70px
+    font-size: 85px;
   }
+}
 
+@media only screen and (max-width: 778px) {
   .introText {
     font-size: 40px;
-  }
-}
-
-@media only screen and (max-width: 569px) {
-  .title {
-    font-size: 60px
-  }
-
-  .introText {
-    font-size: 35px;
   }
 
   .aboutText {
@@ -926,7 +920,80 @@ footer {
   }
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 678px) {
+  .title {
+    font-size: 75px;
+  }
+
+  .introText {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 598px) {
+  .title {
+    font-size: 60px
+  }
+
+  .introText {
+    font-size: 28px;
+  }
+
+  .aboutText {
+    font-size: 18px;
+    line-height: 1.5;
+
+  }
+}
+
+@media only screen and (max-width: 479px)
+{
+  .title {
+    font-size: 45px
+  }
+
+  .introText {
+    font-size: 25px;
+  }
+
+  .aboutText {
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (max-width: 389px)
+{
+  .title {
+    font-size: 40px
+  }
+
+  .introText {
+    font-size: 20px;
+  }
+
+  .aboutText {
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (max-width: 319px)
+{
+  .title {
+    font-size: 30px
+  }
+
+  .introText {
+    font-size: 18px;
+  }
+
+}
+
+
+
+
+/* @media only screen and (max-width: 479px) {
   .title {
     font-size: 50px;
     padding-bottom: 4%
@@ -945,7 +1012,7 @@ footer {
   .title {
     font-size: 40px
   }
-}
+} */
 
 /* -------------------------- FEMME DEPT MEDIA QUERIES ------------------------- */
 @media only screen and (max-width: 900px) {
