@@ -39,7 +39,7 @@ const DinnerDrinks = () => {
 
 
         <section className="gitHubWebsiteContainer">
-          <section className="kitImageSection">
+          <section className="dinnerDrinkImageSection">
             <img src={dinnerDrinks} className="dinnerDrinkImage" alt="Dinner and Drinks"/>
           </section>
             <div className="githubAndWebsite">

@@ -214,10 +214,6 @@ body {
   text-decoration: underline;
 }
 
-/* section {
-  width: 100%;
-} */
-
 .kitContainer {
   display: flex;
   flex-direction:column;
@@ -460,7 +456,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* font-weight: bold; */
   font-family: aeonik-medium, sans-serif;
   margin: 0;
   letter-spacing: 0.01em;
@@ -581,7 +576,7 @@ font-family: aeonik-medium;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-left: 6%;
+  /* padding-left: 6%; */
   padding-bottom: 6%;
   padding-top: 4%;
   width: 100%;
@@ -592,6 +587,7 @@ font-family: aeonik-medium;
   flex-direction: column;
   justify-content: center;
   width: 59%;
+  margin-left: 5%;
 }
 
 .kitSummary {
@@ -601,6 +597,7 @@ font-family: aeonik-medium;
   margin-top: 0%;
   font-size: 20px;
   letter-spacing: 0.01em;
+  width: 100%;
 }
 
 .kitRoleAndTechnology {
@@ -652,16 +649,17 @@ font-family: aeonik-medium;
   font-family: aeonik-regular, sans-serif;
 }
 
-.kitImageSection {
+/* .kitImageSection {
   width: 80%;
-}
+  margin-right: 0;
+} */
 
 .gitHubWebsiteContainer {
   width: 80%;
 }
 
 .kitImage {
-  width: 100%;
+  width: 80%;
   margin-bottom: 4%;
 }
 
@@ -670,16 +668,15 @@ font-family: aeonik-medium;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  width: 80%;
 }
 /* ----------------------------------- DINNER DRINKS PAGE ---------------------------------- */
 .dinnerDrinkPage {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-left: 6%;
   padding-top: 4%;
-  padding-bottom: 6%;
+  padding-bottom: 10%;
+  width: 100%;
 }
 
 .dinnerDrinkSummaryContainer {
@@ -687,6 +684,7 @@ font-family: aeonik-medium;
   flex-direction: column;
   justify-content: center;
   width: 59%;
+  margin-left: 5%;
 }
 
 .dinnerDrinkSummary {
@@ -695,12 +693,11 @@ font-family: aeonik-medium;
   line-height: 35px;
   margin-top: 0%;
   font-size: 20px;
-  margin-bottom: 5%;
   letter-spacing: 0.01em;
+  width: 100%
 }
 
 .dinnerDrinkRoleAndTechnology {
-  margin-top: 3%;
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -718,7 +715,6 @@ font-family: aeonik-medium;
 }
 
 .dinnerDrinkTechnology {
-  /* font-weight: bold; */
   font-family: aeonik-medium;
   font-size: 30px;
   letter-spacing: 0.01em;
