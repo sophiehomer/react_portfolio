@@ -1157,29 +1157,11 @@ footer {
     margin-top: 4%;
   }
 
-  /* .gitHubWebsiteContainer {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    width: 100%;
-  } */
-
-  /* .githubAndWebsite {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  } */
-
-  /* .kitImageSection {
-    width: 50%;
-  } */
-
   .kitImage {
     width: 100%;
     margin-bottom: 8%;
   }
 } 
-
 
 /* ----------------------- DINNER DRINKS MEDIA QUERIES ---------------------- */
 @media only screen and (max-width: 950px) {
@@ -1194,30 +1176,42 @@ footer {
     width: 95%;
   }
 
-  .dinnerDrinkRoleAndTechnology {
-    margin-top: 2%;
-    margin-bottom: 7%;
+  .dinnerDrinkSummary {
+    font-size: 16px;
+    line-height: 25px;
   }
-/* 
-  .gitHubWebsiteContainer {
+
+  .dinnerDrinkRoleAndTechnology {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    width: 100%;
-  } */
+    flex-direction: column;
+    margin-top: 2%;
+  }
+
+  .dinnerDrinkTechnology {
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  .dinnerDrinkTechnologies {
+    font-size: 16px;
+    line-height: 25px;
+
+  }
+
+  .dinnerDrinkRole {
+    font-size: 16px;
+    line-height: 25px;
+  }
 
   .githubAndWebsite {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-
-  .dinnerDrinkImageSection {
-    width: 50%;
-  }
-
+  
   .dinnerDrinkImage {
     width: 100%;
+    margin-bottom: 8%;
   }
 } 
 
