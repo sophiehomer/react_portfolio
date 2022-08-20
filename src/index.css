@@ -875,6 +875,15 @@ footer {
   padding-bottom: 1%;
 }
 
+/* ---------------------------- NAV MEDIA QUERIES --------------------------- */
+@media only screen and (max-width: 900px) {
+  .projectNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
 /* ---------------------------------- ABOUT MEDIA QUERIES --------------------------------- */
 @media only screen and (max-width: 1088px) {
   .introText {
@@ -989,31 +998,6 @@ footer {
   }
 
 }
-
-
-
-
-/* @media only screen and (max-width: 479px) {
-  .title {
-    font-size: 50px;
-    padding-bottom: 4%
-  }
-
-  .introText {
-    font-size: 25px;
-  }
-
-  .aboutText {
-    font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 399px) {
-  .title {
-    font-size: 40px
-  }
-} */
-
 /* -------------------------- FEMME DEPT MEDIA QUERIES ------------------------- */
 @media only screen and (max-width: 900px) {
  .summaryAndImageContainer {
@@ -1108,36 +1092,68 @@ footer {
    flex-direction:column;
    justify-content: center;
    align-items: center;
+   margin-top: 4%;
   }
 
   .kitSummaryContainer {
     width: 95%;
   }
 
-  .kitRoleAndTechnology {
-    margin-top: 2%;
-    margin-bottom: 7%;
+  .kitSummary {
+    line-height: 25px;
+    font-size: 16px;
   }
 
+  .myRole {
+    font-size: 20px;
+  }
+
+  .kitRole {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .kitRoleAndTechnology {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+  }
+
+  .kitTechnology {
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  .figma {
+    font-size: 16px;
+    line-height: 25px;
+  }
   .gitHubWebsiteContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+  }
+
+  /* .gitHubWebsiteContainer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     width: 100%;
-  }
+  } */
 
-  .githubAndWebsite {
+  /* .githubAndWebsite {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+  } */
 
-  .kitImageSection {
+  /* .kitImageSection {
     width: 50%;
-  }
+  } */
 
   .kitImage {
     width: 100%;
+    margin-bottom: 8%;
   }
 } 
 
@@ -1159,13 +1175,13 @@ footer {
     margin-top: 2%;
     margin-bottom: 7%;
   }
-
+/* 
   .gitHubWebsiteContainer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     width: 100%;
-  }
+  } */
 
   .githubAndWebsite {
     display: flex;
