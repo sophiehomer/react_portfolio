@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/sophie_homer_portfolio/static/css/main.8cc7838c.css",
-    "main.js": "/sophie_homer_portfolio/static/js/main.8d2adc70.js",
+    "main.js": "/sophie_homer_portfolio/static/js/main.8facfa05.js",
     "static/js/787.0e6c9168.chunk.js": "/sophie_homer_portfolio/static/js/787.0e6c9168.chunk.js",
-    "static/media/femme_dept.webp": "/sophie_homer_portfolio/static/media/femme_dept.089ed7b6c01f9cf56dd6.webp",
+    "static/media/femme_dept.webp": "/sophie_homer_portfolio/static/media/femme_dept.2ba9295d6eb54436cf44.webp",
     "static/media/dinner_drinks.webp": "/sophie_homer_portfolio/static/media/dinner_drinks.b4b6d06afe1b2cc1c7d1.webp",
     "static/media/kit.webp": "/sophie_homer_portfolio/static/media/kit.a4a753a5ece44e9be72c.webp",
-    "static/media/product.webp": "/sophie_homer_portfolio/static/media/product.60422b4bffd470b9516f.webp",
+    "static/media/product.webp": "/sophie_homer_portfolio/static/media/product.fdc53554b9822fcbe112.webp",
     "static/media/Aeonik-Medium.ttf": "/sophie_homer_portfolio/static/media/Aeonik-Medium.97841d7813eb8a83f6ea.ttf",
     "static/media/Aeonik-Regular.ttf": "/sophie_homer_portfolio/static/media/Aeonik-Regular.902aaaf9f24796dc3274.ttf",
-    "static/media/basicDesignElements.webp": "/sophie_homer_portfolio/static/media/basicDesignElements.429499a0f121e3a220a8.webp",
+    "static/media/basicDesignElements.webp": "/sophie_homer_portfolio/static/media/basicDesignElements.7b17cb9c32530e059494.webp",
     "static/media/analysis.webp": "/sophie_homer_portfolio/static/media/analysis.866dd23fe8603b313f90.webp",
     "static/media/sophie-homer-resume.pdf": "/sophie_homer_portfolio/static/media/sophie-homer-resume.33b4f034b770565369d6.pdf",
     "index.html": "/sophie_homer_portfolio/index.html",
     "main.8cc7838c.css.map": "/sophie_homer_portfolio/static/css/main.8cc7838c.css.map",
-    "main.8d2adc70.js.map": "/sophie_homer_portfolio/static/js/main.8d2adc70.js.map",
+    "main.8facfa05.js.map": "/sophie_homer_portfolio/static/js/main.8facfa05.js.map",
     "787.0e6c9168.chunk.js.map": "/sophie_homer_portfolio/static/js/787.0e6c9168.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8cc7838c.css",
-    "static/js/main.8d2adc70.js"
+    "static/js/main.8facfa05.js"
   ]
 }
