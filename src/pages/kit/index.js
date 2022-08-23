@@ -50,7 +50,7 @@ const Kit = () => {
           <img src={kit} className="kitImage" alt="kit"/>
         </section>
             <div className="githubAndWebsite">
-              <a href="https://drawtheline2022.herokuapp.com/"  rel="noreferrer" target="_blank">
+              <a href="https://kitsocial2022.herokuapp.com/"  rel="noreferrer" target="_blank">
                 <button className="website">
                   View App
                 </button>
