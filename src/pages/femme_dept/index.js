@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import analysis from '../../assets/femme_dept/analysis.webp'
 import basicDesignElements from '../../assets/femme_dept/basicDesignElements.webp'
+import femmeDeptImages from '../../assets/femme_dept/femmeDeptImages.png'
 import product from '../../assets/femme_dept/product.webp'
 import NavProject from '../../components/Navigation_project';
 
@@ -27,7 +28,7 @@ const FemmeDept = () => {
         
    
         <div className="prototypeButtonContainer">
-          <a href="https://www.figma.com/proto/kt6X6o8LUhIJog7WfNSmvH/Femme-Dept.?page-id=0%3A1&node-id=1%3A134&viewport=2289%2C546%2C0.07&scaling=scale-down&starting-point-node-id=1%3A134"  rel="noreferrer" target="_blank">
+          <a href="https://www.figma.com/proto/gzyVH9sBkvDVKzkVnvyBod/Femme-Dept.?page-id=0%3A1&node-id=1%3A139&viewport=3663%2C755%2C0.11&scaling=scale-down&starting-point-node-id=1%3A418"  rel="noreferrer" target="_blank">
             <button className="prototype">
               View Prototype
             </button>
@@ -83,6 +84,9 @@ const FemmeDept = () => {
             <h5 className="basicDesignElements">Basic Design Elements</h5>
             <img src={basicDesignElements} className="basicDesignElementsImg" alt="basicDesignElements"/> 
           </div>
+
+          <img src={femmeDeptImages} className="femmeDeptImages" alt="basicDesignElements"/> 
+
       </div>
     </>
   
