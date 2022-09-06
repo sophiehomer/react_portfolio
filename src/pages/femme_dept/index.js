@@ -13,6 +13,31 @@ import myAccount from '../../assets/femme_dept/myAccount.webp'
 import myAccount2 from '../../assets/femme_dept/myAccount2.webp'
 import myAccountUpdateAddress from '../../assets/femme_dept/myAccountUpdateAddress.webp'
 import myAccountUpdateAddressComplete from '../../assets/femme_dept/myAccountUpdateAddressComplete.webp'
+import intimateSoap from '../../assets/femme_dept/intimateSoap.webp'
+import intimateSoapIngredients from '../../assets/femme_dept/intimateSoapIngredients.webp'
+import intimateSoapSubscription from '../../assets/femme_dept/intimateSoapSubscription.webp'
+import intimateSoapSubscription2 from '../../assets/femme_dept/intimateSoapSubscription2.webp'
+import intimateSoapSubscription3 from '../../assets/femme_dept/intimateSoapSubscription3.webp'
+import shoppingBag from '../../assets/femme_dept/shoppingBag.webp'
+import contactInfoEmpty from '../../assets/femme_dept/contactInfoEmpty.webp'
+import contactInfoComplete from '../../assets/femme_dept/contactInfoComplete.webp'
+import standardShipping from '../../assets/femme_dept/standardShipping.webp'
+import expressShipping from '../../assets/femme_dept/expressShipping.webp'
+import rushShipping from '../../assets/femme_dept/rushShipping.webp'
+import paymentStandardShipping from '../../assets/femme_dept/paymentStandardShipping.webp'
+import paymentExpressShipping from '../../assets/femme_dept/paymentExpressShipping.webp'
+import paymentRushShipping from '../../assets/femme_dept/paymentRushShipping.webp'
+import PaymentCompleteStandardShipping from '../../assets/femme_dept/PaymentCompleteStandardShipping.webp'
+import PaymentCompleteExpressShipping from '../../assets/femme_dept/PaymentCompleteExpressShipping.webp'
+import PaymentCompleteRushShipping from '../../assets/femme_dept/paymentCompleteRushShipping.webp'
+import billingStandardShipping from '../../assets/femme_dept/billingStandardShipping.webp'
+import billingExpressShipping from '../../assets/femme_dept/billingExpressShipping.webp'
+import billingRushshipping from '../../assets/femme_dept/billingRushshipping.webp'
+import orderReviewStandardShipping from '../../assets/femme_dept/orderReviewStandardShipping.webp'
+import orderReviewExpressShipping from '../../assets/femme_dept/orderReviewExpressShipping.webp'
+import billingCompleteRushShipping from '../../assets/femme_dept/billingCompleteRushShipping.webp'
+import orderReviewRushShipping from '../../assets/femme_dept/orderReviewRushShipping.webp'
+import orderComplete from '../../assets/femme_dept/orderComplete.webp'
 import NavProject from '../../components/Navigation_project';
 
 const FemmeDept = () => {
@@ -113,7 +138,59 @@ const FemmeDept = () => {
       <img src={myAccount2} className="myAccount2" alt="myAccount2"/> 
       </div>
 
+      <div className="prototypeImageContainer">
+      <img src={intimateSoap} className="intimateSoap" alt="intimateSoap"/> 
+      <img src={intimateSoapIngredients} className="intimateSoapIngredients" alt="intimateSoapIngredients"/> 
+      <img src={intimateSoapSubscription} className="intimateSoapSubscription" alt="intimateSoapSubscription"/> 
+      <img src={intimateSoapSubscription2} className="intimateSoapSubscription" alt="intimateSoapSubscription"/> 
+      <img src={intimateSoapSubscription3} className="intimateSoapSubscription" alt="intimateSoapSubscription"/> 
+      </div>
+
+      <div className="prototypeImageContainer">
+      <img src={shoppingBag} className="intimateSoap" alt="shoppingBag"/> 
+      <img src={contactInfoEmpty} className="intimateSoap" alt="contactInfoEmpty"/> 
+      <img src={contactInfoComplete} className="intimateSoap" alt="contactInfoComplete"/> 
+      </div> 
       
+      <div className="prototypeImageContainer">
+      <img src={standardShipping} className="intimateSoap" alt="standardShipping"/> 
+      <img src={expressShipping} className="intimateSoap" alt="expressShipping"/> 
+      <img src={rushShipping} className="intimateSoap" alt="rushShipping"/> 
+      </div>
+
+      <div className="prototypeImageContainer">
+      <img src={paymentStandardShipping} className="intimateSoap" alt="paymentStandardShipping"/> 
+      <img src={paymentExpressShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
+      <img src={paymentRushShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
+      </div>
+
+      <div className="prototypeImageContainer">
+      <img src={PaymentCompleteStandardShipping} className="intimateSoap" alt="paymentStandardShipping"/> 
+      <img src={PaymentCompleteExpressShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
+      <img src={PaymentCompleteRushShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
+      </div>
+      
+      <div className="prototypeImageContainer">
+      <img src={billingStandardShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
+      <img src={billingExpressShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
+      <img src={billingRushshipping} className="intimateSoap" alt="paymentExpressShipping"/> 
+      <img src={billingCompleteRushShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
+      </div>
+
+      <div className="prototypeImageContainer">
+      <img src={orderReviewStandardShipping} className="intimateSoap" alt="orderReviewStandardShipping"/> 
+      <img src={orderReviewExpressShipping} className="intimateSoap" alt="orderReviewExpressShipping"/> 
+      <img src={orderReviewRushShipping} className="intimateSoap" alt="orderReviewRushShipping"/> 
+      </div>
+
+      <div className="prototypeImageContainer">
+      <img src={orderComplete} className="intimateSoap" alt="orderComplete"/> 
+      </div>
+
+
+
+
+
 
     </>
     

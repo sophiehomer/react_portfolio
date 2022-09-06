@@ -570,11 +570,10 @@ font-family: aeonik-medium;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  /* background-color: red; */
   margin-top: 2%;
 }
 
-.landingPage {
+.intimateSoap {
   width: 18%;
   margin-left: 2%;
   margin-right: 2%;
@@ -582,14 +581,19 @@ font-family: aeonik-medium;
 
 .about, 
 .subscription,
-.login,
 .loginComplete,
 .signup,
 .signupComplete,
-.myAccount,
 .myAccount2,
 .myAccountUpdateAddress,
-.myAccountUpdateAddressComplete {
+.myAccountUpdateAddressComplete,
+.intimateSoapIngredients,
+.intimateSoapSubscription,
+.intimateSoapSubscription2,
+.intimateSoapSubscription3,
+.landingPage,
+.myAccount,
+.login {
   width: 18%;
   margin-right: 2%;
 }
