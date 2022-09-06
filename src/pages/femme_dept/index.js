@@ -27,7 +27,7 @@ const FemmeDept = () => {
         
    
         <div className="prototypeButtonContainer">
-          <a href="https://www.figma.com/proto/7FAf3HpoJAngklRnpwSeXV/Femme-Dept.?page-id=0%3A1&node-id=2%3A6146&viewport=576%2C516%2C0.02&scaling=scale-down&starting-point-node-id=2%3A6146"  rel="noreferrer" target="_blank">
+          <a href="https://www.figma.com/proto/kt6X6o8LUhIJog7WfNSmvH/Femme-Dept.?page-id=0%3A1&node-id=1%3A134&viewport=2289%2C546%2C0.07&scaling=scale-down&starting-point-node-id=1%3A134"  rel="noreferrer" target="_blank">
             <button className="prototype">
               View Prototype
             </button>
