@@ -2,6 +2,13 @@ import React, { useEffect } from 'react'
 import analysis from '../../assets/femme_dept/analysis.webp'
 import basicDesignElements from '../../assets/femme_dept/basicDesignElements.webp'
 import product from '../../assets/femme_dept/product.webp'
+import landingPage from '../../assets/femme_dept/LandingPage.webp'
+import subscription from '../../assets/femme_dept/Subscription.webp'
+import about from '../../assets/femme_dept/About.webp'
+import login from '../../assets/femme_dept/Login.webp'
+import loginComplete from '../../assets/femme_dept/LoginComplete.webp'
+import signup from '../../assets/femme_dept/Signup.webp'
+import signupComplete from '../../assets/femme_dept/SignupComplete.webp'
 import NavProject from '../../components/Navigation_project';
 
 const FemmeDept = () => {
@@ -83,7 +90,20 @@ const FemmeDept = () => {
             <img src={basicDesignElements} className="basicDesignElementsImg" alt="basicDesignElements"/> 
           </div>
       </div>
+      <div className="prototypeImageContainer">
+      <img src={landingPage} className="landingPage" alt="basicDesignElements"/> 
+      <img src={subscription} className="subscription" alt="subscription"/> 
+      <img src={about} className="about" alt="about"/> 
+      <img src={login} className="login" alt="login"/> 
+      <img src={loginComplete} className="loginComplete" alt="loginComplete"/> 
+      </div>
+      <div className="prototypeImageContainer">
+      <img src={signup} className="signup" alt="signup"/> 
+      <img src={signupComplete} className="signupComplete" alt="signupComplete"/> 
+      </div>
+
     </>
+    
   
   )
 }

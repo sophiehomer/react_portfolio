@@ -565,6 +565,33 @@ font-family: aeonik-medium;
   margin-top: 10%;
   margin-bottom: 5%;
 }
+
+.prototypeImageContainer {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: red;
+}
+
+.landingPage {
+  width: 18%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.about, 
+.subscription,
+.login,
+.loginComplete,
+.signup,
+.signupComplete {
+  width: 18%;
+  margin-right: 2%;
+}
+
 /* ----------------------------------- KIT PAGE ---------------------------------- */
 .kitPage {
   display: flex;
