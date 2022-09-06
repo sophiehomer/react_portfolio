@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import analysis from '../../assets/femme_dept/analysis.webp'
 import basicDesignElements from '../../assets/femme_dept/basicDesignElements.webp'
-import femmeDeptImages from '../../assets/femme_dept/femmeDeptImages.png'
 import product from '../../assets/femme_dept/product.webp'
 import NavProject from '../../components/Navigation_project';
 
@@ -12,7 +11,6 @@ const FemmeDept = () => {
   return (
     <>
     <NavProject/>
-    {/* <h1 id="projectTitle" className="projectTitle">Femme Dept.</h1> */}
     <div className="femmeDeptPage">
        <section className="summaryAndImageContainer">
        <section className="summaryContainer">
@@ -84,9 +82,6 @@ const FemmeDept = () => {
             <h5 className="basicDesignElements">Basic Design Elements</h5>
             <img src={basicDesignElements} className="basicDesignElementsImg" alt="basicDesignElements"/> 
           </div>
-
-          <img src={femmeDeptImages} className="femmeDeptImages" alt="basicDesignElements"/> 
-
       </div>
     </>
   
