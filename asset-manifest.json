@@ -1,24 +1,35 @@
 {
   "files": {
-    "main.css": "/sophie_homer_portfolio/static/css/main.8cc7838c.css",
-    "main.js": "/sophie_homer_portfolio/static/js/main.87c54a35.js",
+    "main.css": "/sophie_homer_portfolio/static/css/main.64374a25.css",
+    "main.js": "/sophie_homer_portfolio/static/js/main.7c0156ad.js",
     "static/js/787.0e6c9168.chunk.js": "/sophie_homer_portfolio/static/js/787.0e6c9168.chunk.js",
     "static/media/dinner_drinks.webp": "/sophie_homer_portfolio/static/media/dinner_drinks.b4b6d06afe1b2cc1c7d1.webp",
     "static/media/femme_dept.webp": "/sophie_homer_portfolio/static/media/femme_dept.4a61753a4c57c14203eb.webp",
     "static/media/kit.webp": "/sophie_homer_portfolio/static/media/kit.a4a753a5ece44e9be72c.webp",
+    "static/media/LandingPage.webp": "/sophie_homer_portfolio/static/media/LandingPage.df457316d48aa9c696f0.webp",
+    "static/media/About.webp": "/sophie_homer_portfolio/static/media/About.bb972abd7f34a9bee16a.webp",
+    "static/media/Subscription.webp": "/sophie_homer_portfolio/static/media/Subscription.3a82e8e6d628353b9eed.webp",
     "static/media/Aeonik-Medium.ttf": "/sophie_homer_portfolio/static/media/Aeonik-Medium.97841d7813eb8a83f6ea.ttf",
     "static/media/Aeonik-Regular.ttf": "/sophie_homer_portfolio/static/media/Aeonik-Regular.902aaaf9f24796dc3274.ttf",
     "static/media/basicDesignElements.webp": "/sophie_homer_portfolio/static/media/basicDesignElements.184b5d30db79e7cc5775.webp",
     "static/media/product.webp": "/sophie_homer_portfolio/static/media/product.46e013ed3a7df5cdec06.webp",
+    "static/media/SignupComplete.webp": "/sophie_homer_portfolio/static/media/SignupComplete.14c9044a78b0e8193583.webp",
+    "static/media/Signup.webp": "/sophie_homer_portfolio/static/media/Signup.ba06bbbf91b6214bcf75.webp",
     "static/media/analysis.webp": "/sophie_homer_portfolio/static/media/analysis.866dd23fe8603b313f90.webp",
+    "static/media/LoginComplete.webp": "/sophie_homer_portfolio/static/media/LoginComplete.921a27ec498a9a6d7cc2.webp",
+    "static/media/Login.webp": "/sophie_homer_portfolio/static/media/Login.20070094cf82712880b0.webp",
+    "static/media/myAccountUpdateAddressComplete.webp": "/sophie_homer_portfolio/static/media/myAccountUpdateAddressComplete.dfd9e2708f39257a256f.webp",
+    "static/media/myAccount2.webp": "/sophie_homer_portfolio/static/media/myAccount2.ac2417331afb7248f6e0.webp",
+    "static/media/myAccountUpdateAddress.webp": "/sophie_homer_portfolio/static/media/myAccountUpdateAddress.a1abf98bccd3edc829d2.webp",
+    "static/media/myAccount.webp": "/sophie_homer_portfolio/static/media/myAccount.8d054f0438190cd2413b.webp",
     "static/media/sophie-homer-resume.pdf": "/sophie_homer_portfolio/static/media/sophie-homer-resume.cbeb86e3d5c6559e2b35.pdf",
     "index.html": "/sophie_homer_portfolio/index.html",
-    "main.8cc7838c.css.map": "/sophie_homer_portfolio/static/css/main.8cc7838c.css.map",
-    "main.87c54a35.js.map": "/sophie_homer_portfolio/static/js/main.87c54a35.js.map",
+    "main.64374a25.css.map": "/sophie_homer_portfolio/static/css/main.64374a25.css.map",
+    "main.7c0156ad.js.map": "/sophie_homer_portfolio/static/js/main.7c0156ad.js.map",
     "787.0e6c9168.chunk.js.map": "/sophie_homer_portfolio/static/js/787.0e6c9168.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cc7838c.css",
-    "static/js/main.87c54a35.js"
+    "static/css/main.64374a25.css",
+    "static/js/main.7c0156ad.js"
   ]
 }
