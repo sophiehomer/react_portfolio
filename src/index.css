@@ -567,13 +567,11 @@ font-family: aeonik-medium;
 }
 
 .prototypeImageContainer {
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-color: red;
+  /* background-color: red; */
+  margin-top: 2%;
 }
 
 .landingPage {
@@ -587,7 +585,11 @@ font-family: aeonik-medium;
 .login,
 .loginComplete,
 .signup,
-.signupComplete {
+.signupComplete,
+.myAccount,
+.myAccount2,
+.myAccountUpdateAddress,
+.myAccountUpdateAddressComplete {
   width: 18%;
   margin-right: 2%;
 }

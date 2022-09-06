@@ -9,6 +9,10 @@ import login from '../../assets/femme_dept/Login.webp'
 import loginComplete from '../../assets/femme_dept/LoginComplete.webp'
 import signup from '../../assets/femme_dept/Signup.webp'
 import signupComplete from '../../assets/femme_dept/SignupComplete.webp'
+import myAccount from '../../assets/femme_dept/myAccount.webp'
+import myAccount2 from '../../assets/femme_dept/myAccount2.webp'
+import myAccountUpdateAddress from '../../assets/femme_dept/myAccountUpdateAddress.webp'
+import myAccountUpdateAddressComplete from '../../assets/femme_dept/myAccountUpdateAddressComplete.webp'
 import NavProject from '../../components/Navigation_project';
 
 const FemmeDept = () => {
@@ -94,13 +98,22 @@ const FemmeDept = () => {
       <img src={landingPage} className="landingPage" alt="basicDesignElements"/> 
       <img src={subscription} className="subscription" alt="subscription"/> 
       <img src={about} className="about" alt="about"/> 
-      <img src={login} className="login" alt="login"/> 
-      <img src={loginComplete} className="loginComplete" alt="loginComplete"/> 
       </div>
       <div className="prototypeImageContainer">
+      <img src={login} className="login" alt="login"/> 
+      <img src={loginComplete} className="loginComplete" alt="loginComplete"/> 
       <img src={signup} className="signup" alt="signup"/> 
       <img src={signupComplete} className="signupComplete" alt="signupComplete"/> 
+     
       </div>
+      <div className="prototypeImageContainer">
+      <img src={myAccount} className="myAccount" alt="myAccount"/> 
+      <img src={myAccountUpdateAddress} className="myAccountUpdateAddress" alt="myAccountUpdateAdress"/> 
+      <img src={myAccountUpdateAddressComplete} className="myAccountUpdateAddressComplete" alt="myAccountUpdateAddressComplete"/> 
+      <img src={myAccount2} className="myAccount2" alt="myAccount2"/> 
+      </div>
+
+      
 
     </>
     
