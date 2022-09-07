@@ -184,7 +184,7 @@ const FemmeDept = () => {
       <img src={orderReviewRushShipping} className="orderReviewRushShipping" alt="orderReviewRushShipping"/> 
       </div>
 
-      <div className="prototypeImageContainer">
+      <div className="lastPrototypeImageContainer">
       <img src={orderComplete} className="orderComplete" alt="orderComplete"/> 
       </div>
     </>
