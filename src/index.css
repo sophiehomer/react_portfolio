@@ -483,7 +483,7 @@ body {
   text-align: left;
   line-height: 35px;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: 1%;
 
 }
 
@@ -506,7 +506,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   font-size: 20px;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .researchContainer {
@@ -515,7 +515,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   font-size: 20px;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .problem,
@@ -540,8 +540,22 @@ font-family: aeonik-medium;
 
 }
 
-.competitiveAnalysis,
-.basicDesignElements,
+.competitiveAnalysis {
+  margin: 4%;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  font-family: aeonik-medium, sans-serif;
+}
+
+.basicDesignElements {
+  margin: 4%;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  font-family: aeonik-medium, sans-serif;
+}
+
 .finalDesign {
   font-size: 25px;
   font-weight: 500;
@@ -559,12 +573,12 @@ font-family: aeonik-medium;
 }
 
 .competitiveAnalysisContainer {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .basicDesignElementsContainer {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .prototypeImageContainer {
@@ -1089,11 +1103,11 @@ footer {
   line-height: 25px;
  }
 
- .femmeDeptRoleAndTechnology {
+ /* .femmeDeptRoleAndTechnology {
   display: flex;
   flex-direction: column;
-  /* margin-top: 2%; */
- }
+  margin-top: 2%;
+ } */
 
  .femmeDeptRole {
   font-size: 16px;
@@ -1113,14 +1127,14 @@ footer {
   margin-top: 2%;
  }
 
- .problemContainer,
- .solutionContainer,
+ /* .problemContainer, */
+ /* .solutionContainer,
  .researchContainer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-left: 10%;
- }
+ } */
 
  .problemSummary, 
  .solutionSummary, 
@@ -1159,11 +1173,11 @@ footer {
   margin-top: 2%;
  }
 
- .competitiveAnalysis, 
+ /* .competitiveAnalysis, 
  .basicDesignElements {
   margin-bottom: 4%;
   font-size: 20px;
- }
+ } */
 }
 
 /* ---------------------------- KIT MEDIA QUERIES --------------------------- */
