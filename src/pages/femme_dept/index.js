@@ -75,7 +75,7 @@ const FemmeDept = () => {
                 My Role
               </p>
               <p className="femmeDeptRole">
-                UX UI design <br></br> User reseach <br></br> Narrative/Storytelling
+                Product designer <br></br> User reseach <br></br> Narrative/Storytelling
               </p>
             </div>
             <div>
@@ -115,10 +115,11 @@ const FemmeDept = () => {
           </div>
 
           <div className="basicDesignElementsContainer">
-            <h5 className="basicDesignElements">Basic Design Elements</h5>
+            <h6 className="basicDesignElements">Basic Design Elements</h6>
             <img src={basicDesignElements} className="basicDesignElementsImg" alt="basicDesignElements"/> 
           </div>
       </div>
+      <h6 className="finalDesign">Final Design</h6>
       <div className="prototypeImageContainer">
       <img src={landingPage} className="landingPage" alt="basicDesignElements"/> 
       <img src={subscription} className="subscription" alt="subscription"/> 
@@ -147,51 +148,45 @@ const FemmeDept = () => {
       </div>
 
       <div className="prototypeImageContainer">
-      <img src={shoppingBag} className="intimateSoap" alt="shoppingBag"/> 
-      <img src={contactInfoEmpty} className="intimateSoap" alt="contactInfoEmpty"/> 
-      <img src={contactInfoComplete} className="intimateSoap" alt="contactInfoComplete"/> 
+      <img src={shoppingBag} className="shoppingBag" alt="shoppingBag"/> 
+      <img src={contactInfoEmpty} className="contactInfoEmpty" alt="contactInfoEmpty"/> 
+      <img src={contactInfoComplete} className="contactInfoComplete" alt="contactInfoComplete"/> 
       </div> 
       
       <div className="prototypeImageContainer">
-      <img src={standardShipping} className="intimateSoap" alt="standardShipping"/> 
-      <img src={expressShipping} className="intimateSoap" alt="expressShipping"/> 
-      <img src={rushShipping} className="intimateSoap" alt="rushShipping"/> 
+      <img src={standardShipping} className="standardShipping" alt="standardShipping"/> 
+      <img src={expressShipping} className="expressShipping" alt="expressShipping"/> 
+      <img src={rushShipping} className="rushShipping" alt="rushShipping"/> 
       </div>
 
       <div className="prototypeImageContainer">
-      <img src={paymentStandardShipping} className="intimateSoap" alt="paymentStandardShipping"/> 
-      <img src={paymentExpressShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
-      <img src={paymentRushShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
+      <img src={paymentStandardShipping} className="paymentStandardShipping" alt="paymentStandardShipping"/> 
+      <img src={paymentExpressShipping} className="paymentExpressShipping" alt="paymentExpressShipping"/> 
+      <img src={paymentRushShipping} className="paymentRushShipping" alt="paymentExpressShipping"/> 
       </div>
 
       <div className="prototypeImageContainer">
-      <img src={PaymentCompleteStandardShipping} className="intimateSoap" alt="paymentStandardShipping"/> 
-      <img src={PaymentCompleteExpressShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
-      <img src={PaymentCompleteRushShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
+      <img src={PaymentCompleteStandardShipping} className="PaymentCompleteStandardShipping" alt="paymentStandardShipping"/> 
+      <img src={PaymentCompleteExpressShipping} className="PaymentCompleteExpressShipping" alt="paymentExpressShipping"/> 
+      <img src={PaymentCompleteRushShipping} className="PaymentCompleteRushShipping" alt="paymentExpressShipping"/> 
       </div>
       
       <div className="prototypeImageContainer">
-      <img src={billingStandardShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
-      <img src={billingExpressShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
-      <img src={billingRushshipping} className="intimateSoap" alt="paymentExpressShipping"/> 
-      <img src={billingCompleteRushShipping} className="intimateSoap" alt="paymentExpressShipping"/> 
+      <img src={billingStandardShipping} className="billingStandardShipping" alt="billingStandardShipping"/> 
+      <img src={billingExpressShipping} className="billingExpressShipping" alt="billingExpressShipping"/> 
+      <img src={billingRushshipping} className="billingRushshipping" alt="illingRushshipping"/> 
+      <img src={billingCompleteRushShipping} className="billingCompleteRushShipping" alt="billingCompleteRushShipping"/> 
       </div>
 
       <div className="prototypeImageContainer">
-      <img src={orderReviewStandardShipping} className="intimateSoap" alt="orderReviewStandardShipping"/> 
-      <img src={orderReviewExpressShipping} className="intimateSoap" alt="orderReviewExpressShipping"/> 
-      <img src={orderReviewRushShipping} className="intimateSoap" alt="orderReviewRushShipping"/> 
+      <img src={orderReviewStandardShipping} className="orderReviewStandardShipping" alt="orderReviewStandardShipping"/> 
+      <img src={orderReviewExpressShipping} className="orderReviewExpressShipping" alt="orderReviewExpressShipping"/> 
+      <img src={orderReviewRushShipping} className="orderReviewRushShipping" alt="orderReviewRushShipping"/> 
       </div>
 
       <div className="prototypeImageContainer">
-      <img src={orderComplete} className="intimateSoap" alt="orderComplete"/> 
+      <img src={orderComplete} className="orderComplete" alt="orderComplete"/> 
       </div>
-
-
-
-
-
-
     </>
     
   
