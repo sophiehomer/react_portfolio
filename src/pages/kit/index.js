@@ -31,6 +31,7 @@ const Kit = () => {
               <p className="kitTechnology">
                 Built With
                 <p className="figma">
+                  CSS <br></br>
                   React <br></br>
                   JavaScript <br></br>
                   Node.js <br></br>
