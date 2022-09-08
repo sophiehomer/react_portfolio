@@ -958,16 +958,29 @@ footer {
 }
 
 /* ---------------------------------- ABOUT MEDIA QUERIES --------------------------------- */
-@media only screen and (max-width: 1088px) {
+@media only screen and (max-width: 1241px) {
   .introText {
     font-size: 50px;
   }
 }
 
-@media only screen and (max-width: 900px) {
-.aboutText {
-    width: 90%;
+@media only screen and (max-width: 1035px) {
+  .introText {
+    font-size: 40px;
   }
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .introText {
+    font-size: 35px;
+  }
+
+  .title {
+    font-size: 85px;
+  }
+
 
 .dinnerDrinksApp,
 .kitApp,
@@ -986,52 +999,20 @@ footer {
   }
 }
 
-@media only screen and (max-width: 798px) {
-  .title {
-    font-size: 85px;
-  }
-}
-
 @media only screen and (max-width: 778px) {
   .introText {
-    font-size: 40px;
+    font-size: 30px;
   }
 
-  .aboutText {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 678px) {
   .title {
     font-size: 75px;
   }
 
-  .introText {
-    font-size: 35px;
-  }
 }
 
-@media only screen and (max-width: 598px) {
+@media only screen and (max-width: 678px) {
   .title {
-    font-size: 60px
-  }
-
-  .introText {
-    font-size: 28px;
-  }
-
-  .aboutText {
-    font-size: 18px;
-    line-height: 1.5;
-
-  }
-}
-
-@media only screen and (max-width: 479px)
-{
-  .title {
-    font-size: 45px
+    font-size: 65px;
   }
 
   .introText {
@@ -1040,22 +1021,56 @@ footer {
 
   .aboutText {
     font-size: 18px;
+    line-height: 1.2;
   }
 
+  .resume,
+  .contact,
+  .portfolio {
+    font-size: 18px;
+  }
 }
 
-@media only screen and (max-width: 389px)
-{
+@media only screen and (max-width: 598px) {
   .title {
-    font-size: 40px
+    font-size: 50px
   }
 
   .introText {
     font-size: 20px;
   }
+ 
+}
+
+@media only screen and (max-width: 479px)
+{
+  .title {
+    font-size: 45px
+  }
 
   .aboutText {
-    font-size: 14px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 413px)
+{
+  .title {
+    font-size: 30px
+  }
+
+  .introText {
+    font-size: 17px;
+  }
+
+  .aboutText {
+    font-size: 15px;
+  }
+
+  .resume,
+  .contact,
+  .portfolio {
+    font-size: 15px;
   }
 
 }
@@ -1066,9 +1081,9 @@ footer {
     font-size: 30px
   }
 
-  .introText {
+  /* .introText {
     font-size: 18px;
-  }
+  } */
 
 }
 /* -------------------------- FEMME DEPT MEDIA QUERIES ------------------------- */
