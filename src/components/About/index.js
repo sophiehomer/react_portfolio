@@ -1,9 +1,6 @@
 import React from 'react'
 import './styles.css'
 import Navigation from '../Navigation'
-// import { BsArrowRightShort } from 'react-icons/bs'
-
-// import aboutImage from '../../assets/about/profilepic.jpg';
 
 const About = () => {
   return (
