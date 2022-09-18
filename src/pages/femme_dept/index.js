@@ -57,18 +57,15 @@ const FemmeDept = () => {
         
         <section className="productImageContainer">
           <img src={product} className="productImg" alt="femmeDept"/>
-        </section>
-      </section> 
-        
-   
-        <div className="prototypeButtonContainer">
+          <div className="prototypeButtonContainer">
           <a href="https://www.figma.com/proto/gzyVH9sBkvDVKzkVnvyBod/Femme-Dept.?page-id=0%3A1&node-id=1%3A139&viewport=3663%2C755%2C0.11&scaling=scale-down&starting-point-node-id=1%3A418"  rel="noreferrer" target="_blank">
             <button className="prototype">
               View Prototype
             </button>
           </a>
         </div>
-      
+        </section>
+      </section>       
         <section className="femmeDeptRoleAndTechnology">
             <div>
               <p className="myRole">
@@ -105,7 +102,9 @@ const FemmeDept = () => {
           <section className="researchContainer">
               <h4 className="research">User Research</h4>
               <p className="researchSummary">
-                I conducted interviews with multiple female friends, colleagues and family members to get an idea of where they stood with feminine hygiene products. I gathered insight from women from ages 18 to 65. My overall findings were they were unsatisfied with the current products available. The reasons varied from ingredients, stigmas around intimate soap, and shame fueling packaging.   
+                I spent time researching the feminine hygiene market, trends, and demographic all over the world. 
+                I conducted interviews with multiple friends, colleagues and family members to get an idea of where they stood with feminine hygiene products. I gathered insight from women ages 18 to 65. I found they were disatisfied with the current products available. Reasons varied from ingredients, stigmas around intimate soap, and shame fueling packaging.
+                The people I interviewed 
               </p>
           </section>
 

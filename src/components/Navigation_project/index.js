@@ -10,19 +10,17 @@ const NavProject = (props) => {
   }
   return (
     <nav className="projectNav"> 
-    <Link to="/sophie_homer_portfolio#aboutContent" className="aboutNav">
-      About
-    </Link>
-    <Link to="/sophie_homer_portfolio#femmeDeptContainer" className="portfolioNav">
-      Work
-    </Link>
-    <a download href= {Pdf} rel="noreferrer" target="_blank" className="resumeNav">
-      Resume
-    </a>
-    <Link to="/sophie_homer_portfolio#contactSection" className="contactNav">
-      Contact
-    </Link>
-       
+      <Link to="/work" className="portfolioNav">
+        Work
+      </Link>
+      <Link to="/sophie_homer_portfolio#aboutContent" className="aboutNav">
+        About
+      </Link>
+      <a download href= {Pdf} rel="noreferrer" target="_blank" className="resumeNav">
+        Resume
+      </a>
+      <a href='https://www.linkedin.com/in/sophie-homer-94603633/' className='linkedinNav'>LinkedIn</a>
+      <a href='mailto:sophiehomer94@gmail.com' className='contactNav'>Reach out</a>
   </nav>
   )
 }

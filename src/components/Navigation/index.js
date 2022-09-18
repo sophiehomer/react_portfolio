@@ -2,8 +2,7 @@ import React from 'react'
 import './styles.css'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import Pdf from '../../assets/documents/sophie-homer-resume.pdf'
-
-
+import { Link } from 'react-router-dom'
 
 const Navigation = (props) => {
   const handleClick = (e) => {
@@ -12,13 +11,16 @@ const Navigation = (props) => {
   }
   return (
     <nav className="nav"> 
-        <a download href= {Pdf} rel="noreferrer" target="_blank" className="resume">Download my resume <AiOutlineArrowRight className="arrow" size={20}/></a>
-        
+        <Link to="/work" className="portfolio">
+          Work <AiOutlineArrowRight className="arrow" size={20}/>
+        </Link>
+        <a download href= {Pdf} rel="noreferrer" target="_blank" className="resume">Resume <AiOutlineArrowRight className="arrow" size={20}/></a>
+        <a href='https://www.linkedin.com/in/sophie-homer-94603633/' className='contact'>LinkedIn <AiOutlineArrowRight className="arrow" size={20}/></a>
         <a href='mailto:sophiehomer94@gmail.com' className='contact'>Reach out <AiOutlineArrowRight className="arrow" size={20}/></a>
 
-        <a href="#femmeDeptContainer" className="portfolio" onClick={handleClick} >
-        Check out my work <AiOutlineArrowRight className="arrow" size={20}/>
-        </a>
+
+       
+      
   </nav>
   )
 }

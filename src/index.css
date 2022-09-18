@@ -24,7 +24,7 @@ body {
 .nav {
   display:flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
 }
 
 .about, 
@@ -69,6 +69,14 @@ body {
   background-color: transparent !important;
   font-family: aeonik-regular, sans-serif;
   text-decoration: none;
+  margin-left: 2%;
+}
+
+.aboutNav:hover,
+.portfolioNav:hover,
+.resumeNav:hover,
+.contactNav:hover {
+  text-decoration: underline;
 }
 
 .portfolioNav {
@@ -83,6 +91,17 @@ body {
 }
 
 .resumeNav {
+  font-size: 20px;
+  font-weight: 400;
+  color: #1D1D1F;
+  border: none;
+  background-color: transparent !important;
+  font-family: aeonik-regular, sans-serif;
+  text-decoration: none;
+  margin-left: 2%;
+}
+
+.linkedinNav {
   font-size: 20px;
   font-weight: 400;
   color: #1D1D1F;
@@ -108,14 +127,14 @@ body {
 /* ---------------------------------- ABOUT --------------------------------- */
 .title {
   font-family: aeonik-medium, sans-serif;
-  font-size: 100px;
+  font-size: 90px;
   font-weight: 400;
   margin-bottom: 2%;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 
 .introText {
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 0;
   font-weight: 400;
   margin-top: 0;
@@ -131,7 +150,7 @@ body {
   flex-wrap: wrap;
   align-content: center;
   text-align: left;
-  width: 80%;
+  width: 90%;
 }
 
 .aboutText {
@@ -139,6 +158,7 @@ body {
   font-size: 25px;
   line-height: 35px;
   padding-bottom: 2%;
+  margin-bottom: 0%;
   letter-spacing: 0.01em !important;
 }
 
@@ -163,7 +183,20 @@ body {
   justify-content: space-evenly;
   padding-bottom: 10%;
 }
-/* --------------------------------- MY WORK -------------------------------- */
+/* ---------------------------------  WORK -------------------------------- */
+.workIntroContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.workIntro {
+text-align: left;
+font-size: 20px;
+}
+
 .portfolioImages {
   display: flex;
   flex-wrap: wrap;
@@ -233,7 +266,7 @@ body {
   align-content: center;
   width: 100%;
   margin-bottom: 10%;
-  padding-top: 6%;
+  padding-top: 2%;
 }
 
 .dinnerDrinksContainer {
@@ -363,13 +396,12 @@ body {
 .projectTitle {
   font-size: 40px;
   font-weight: 500;
-  letter-spacing: 0.01em;
   margin-bottom: 4%;
   margin-top: 0%;
 }
 
 .femmeDeptPage {
-  padding-top: 4%;
+  padding-top: 2%;
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -398,9 +430,8 @@ body {
   font-weight: normal;
   line-height: 35px;
   margin-top: 0%;
+  margin-bottom: 0%;
   font-size: 20px;
-  margin-bottom: 13%;
-  letter-spacing: 0.01em;
 }
 
 .product {
@@ -409,8 +440,11 @@ body {
   margin-top: 2%;
   color: #1D1D1F;
   font-weight: 500;
-  letter-spacing: 0.01em;
   text-decoration: none !important;
+}
+
+.product:hover {
+  text-decoration: underline !important;
 }
 
 .technologiesUsed {
@@ -419,19 +453,15 @@ body {
   line-height: 35px;
   margin-top: 0%;
   margin-bottom: 3%;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
 }
 
 .productImageContainer {
-  width: 40%;
-
+width: 40%;
 }
 
 .prototypeButtonContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin-left: 9.2%;
+padding-top: 4%;
 }
 
 .prototype {
@@ -440,7 +470,7 @@ body {
   background-color: transparent;
   color: #1D1D1F;
   border: 1.5px solid #1D1D1F;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   font-size: 18px;
   font-family: aeonik-regular, sans-serif;
 
@@ -452,14 +482,13 @@ body {
   align-items: flex-start;
   font-family: aeonik-medium, sans-serif;
   margin: 0;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
   font-size: 30px;
   line-height: 2;
 }
 
 .femmeDeptRole {
   margin: 0;
-  letter-spacing: 0.01em;
   font-size: 20px;
 }
 
@@ -467,7 +496,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  letter-spacing: 0.01em;
   padding-left: 100%;
   width: 120%;
   font-size: 30px;
@@ -483,8 +511,6 @@ body {
   text-align: left;
   line-height: 35px;
   margin-left: 10%;
-  margin-top: 1%;
-
 }
 
 .femmedeptsvg {
@@ -493,7 +519,6 @@ body {
 
 .figma {
   font-weight: 400;
-  letter-spacing: 0.01em;
   margin: 0;
   font-size: 20px;
   line-height: 1.75;
@@ -524,7 +549,7 @@ body {
 font-size: 40px;
 margin: 0;
 font-weight: 500;
-letter-spacing: 0.01em;
+/* letter-spacing: 0.01em; */
 font-family: aeonik-medium;
 
 }
@@ -536,30 +561,31 @@ font-family: aeonik-medium;
   text-align: left;
   margin: 0;
   line-height: 35px;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
 
 }
 
 .competitiveAnalysis {
-  margin: 4%;
+  margin-top: 4%;
+  margin-bottom: 2%;
   font-size: 25px;
   font-weight: 500;
-  letter-spacing: 0.01em;
   font-family: aeonik-medium, sans-serif;
 }
 
 .basicDesignElements {
-  margin: 4%;
+  margin-top: 4%;
+  margin-bottom: 2%;
   font-size: 25px;
   font-weight: 500;
-  letter-spacing: 0.01em;
   font-family: aeonik-medium, sans-serif;
 }
 
 .finalDesign {
+  margin-top: 4%;
+  margin-bottom: 2%;
   font-size: 25px;
   font-weight: 500;
-  letter-spacing: 0.01em;
   font-family: aeonik-medium, sans-serif;
 }
 
@@ -643,9 +669,8 @@ font-family: aeonik-medium;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* padding-left: 6%; */
   padding-bottom: 6%;
-  padding-top: 4%;
+  padding-top: 2%;
   width: 100%;
 }
 
@@ -663,7 +688,7 @@ font-family: aeonik-medium;
   line-height: 35px;
   margin-top: 0%;
   font-size: 20px;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
   width: 100%;
 }
 
@@ -684,13 +709,13 @@ font-family: aeonik-medium;
 
 .kitRole {
   margin: 0;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
   font-size: 20px;
   width: 120%;
 }
 
 .kitTechnology {
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
   width: 120%;
   font-family: aeonik-medium, sans-serif;
   font-size: 30px;
@@ -704,7 +729,7 @@ font-family: aeonik-medium;
   background-color: transparent;
   color: #1D1D1F;
   border: 1.5px solid #1D1D1F;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   font-size: 18px;
   font-family: aeonik-regular, sans-serif;
 }
@@ -716,7 +741,7 @@ font-family: aeonik-medium;
   background-color: transparent;
   color: #1D1D1F;
   border: 1.5px solid #1D1D1F;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   font-size: 18px;
   font-family: aeonik-regular, sans-serif;
 }
@@ -741,7 +766,7 @@ font-family: aeonik-medium;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 4%;
+  padding-top: 2%;
   padding-bottom: 10%;
   width: 100%;
 }
@@ -760,7 +785,7 @@ font-family: aeonik-medium;
   line-height: 35px;
   margin-top: 0%;
   font-size: 20px;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
   width: 100%
 }
 
@@ -776,7 +801,7 @@ font-family: aeonik-medium;
 
 .dinnerDrinkRole {
   margin: 0;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
   font-size: 20px;
   width: 120%;
 }
@@ -784,7 +809,7 @@ font-family: aeonik-medium;
 .dinnerDrinkTechnology {
   font-family: aeonik-medium;
   font-size: 30px;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
   width: 120%;
   margin-left: 80%;
   line-height: 2;
@@ -794,7 +819,7 @@ font-family: aeonik-medium;
   font-family: aeonik-regular, sans-serif;
   font-weight: 400;
   font-size: 20px;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
   margin: 0%;
 }
 
@@ -811,7 +836,7 @@ font-family: aeonik-medium;
 
 .messageMe {
   font-weight: 500;
-  letter-spacing: 0.01em;
+  /* letter-spacing: 0.01em; */
 }
 
 .contactFormSection {
@@ -896,7 +921,7 @@ label {
   color: #1D1D1F;
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
   background-color:transparent;
   font-family: aeonik-regular, sans-serif;
   border-radius: 24px;
@@ -1104,16 +1129,16 @@ footer {
   margin-top: 2%;
  }
 
- .prototypeButtonContainer {
+ /* .prototypeButtonContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding-top: 4%;
   margin-left: 0;
- }
+ } */
 
  .femmeDeptSummary {
-  margin-bottom: 8%;
+  /* margin-bottom: 8%; */
   font-size: 16px;
   line-height: 25px;
  }
