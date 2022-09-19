@@ -95,16 +95,14 @@ const FemmeDept = () => {
           <section className="solutionContainer">
               <h3 className="solution">Solution</h3>
               <p className="solutionSummary">
-                Femme Dept. is a clean-ingredient, “body part-positive,” aesthetically designed feminine soap that will help to erase the stigmas surrounding vaginal health. The soap is formulated to gently cleanse and nourish the vagina, using all natural base ingredients. Femme Dept strives to give women an accessible product that provides confidence, while balancing the healthy vaginal pH level.              
+                Femme Dept. is a clean-ingredient, “body part-positive,” aesthetically designed feminine soap that will help to erase the stigmas surrounding vaginal health. The soap is formulated to gently cleanse and nourish the vagina, using all natural base ingredients. Femme Dept strives to give women an accessible product that provides confidence, while balancing a healthy pH level.             
               </p>
           </section>
 
           <section className="researchContainer">
               <h4 className="research">User Research</h4>
               <p className="researchSummary">
-                I spent time researching the feminine hygiene market, trends, and demographic all over the world. 
-                I conducted interviews with multiple friends, colleagues and family members to get an idea of where they stood with feminine hygiene products. I gathered insight from women ages 18 to 65. I found they were disatisfied with the current products available. Reasons varied from ingredients, stigmas around intimate soap, and shame fueling packaging.
-                The people I interviewed 
+                I researched the feminine hygiene market and conducted multiple interviews with friends, colleagues, and family members to get an idea of where they stood with feminine hygiene products. I gathered insight from women ages 18 to 65. I found they were dissatisfied with the current products available. Reasons varied from ingredients, stigmas around intimate soap, and shame fueling packaging.
               </p>
           </section>
 
