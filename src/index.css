@@ -24,7 +24,9 @@ body {
 .nav {
   display:flex;
   flex-direction: column;
-  width: 90%;
+  margin-right: 80%;
+  width: 10%;
+  flex-basis: 20px;
 }
 
 .about, 
