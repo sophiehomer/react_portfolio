@@ -11,17 +11,17 @@ const Navigation = (props) => {
   }
   return (
     <nav className="nav"> 
+          <a href="#femmeDeptContainer" className="portfolio" onClick={handleClick} >
+        Check out my work <AiOutlineArrowRight className="arrow" size={20}/>
+        </a>
         <Link to="/work" className="portfolio">
-          Work <AiOutlineArrowRight className="arrow" size={20}/>
+          Learn more about me <AiOutlineArrowRight className="arrow" size={20}/>
         </Link>
-        <a download href= {Pdf} rel="noreferrer" target="_blank" className="resume">Resume <AiOutlineArrowRight className="arrow" size={20}/></a>
-        <a href='https://www.linkedin.com/in/sophie-homer-94603633/' className='contact'>LinkedIn <AiOutlineArrowRight className="arrow" size={20}/></a>
+        <a download href= {Pdf} rel="noreferrer" target="_blank" className="resume">View my resume <AiOutlineArrowRight className="arrow" size={20}/></a>
         <a href='mailto:sophiehomer94@gmail.com' className='contact'>Reach out <AiOutlineArrowRight className="arrow" size={20}/></a>
-
-
-       
-      
+        {/* <a href='https://www.linkedin.com/in/sophie-homer-94603633/'  rel="noreferrer" target="_blank" className='contact'>LinkedIn <AiOutlineArrowRight className="arrow" size={20}/></a> */}      
   </nav>
+  
   )
 }
 
