@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/sophie_homer_portfolio/static/css/main.5974f2b3.css",
-    "main.js": "/sophie_homer_portfolio/static/js/main.1e332bb0.js",
+    "main.css": "/sophie_homer_portfolio/static/css/main.da213a52.css",
+    "main.js": "/sophie_homer_portfolio/static/js/main.9a30721c.js",
     "static/js/787.1e5526ac.chunk.js": "/sophie_homer_portfolio/static/js/787.1e5526ac.chunk.js",
-    "static/media/dinner_drinks.webp": "/sophie_homer_portfolio/static/media/dinner_drinks.b4b6d06afe1b2cc1c7d1.webp",
     "static/media/femme_dept.webp": "/sophie_homer_portfolio/static/media/femme_dept.4a61753a4c57c14203eb.webp",
     "static/media/kit.webp": "/sophie_homer_portfolio/static/media/kit.a4a753a5ece44e9be72c.webp",
     "static/media/LandingPage.webp": "/sophie_homer_portfolio/static/media/LandingPage.df457316d48aa9c696f0.webp",
+    "static/media/dinner_drinks.webp": "/sophie_homer_portfolio/static/media/dinner_drinks.c1a2da3f6125f9af248e.webp",
     "static/media/About.webp": "/sophie_homer_portfolio/static/media/About.bb972abd7f34a9bee16a.webp",
     "static/media/Subscription.webp": "/sophie_homer_portfolio/static/media/Subscription.3a82e8e6d628353b9eed.webp",
     "static/media/Aeonik-Medium.ttf": "/sophie_homer_portfolio/static/media/Aeonik-Medium.97841d7813eb8a83f6ea.ttf",
@@ -49,12 +49,12 @@
     "static/media/myAccount.webp": "/sophie_homer_portfolio/static/media/myAccount.8d054f0438190cd2413b.webp",
     "static/media/sophie-homer-resume.pdf": "/sophie_homer_portfolio/static/media/sophie-homer-resume.cbae703d30da0341e83f.pdf",
     "index.html": "/sophie_homer_portfolio/index.html",
-    "main.5974f2b3.css.map": "/sophie_homer_portfolio/static/css/main.5974f2b3.css.map",
-    "main.1e332bb0.js.map": "/sophie_homer_portfolio/static/js/main.1e332bb0.js.map",
+    "main.da213a52.css.map": "/sophie_homer_portfolio/static/css/main.da213a52.css.map",
+    "main.9a30721c.js.map": "/sophie_homer_portfolio/static/js/main.9a30721c.js.map",
     "787.1e5526ac.chunk.js.map": "/sophie_homer_portfolio/static/js/787.1e5526ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5974f2b3.css",
-    "static/js/main.1e332bb0.js"
+    "static/css/main.da213a52.css",
+    "static/js/main.9a30721c.js"
   ]
 }
