@@ -72,7 +72,7 @@ const FemmeDept = () => {
                 My Role
               </p>
               <p className="femmeDeptRole">
-                Product designer <br></br> User reseach <br></br> Narrative/Storytelling
+                Product design <br></br> User reseach <br></br> Narrative/Storytelling
               </p>
             </div>
             <div>

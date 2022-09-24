@@ -10,16 +10,16 @@ const NavProject = (props) => {
   }
   return (
     <nav className="projectNav"> 
-      <Link to="/work" className="portfolioNav">
-        Work
-      </Link>
-      <Link to="/sophie_homer_portfolio#aboutContent" className="aboutNav">
+      {/* <Link to="/work" className="portfolioNav">
         About
+      </Link> */}
+      <Link to="/sophie_homer_portfolio#femmeDeptApp" className="aboutNav">
+        Work
       </Link>
       <a download href= {Pdf} rel="noreferrer" target="_blank" className="resumeNav">
         Resume
       </a>
-      <a href='https://www.linkedin.com/in/sophie-homer-94603633/' className='linkedinNav'>LinkedIn</a>
+      {/* <a href='https://www.linkedin.com/in/sophie-homer-94603633/' className='linkedinNav'>LinkedIn</a> */}
       <a href='mailto:sophiehomer94@gmail.com' className='contactNav'>Reach out</a>
   </nav>
   )
