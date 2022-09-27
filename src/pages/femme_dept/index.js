@@ -53,20 +53,7 @@ const FemmeDept = () => {
           <p className="femmeDeptSummary">
             A lot of women don't use feminine hygiene soap because it can disrupt the pH balance of their delicate vaginal tissues, causing itching and irritation. When it comes to feminine hygiene soap, there are limited options for women. Most options contain harmful chemicals and synthetic fragrances as well as reflect a corporate design sensibility that doesn’t appeal to most women and isn’t conducive to bath or shower display. Furthermore, the majority of companies lack consciousness in their branding and feed into stigmas that fuel body shame. Many women are shy about their feminine hygiene products, and don't typically display them with pride. 
           </p>
-        </section>
-        
-        <section className="productImageContainer">
-          <img src={product} className="productImg" alt="femmeDept"/>
-          <div className="prototypeButtonContainer">
-          <a href="https://www.figma.com/proto/gzyVH9sBkvDVKzkVnvyBod/Femme-Dept.?page-id=0%3A1&node-id=1%3A139&viewport=3663%2C755%2C0.11&scaling=scale-down&starting-point-node-id=1%3A418"  rel="noreferrer" target="_blank">
-            <button className="prototype">
-              View Prototype
-            </button>
-          </a>
-        </div>
-        </section>
-      </section>       
-        <section className="femmeDeptRoleAndTechnology">
+          <section className="femmeDeptRoleAndTechnology">
             <div>
               <p className="myRole">
                 My Role
@@ -84,6 +71,20 @@ const FemmeDept = () => {
               </p>
             </div>
           </section>
+        </section>
+        
+        <section className="productImageContainer">
+          <img src={product} className="productImg" alt="femmeDept"/>
+          <div className="prototypeButtonContainer">
+          <a href="https://www.figma.com/proto/gzyVH9sBkvDVKzkVnvyBod/Femme-Dept.?page-id=0%3A1&node-id=1%3A139&viewport=3663%2C755%2C0.11&scaling=scale-down&starting-point-node-id=1%3A418"  rel="noreferrer" target="_blank">
+            <button className="prototype">
+              View Prototype
+            </button>
+          </a>
+        </div>
+        </section>
+      </section>       
+        
 
           <section className="problemContainer">
               <h2 className="problem">Problem</h2>
