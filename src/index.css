@@ -136,7 +136,8 @@ body {
   font-weight: 400;
   margin-bottom: 2%;
   margin-top: 2%;
-  color: #A8D80A;
+  /* color: #A8D80A; */
+  color:#A8C3D6;
 }
 
 .introText {
@@ -208,7 +209,9 @@ body {
 text-align: left;
 font-size: 25px;
 /* color: #6E6E73; */
-color: #A8D80A;
+/* color: #A8D80A; */
+color:#A8C3D6;
+
 }
 
 .firstSummary,
@@ -227,14 +230,15 @@ color: #A8D80A;
 
 .design,
 .technical,
-.appsParadigms {
+.appsParadigms,
+.personal {
 font-size: 25px
 }
 
 .designSkills,
 .technicalSkills,
 .applicationsParadigms {
-  margin-right: 8%;
+  margin-right: 10%;
 }
 
 .portfolioImages {
@@ -490,7 +494,8 @@ font-size: 25px
   margin-bottom: 2%;
   margin-top: 2%;
   /* color: #1D1D1F; */
-  color: #A8D80A;
+  /* color: #A8D80A; */
+  color:#A8C3D6;
   font-weight: 500;
   text-decoration: none !important;
 }
