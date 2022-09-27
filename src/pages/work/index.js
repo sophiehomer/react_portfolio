@@ -9,7 +9,7 @@ const About = () => {
     return (
       <div>
            <NavProject/>
-        <main className='workIntroContainer'>
+        <main className='moreAboutMeContainer'>
         <h1 className="first"> Why web design?</h1>
         <p className="firstSummary"> 
         I enjoy developing a story around a line of products or services and using web design as a vehicle to tell that story in a way that emotionally touches the consumer.  
@@ -20,7 +20,7 @@ const About = () => {
           I spent several years in costume design and have a strong background in software development. This combination affords me a unique and effective skillset for web design.  
         </p>
         <p className="secondSummary">
-          Costume design demands a broad and deep familiarity with the history and principles of design. It also requires strong research skills, which I relied on for character development, historical accuracy, and audience tastes and preferences.
+          Costume design demands a broad and deep familiarity with the history and principles of design. It also requires strong research skills for character development, historical accuracy, and audience tastes and preferences.
         </p>
         <p className="secondSummary">
           As a software developer, I’m able to code an application from start to finish. I’m dedicated to detail and a practical and creative problem solver. I’m also fluent in the language of engineers and developers, which allows me to translate effectively among technical, content, and administrative teams and ensure that expectations are met or exceeded.
@@ -56,13 +56,14 @@ const About = () => {
           </div>
 
           <div className="applicationsParadigms">
-          <p className="appsParadigms">Applications & Paradigms</p>   
+          {/* <p className="appsParadigms">Apps & Paradigms</p>    */}
+          <p className="appsParadigms">Software</p>   
           <p className="fourthSummary">
             Figma <br></br>
             Webflow <br></br>
             MVC<br></br>
             RESTful API’s<br></br>
-            Object-oriented programming<br></br>
+            Object-oriented <br></br> programming<br></br>
             Git & GitHub<br></br>
           </p>
           </div>

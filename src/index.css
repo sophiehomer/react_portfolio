@@ -194,12 +194,12 @@ body {
   padding-bottom: 10%;
 }
 /* ---------------------------------  WORK -------------------------------- */
-.workIntroContainer {
+.moreAboutMeContainer {
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .first,
@@ -226,6 +226,7 @@ color:#A8C3D6;
 .skillsContainer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .design,
@@ -235,11 +236,11 @@ color:#A8C3D6;
 font-size: 25px
 }
 
-.designSkills,
+/* .designSkills,
 .technicalSkills,
 .applicationsParadigms {
   margin-right: 10%;
-}
+} */
 
 .portfolioImages {
   display: flex;
