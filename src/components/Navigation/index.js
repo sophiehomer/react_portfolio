@@ -2,7 +2,7 @@ import React from 'react'
 import './styles.css'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import Pdf from '../../assets/documents/sophie-homer-resume.pdf'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Navigation = (props) => {
   const handleClick = (e) => {
@@ -14,9 +14,9 @@ const Navigation = (props) => {
           <a href="#femmeDeptApp" className="portfolio" onClick={handleClick} >
         Check out my work <AiOutlineArrowRight className="arrow" size={20}/>
         </a>
-        {/* <Link to="/work" className="portfolio">
+        <Link to="/work" className="portfolio">
           Learn more about me <AiOutlineArrowRight className="arrow" size={20}/>
-        </Link> */}
+        </Link>
         <a download href= {Pdf} rel="noreferrer" target="_blank" className="resume">View my resume <AiOutlineArrowRight className="arrow" size={20}/></a>
         <a href='mailto:sophiehomer94@gmail.com' className='contact'>Reach out <AiOutlineArrowRight className="arrow" size={20}/></a>
         {/* <a href='https://www.linkedin.com/in/sophie-homer-94603633/'  rel="noreferrer" target="_blank" className='contact'>LinkedIn <AiOutlineArrowRight className="arrow" size={20}/></a> */}      

@@ -9,21 +9,79 @@ const About = () => {
     return (
       <div>
            <NavProject/>
-        <section className='workIntroContainer'>
-        <p className="workIntro"> 
-        A few years ago I went on a mission to find a high-quality, organic intimate soap. The options were limited; the aesthetics cold and corporate; and the ingredients often harsh. As I studied the labels, I felt myself become embarrassed and insecure. It was that moment that compelled me to create a joyful user experience for others. I decided to start my own feminine hygiene company: Femme Dept.   
-         </p>
-        <p className="workIntro"> 
-        I hired a chemist and a designer. The only way to reach potential customers and convince them that Femme Dept. was a superior product was through an impactful website. Despite my designer’s strong technical skills, there was a disconnect around aesthetics. This led me to want to be more hands on and do things on my own.       
-         </p>
-        <p className="workIntro">
-        Midway through the process, the chemist I hired passed away — this unfortunate news helped me decide to focus exclusively on learning and put Femme Dept. development on pause. </p>
-        <p className="workIntro">
-        To gain a firm grasp on function as a designer, I enrolled in a full-stack coding bootcamp. I learned how to code responsive applications, design user interfaces, and research efficiently.        </p>
-        <p className="workIntro">
-        Now, I’m eager to grow as a designer and excited to build delightful experiences.
-       </p>
-        </section>  
+        <main className='workIntroContainer'>
+        <h1 className="first"> Why web design?</h1>
+        <p className="firstSummary"> 
+        I enjoy developing a story around a line of products or services and using web design as a vehicle to tell that story in a way that emotionally touches the consumer.  
+        I appreciate the fast pace at which web design evolves. I value work that allows me to draw on multiple creative solutions around a single project.
+        </p>
+        <h2 className="second"> What sets me apart</h2>
+        <p className="secondSummary">
+          I spent several years in costume design and have a strong background in software development. This combination affords me a unique and effective skillset for web design.  
+        </p>
+        <p className="secondSummary">
+          Costume design demands a broad and deep familiarity with the history and principles of design. It also requires strong research skills, which I relied on for character development, historical accuracy, and audience tastes and preferences.
+        </p>
+        <p className="secondSummary">
+          As a software developer, I’m able to code an application from start to finish. I’m dedicated to detail and a practical and creative problem solver. I’m also fluent in the language of engineers and developers, which allows me to translate effectively among technical, content, and administrative teams and ensure that client expectations are met or exceeded.
+        </p>
+        <h3 className="third">What I'm looking for in a company</h3>
+        <p className="thirdSummary">
+          I hope to find a company that affords me the opportunity to learn from and grow with others, to solve problems collaboratively, to add value, and to generate innovative design of which I can be proud.
+        </p>
+        <h4 className="fourth">Skills</h4>
+        <div className="skillsContainer">
+          <div className="designSkills">
+            <p className="design">Design</p>
+            <p className="fourthSummary">
+              UX Design <br></br>
+              UI Design <br></br>
+              User Research <br></br>
+              Prototyping <br></br>
+              Product Thinking <br></br>
+            </p>
+          </div>
+          <div className="technicalSkills">
+            <p className="technical">Technical</p>   
+            <p className="fourthSummary">
+              HTML <br></br>
+              CSS <br></br>
+              Javascript <br></br>
+              React <br></br>
+              Node <br></br>
+              Express <br></br>
+              MySQL <br></br>
+              MongoDB <br></br>
+            </p>
+          </div>
+
+          <div className="applicationsParadigms">
+          <p className="appsParadigms">Applications & Paradigms</p>   
+          <p className="fourthSummary">
+            Figma <br></br>
+            Webflow <br></br>
+            MVC<br></br>
+            RESTful API’s<br></br>
+            Object-oriented programming<br></br>
+            Git & GitHub<br></br>
+          </p>
+          </div>
+
+          {/* <div className="personalSkills">
+          <p className="fourth">Personal</p>   
+          <p className="fourthSummary">
+            Collaboration <br></br>
+            Storytelling <br></br>
+          </p>
+          </div> */}
+
+
+        </div>
+       
+
+
+    
+        </main>  
       </div>
     )
   }
