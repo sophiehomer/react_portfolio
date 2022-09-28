@@ -29,7 +29,7 @@ body {
   display:flex;
   flex-direction: column;
   margin-top: 2%;
-  width: 31%;
+
 }
 
 .about, 
@@ -729,7 +729,6 @@ font-family: aeonik-medium;
   flex-direction: row;
   justify-content: space-evenly;
   padding-bottom: 6%;
-  padding-top: 2%;
   width: 100%;
 }
 
@@ -823,7 +822,6 @@ font-family: aeonik-medium;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 2%;
   padding-bottom: 10%;
   width: 100%;
 }
@@ -1041,6 +1039,10 @@ footer {
 
 /* -------------------------- FEMME DEPT MEDIA QUERIES ------------------------- */
 @media only screen and (max-width: 1100px) {
+  .femmeDeptPage {
+    padding-top: 2%;
+  }
+  
  .productImg {
   margin-bottom: 4%;
  } 
@@ -1126,31 +1128,17 @@ footer {
 
 /* ---------------------------- KIT MEDIA QUERIES --------------------------- */
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
   .kitPage {
    display: flex;
    flex-direction:column;
    justify-content: center;
    align-items: center;
-   margin-top: 4%;
+   margin-top: 2%;
   }
 
   .kitSummaryContainer {
     width: 95%;
-  }
-
-  .kitSummary {
-    line-height: 25px;
-    font-size: 16px;
-  }
-
-  /* .myRole {
-    font-size: 20px;
-  } */
-
-  .kitRole {
-    font-size: 16px;
-    line-height: 25px;
   }
 
   .kitRoleAndTechnology {
@@ -1161,13 +1149,8 @@ footer {
 
   .kitTechnology {
     margin-left: 0;
-    font-size: 20px;
   }
 
-  /* .figma {
-    font-size: 16px;
-    line-height: 25px;
-  } */
   .gitHubWebsiteContainer {
     display: flex;
     flex-direction: column;
@@ -1176,26 +1159,30 @@ footer {
 
   .kitImage {
     width: 100%;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
+  }
+
+  .website {
+    margin-bottom: 4%;
   }
 } 
 
 /* ----------------------- DINNER DRINKS MEDIA QUERIES ---------------------- */
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
   .dinnerDrinkPage {
    display: flex;
    flex-direction:column;
    justify-content: center;
    align-items: center;
+   margin-top: 2%;
   }
 
   .dinnerDrinkSummaryContainer {
-    width: 95%;
+    width: 90%;
   }
 
   .dinnerDrinkSummary {
-    font-size: 16px;
-    line-height: 25px;
+    margin-bottom: 0%;
   }
 
   .dinnerDrinkRoleAndTechnology {
@@ -1206,18 +1193,6 @@ footer {
 
   .dinnerDrinkTechnology {
     margin-left: 0;
-    font-size: 20px;
-  }
-
-  .dinnerDrinkTechnologies {
-    font-size: 16px;
-    line-height: 25px;
-
-  }
-
-  .dinnerDrinkRole {
-    font-size: 16px;
-    line-height: 25px;
   }
 
   .githubAndWebsite {
@@ -1228,7 +1203,7 @@ footer {
   
   .dinnerDrinkImage {
     width: 100%;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
   }
 } 
 
