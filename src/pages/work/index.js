@@ -13,7 +13,7 @@ const About = () => {
         <h1 className="first"> Why web design?</h1>
         <p className="firstSummary"> 
         I enjoy developing a story around a line of products or services and using web design as a vehicle to tell that story in a way that emotionally touches the consumer.  
-        I appreciate the fast pace at which web design evolves. I value work that allows me to draw on multiple creative solutions around a single project.
+        I appreciate the fast pace at which web design evolves and I value work that allows me to draw on multiple creative solutions around a single project.
         </p>
         <h2 className="second"> What sets me apart?</h2>
         <p className="secondSummary">
