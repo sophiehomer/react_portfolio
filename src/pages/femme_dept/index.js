@@ -47,7 +47,7 @@ const FemmeDept = () => {
   return (
     <>
     <NavProject/>
-    <div className="femmeDeptPage">
+    <main className="femmeDeptPage">
        <section className="summaryAndImageContainer">
        <section className="summaryContainer">
           <p className="femmeDeptSummary">
@@ -85,8 +85,7 @@ const FemmeDept = () => {
         </section>
       </section>       
         
-
-          <section className="problemContainer">
+<section className="problemContainer">
               <h2 className="problem">Problem</h2>
               <p className="problemSummary">
                 Most intimate soaps options contain harmful chemicals and synthetic fragrances as well as reflect a corporate design sensibility. Furthermore, the majority of companies lack consciousness in their branding and feed into stigmas that fuel body shame.
@@ -112,11 +111,13 @@ const FemmeDept = () => {
             <img src={analysis} className="competitiveAnalysisImg" alt="competitiveAnalysis"/> 
           </div>
 
+         
+
           <div className="basicDesignElementsContainer">
             <h6 className="basicDesignElements">Basic Design Elements</h6>
             <img src={basicDesignElements} className="basicDesignElementsImg" alt="basicDesignElements"/> 
           </div>
-      </div>
+      </main>
       <h6 className="finalDesign">Final Design</h6>
       <div className="prototypeImageContainer">
       <img src={landingPage} className="landingPage" alt="basicDesignElements"/> 
