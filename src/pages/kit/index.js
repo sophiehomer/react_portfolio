@@ -9,9 +9,9 @@ const Kit = () => {
   return (
     <>
     <NavProject/>
-    {/* <h1 id="projectTitle" className="projectTitle">KIT</h1> */}
     <div className="kitPage">
         <section className="kitSummaryContainer">
+          <p className="projectTitle">KIT</p>
           <p className="kitSummary">
             A social application developed for the aulmni of my coding bootcamp class. Users can post, comment, like and dislike. The application served as a communication network for mutual support within the class. Please note this application takes a few moments to load. <br></br>       
             <p className="kitUsernameAndPassword">*Requires a username and password to enter. <br></br>

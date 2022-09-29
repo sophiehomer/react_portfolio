@@ -11,6 +11,7 @@ const DinnerDrinks = () => {
      <NavProject/>
       <div className="dinnerDrinkPage">
         <section className="dinnerDrinkSummaryContainer">
+        <p className="projectTitle">Dinner & Drinks</p>
           <p className="dinnerDrinkSummary">
             A recipe generator curated around user preference. Users can search recipes based on cuisine and dietary restrictions, as well cocktail recipes based on alcohol preference. Users have the ability to favorite recipes which are displayed on the users favorites page.
           </p>
