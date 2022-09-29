@@ -51,7 +51,7 @@ const FemmeDept = () => {
        <section className="summaryAndImageContainer">
        <section className="summaryContainer">
           <p className="femmeDeptSummary">
-            A lot of women don't use feminine hygiene soap because it can disrupt the pH balance of their delicate vaginal tissues, causing itching and irritation. When it comes to feminine hygiene soap, there are limited options for women. Most options contain harmful chemicals and synthetic fragrances as well as reflect a corporate design sensibility that doesn’t appeal to most women and isn’t conducive to bath or shower display. Furthermore, the majority of companies lack consciousness in their branding and feed into stigmas that fuel body shame. Many women are shy about their feminine hygiene products, and don't typically display them with pride. 
+            A lot of women don't use feminine hygiene soap because it can disrupt the pH balance, causing itching and irritation. When it comes to feminine hygiene soap, there are limited options for women. Most options contain harmful chemicals and synthetic fragrances as well as reflect a corporate design sensibility that doesn’t appeal to most women and isn’t conducive to bath or shower display. Furthermore, the majority of companies lack consciousness in their branding and feed into stigmas that fuel body shame. Many women are shy about their feminine hygiene products, and don't typically display them with pride. 
           </p>
           <section className="femmeDeptRoleAndTechnology">
             <div>
@@ -95,7 +95,7 @@ const FemmeDept = () => {
           <section className="solutionContainer">
               <h3 className="solution">Solution</h3>
               <p className="solutionSummary">
-                Femme Dept. is a clean-ingredient, “body part-positive,” aesthetically designed feminine soap that will help to erase the stigmas surrounding vaginal health. The soap is formulated to gently cleanse and nourish the vagina, using all natural base ingredients. Femme Dept strives to give women an accessible product that provides confidence, while balancing a healthy pH level.             
+                Femme Dept. is a clean-ingredient, “body part-positive,” aesthetically designed feminine soap that will help to erase the stigmas surrounding intimate health. The soap is formulated to gently cleanse and nourish, using all natural base ingredients. Femme Dept strives to give women an accessible product that provides confidence, while balancing a healthy pH level.             
               </p>
           </section>
 
