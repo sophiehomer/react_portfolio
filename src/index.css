@@ -215,8 +215,7 @@ font-size: 25px;
 /* color: #6E6E73; */
 /* color: #A8D80A; */
 color:#A8C3D6;
-font-family: aeonik-regular, sans-serif;
-
+font-family: aeonik-regular, sans-serif !important;
 }
 
 .firstSummary,
@@ -1098,8 +1097,32 @@ footer {
      
       }
   
+/* -------------------------- MORE ABOUT ME MEDIA QUERIES --------------------------- */
+@media only screen and (max-width: 1269px) {
+ .moreAboutMeContainer {
+  padding-left: 15%;
+  padding-right: 15%;
+ }
+}
 
+@media only screen and (max-width: 900px) {
+  .skillsContainer {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .moreAboutMeContainer {
+    padding-top: 4%;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth {
+    margin-bottom: 0%;
+  }
+
+ }
 
 
 
