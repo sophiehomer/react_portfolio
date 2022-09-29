@@ -1018,8 +1018,8 @@ label {
 .twitterIcon {
   /* color: #1D1D1F; */
   color:#A8C3D6;
-  margin-right: 3%;
-  margin-left: 3%;
+  margin-right: 1%;
+  margin-left: 1%;
   cursor: pointer;
 }
 
@@ -1302,4 +1302,17 @@ footer {
     margin-bottom: 4%;
   }
 } 
+/* ----------------------- FOOTER MEDIA  QUERIES ----------------------- */
+
+@media only screen and (max-width: 1100px) {
+  
+  .githubIcon, 
+  .linkedInIcon, 
+  .emailIcon,
+  .twitterIcon {
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  
+}
 
