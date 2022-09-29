@@ -1,5 +1,4 @@
 import React from 'react'
-import Pdf from '../../assets/documents/sophie-homer-resume.pdf'
 import { HashLink as Link } from 'react-router-hash-link';
 
 
@@ -16,9 +15,9 @@ const NavProject = (props) => {
       <Link to="/Work" className="portfolioNav">
         Work
       </Link>
-      <a download href= {Pdf} rel="noreferrer" target="_blank" className="resumeNav">
-        Resume
-      </a>
+      <Link to="/resume" className="resumeNav">
+        Resume 
+      </Link>
       <a href='mailto:sophiehomer94@gmail.com' className='contactNav'>Reach out</a>
   </nav>
   )
