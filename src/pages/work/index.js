@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Portfolio from '../../components/Portfolio'
+// import Portfolio from '../../components/Portfolio'
 import NavProject from '../../components/Navigation_project';
 
 const About = () => {
@@ -10,12 +10,12 @@ const About = () => {
       <div>
            <NavProject/>
         <main className='moreAboutMeContainer'>
-        <h1 className="first"> Why web design?</h1>
+        <p className="first"> Why web design?</p>
         <p className="firstSummary"> 
-        I enjoy developing a story around a line of products or services and using web design as a vehicle to tell that story in a way that emotionally touches the consumer.  
-        I appreciate the fast pace at which web design evolves and I value work that allows me to draw on multiple creative solutions around a single project.
+          I enjoy developing a story around a line of products or services and using web design as a vehicle to tell that story in a way that emotionally touches the consumer.  
+          I appreciate the fast pace at which web design evolves and I value work that allows me to draw on multiple creative solutions around a single project.
         </p>
-        <h2 className="second"> What sets me apart?</h2>
+        <p className="second"> What sets me apart?</p>
         <p className="secondSummary">
           I spent several years in costume design and have a strong background in software development. This combination affords me a unique and effective skillset for web design.  
         </p>
@@ -25,11 +25,11 @@ const About = () => {
         <p className="secondSummary">
           As a software developer, I’m able to code an application from start to finish. I’m dedicated to detail and a practical and creative problem solver. I’m also fluent in the language of engineers and developers, which allows me to translate effectively among technical, content, and administrative teams and ensure that expectations are met or exceeded.
         </p>
-        <h3 className="third">What am I looking for in a company?</h3>
+        <p className="third">What am I looking for in a company?</p>
         <p className="thirdSummary">
           I hope to find a company that affords me the opportunity to learn from and grow with others, to solve problems collaboratively, to add value, and to generate innovative design of which I can be proud.
         </p>
-        <h4 className="fourth">Skills</h4>
+        <p className="fourth">Skills</p>
         <div className="skillsContainer">
           <div className="designSkills">
             <p className="design">Design</p>
@@ -56,7 +56,6 @@ const About = () => {
           </div>
 
           <div className="applicationsParadigms">
-          {/* <p className="appsParadigms">Apps & Paradigms</p>    */}
           <p className="appsParadigms">Software</p>   
           <p className="fourthSummary">
             Figma <br></br>
@@ -69,25 +68,19 @@ const About = () => {
           </div>
 
           <div className="personalSkills">
-          <p className="personal">Personal</p>   
-          <p className="fourthSummary">
-            Collaboration <br></br>
-            Storytelling <br></br>
-            Leadership
-          </p>
+            <p className="personal">Personal</p>   
+            <p className="fourthSummary">
+              Collaboration <br></br>
+              Storytelling <br></br>
+              Leadership
+            </p>
           </div>
-
-
         </div>
-       
-
-
-    
-        </main>  
-      </div>
+      </main>  
+    </div>
     )
   }
-   
+
   export default About
 
 
