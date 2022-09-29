@@ -24,17 +24,17 @@ import contactInfoComplete from '../../assets/femme_dept/contactInfoComplete.web
 import standardShipping from '../../assets/femme_dept/standardShipping.webp'
 import expressShipping from '../../assets/femme_dept/expressShipping.webp'
 import rushShipping from '../../assets/femme_dept/rushShipping.webp'
-import paymentStandardShipping from '../../assets/femme_dept/paymentStandardShipping.webp'
-import paymentExpressShipping from '../../assets/femme_dept/paymentExpressShipping.webp'
+// import paymentStandardShipping from '../../assets/femme_dept/paymentStandardShipping.webp'
+// import paymentExpressShipping from '../../assets/femme_dept/paymentExpressShipping.webp'
 import paymentRushShipping from '../../assets/femme_dept/paymentRushShipping.webp'
-import PaymentCompleteStandardShipping from '../../assets/femme_dept/PaymentCompleteStandardShipping.webp'
-import PaymentCompleteExpressShipping from '../../assets/femme_dept/PaymentCompleteExpressShipping.webp'
+// import PaymentCompleteStandardShipping from '../../assets/femme_dept/PaymentCompleteStandardShipping.webp'
+// import PaymentCompleteExpressShipping from '../../assets/femme_dept/PaymentCompleteExpressShipping.webp'
 import PaymentCompleteRushShipping from '../../assets/femme_dept/paymentCompleteRushShipping.webp'
-import billingStandardShipping from '../../assets/femme_dept/billingStandardShipping.webp'
-import billingExpressShipping from '../../assets/femme_dept/billingExpressShipping.webp'
+// import billingStandardShipping from '../../assets/femme_dept/billingStandardShipping.webp'
+// import billingExpressShipping from '../../assets/femme_dept/billingExpressShipping.webp'
 import billingRushshipping from '../../assets/femme_dept/billingRushshipping.webp'
-import orderReviewStandardShipping from '../../assets/femme_dept/orderReviewStandardShipping.webp'
-import orderReviewExpressShipping from '../../assets/femme_dept/orderReviewExpressShipping.webp'
+// import orderReviewStandardShipping from '../../assets/femme_dept/orderReviewStandardShipping.webp'
+// import orderReviewExpressShipping from '../../assets/femme_dept/orderReviewExpressShipping.webp'
 import billingCompleteRushShipping from '../../assets/femme_dept/billingCompleteRushShipping.webp'
 import orderReviewRushShipping from '../../assets/femme_dept/orderReviewRushShipping.webp'
 import orderComplete from '../../assets/femme_dept/orderComplete.webp'
@@ -159,32 +159,34 @@ const FemmeDept = () => {
       </div>
 
       <div className="prototypeImageContainer">
-      <img src={paymentStandardShipping} className="paymentStandardShipping" alt="paymentStandardShipping"/> 
-      <img src={paymentExpressShipping} className="paymentExpressShipping" alt="paymentExpressShipping"/> 
+      {/* <img src={paymentStandardShipping} className="paymentStandardShipping" alt="paymentStandardShipping"/>  */}
+      {/* <img src={paymentExpressShipping} className="paymentExpressShipping" alt="paymentExpressShipping"/>  */}
       <img src={paymentRushShipping} className="paymentRushShipping" alt="paymentExpressShipping"/> 
+      <img src={PaymentCompleteRushShipping} className="PaymentCompleteRushShipping" alt="paymentExpressShipping"/> 
+
       </div>
 
       <div className="prototypeImageContainer">
-      <img src={PaymentCompleteStandardShipping} className="PaymentCompleteStandardShipping" alt="paymentStandardShipping"/> 
-      <img src={PaymentCompleteExpressShipping} className="PaymentCompleteExpressShipping" alt="paymentExpressShipping"/> 
-      <img src={PaymentCompleteRushShipping} className="PaymentCompleteRushShipping" alt="paymentExpressShipping"/> 
+      {/* <img src={PaymentCompleteStandardShipping} className="PaymentCompleteStandardShipping" alt="paymentStandardShipping"/>  */}
+      {/* <img src={PaymentCompleteExpressShipping} className="PaymentCompleteExpressShipping" alt="paymentExpressShipping"/>  */}
       </div>
       
       <div className="prototypeImageContainer">
-      <img src={billingStandardShipping} className="billingStandardShipping" alt="billingStandardShipping"/> 
-      <img src={billingExpressShipping} className="billingExpressShipping" alt="billingExpressShipping"/> 
+      {/* <img src={billingStandardShipping} className="billingStandardShipping" alt="billingStandardShipping"/>  */}
+      {/* <img src={billingExpressShipping} className="billingExpressShipping" alt="billingExpressShipping"/>  */}
       <img src={billingRushshipping} className="billingRushshipping" alt="illingRushshipping"/> 
       <img src={billingCompleteRushShipping} className="billingCompleteRushShipping" alt="billingCompleteRushShipping"/> 
       </div>
 
       <div className="prototypeImageContainer">
-      <img src={orderReviewStandardShipping} className="orderReviewStandardShipping" alt="orderReviewStandardShipping"/> 
-      <img src={orderReviewExpressShipping} className="orderReviewExpressShipping" alt="orderReviewExpressShipping"/> 
+      {/* <img src={orderReviewStandardShipping} className="orderReviewStandardShipping" alt="orderReviewStandardShipping"/>  */}
+      {/* <img src={orderReviewExpressShipping} className="orderReviewExpressShipping" alt="orderReviewExpressShipping"/>  */}
       <img src={orderReviewRushShipping} className="orderReviewRushShipping" alt="orderReviewRushShipping"/> 
+      <img src={orderComplete} className="orderComplete" alt="orderComplete"/> 
+
       </div>
 
       <div className="lastPrototypeImageContainer">
-      <img src={orderComplete} className="orderComplete" alt="orderComplete"/> 
       </div>
     </>
     
