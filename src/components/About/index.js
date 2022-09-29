@@ -16,7 +16,7 @@ const Work = () => {
       <Navigation/>
       </p>
       </div>
-      <Portfolio/>
+   
     </section>
   )
 }

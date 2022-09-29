@@ -36,7 +36,7 @@ body {
 .resume, 
 .portfolio,
 .contact,
-.moreAboutMe {
+.aboutExtended {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -55,7 +55,8 @@ body {
 .about:hover, 
 .resume:hover, 
 .portfolio:hover,
-.contact:hover {
+.contact:hover,
+.aboutExtended:hover {
   text-decoration: underline;
   cursor: pointer;
   border: none;
@@ -95,7 +96,7 @@ body {
   background-color: transparent !important;
   font-family: aeonik-regular, sans-serif;
   text-decoration: none;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
 .resumeNav {
@@ -295,6 +296,7 @@ font-size: 25px
   align-content: center;
   width: 100%;
   margin-bottom: 4%;
+  margin-top: 2%;
 }
 
 .kitPageLink {
@@ -311,7 +313,7 @@ font-size: 25px
   align-content: center;
   width: 100%;
   margin-bottom: 4%;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 
 .dinnerDrinksContainer {
@@ -321,6 +323,7 @@ font-size: 25px
   align-content: center;
   width: 100%;
   margin-bottom: 4%;
+  margin-top: 2%;
 }
 
 .dinnerDrinkPageLink {
@@ -350,7 +353,6 @@ font-size: 25px
 
 .fdPageLink {
   text-decoration: none !important;
-  padding-top: 4%;
   margin-bottom: 2%;
   margin-left: 2%;
 }

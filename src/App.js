@@ -11,6 +11,7 @@ import FemmeDept from './pages/femme_dept'
 import Kit from './pages/kit'
 import DinnerDrinks from './pages/dinner_drinks'
 import Work from './pages/work'
+import AboutExtended from './pages/about_extended';
 
 // importing components from react-router-dom package
 import {
@@ -40,6 +41,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/sophie_homer_portfolio" element={<Home />} />
+          <Route path="/about_extended" element={<AboutExtended />} />
           <Route path="/work" element={<Work />} />
           <Route path="/femme_dept" element={< FemmeDept/>} />
           <Route path="/kit" element={ <Kit /> } />
