@@ -14,7 +14,7 @@ const Navigation = (props) => {
           <a href="#femmeDeptApp" className="portfolio" onClick={handleClick} >
         Check out my work <AiOutlineArrowRight className="arrow" size={20}/>
         </a>
-        <Link to="/work" className="portfolio">
+        <Link to="/work" className="moreAboutMe">
           Learn more about me <AiOutlineArrowRight className="arrow" size={20}/>
         </Link>
         <a download href= {Pdf} rel="noreferrer" target="_blank" className="resume">View my resume <AiOutlineArrowRight className="arrow" size={20}/></a>
