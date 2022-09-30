@@ -94,7 +94,6 @@ const Resume = () => {
                             Webflow <br></br>
                             MVC<br></br>
                             RESTful API’s<br></br>
-                            Object-oriented programming<br></br>
                             Git & GitHub<br></br>
                         </p>
                     </div>
