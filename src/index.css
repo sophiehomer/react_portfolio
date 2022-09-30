@@ -1152,7 +1152,7 @@ footer {
   .projectNav {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 }
 
@@ -1218,6 +1218,30 @@ footer {
 
      
       }
+/* -------------------------- WORK MEDIA QUERIES --------------------------- */
+@media only screen and (max-width: 1269px) {
+  .femmeDeptContainer {
+    margin-top: 4%;
+  }
+ }
+
+@media only screen and (max-width: 800px) {
+  .femmeDeptImg,
+  .kitImg,
+  .dinnerDrinksImg {
+    width: 100%;
+  }
+
+  .ddProductAndRole,
+  .dinnerDrinkPageLink,
+  .kitPageLink,
+  .kitProductAndRole,
+  .fdPageLink,
+  .fdProductAndRole {
+    margin-left: 0%;
+  }
+ }
+
   
 /* -------------------------- MORE ABOUT ME MEDIA QUERIES --------------------------- */
 @media only screen and (max-width: 1269px) {
