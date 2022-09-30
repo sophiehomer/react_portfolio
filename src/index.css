@@ -1237,7 +1237,7 @@ footer {
   }
  }
 
- @media only screen and (max-width: 450px) {
+ @media only screen and (max-width: 600px) {
 
  .product {
   font-size: 16px;
@@ -1295,10 +1295,26 @@ footer {
     padding-right: 5%;
    }
 
-   @media only screen and (max-width: 450px) {
+   @media only screen and (max-width: 600px) {
     .moreAboutMeContainer {
      margin-top: 10%;
      }
+
+     .firstSummary,
+     .secondSummary,
+     .thirdSummary {
+      font-size: 16.5px;
+      line-height: 20px;
+     }
+
+     .first,
+     .second,
+     .third {
+      font-size: 20px;
+     }
+
+
+
    }
  }
 
@@ -1317,10 +1333,12 @@ footer {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   .workHistory {
     font-size: 20px;
     margin-top: 0%;
+    font-family: aeonik-regular, sans-serif;
+
   }
 
   .resumePage {
@@ -1332,7 +1350,6 @@ footer {
     padding-right: 5%;
   }
 
-  .workHistory,
   .resumeAppsAndParadigmsTitle,
   .educationTitle,
   .resumeSkills {
@@ -1343,6 +1360,7 @@ footer {
 
   .job {
     font-size: 16.5px;
+    margin-top: 2%;
   }
 
   .jobDate,
@@ -1351,23 +1369,34 @@ footer {
   }
 
   .jobDescription {
-    font-size: 14px;
+    font-size: 16.5px;
     line-height: 20px;
   }
 
   .resumeAppsAndParadigms {
     font-size: 16.5px;
     line-height: 20px;
+    margin-top: 2%;
   }
 
   .education {
     font-size: 16.5px;
+    margin-top: 2%;
+
   }
 
-  .resumeDesign,
+  
   .resumeTechnical,
   .resumeAppsParadigms {
     font-size: 16.5px;
+  }
+
+  .resumeDesign {
+    font-size: 16.5px;
+    margin-top: 2%;
+  }
+  .resumeDesignSkills {
+    margin-top: 0%;
   }
 
   .fourthSummary {
