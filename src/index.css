@@ -208,12 +208,14 @@ body {
 }
 
 .workHistory {
+  font-family: aeonik-regular, sans-serif;
+  font-weight: 600;
   font-size: 30px;
   margin-bottom: 2%;
-  font-weight: 600;
 }
 
 .job {
+  font-family: aeonik-regular, sans-serif;
   font-size: 25px;
   margin-bottom: 0%;
   /* margin-top: 0%; */
@@ -221,12 +223,14 @@ body {
 }
 
 .jobDate {
+  font-family: aeonik-regular, sans-serif;
   font-size: 20px;
   margin-top: 1%;
   color:#A8C3D6;
 }
 
 .stromaJobDate {
+  font-family: aeonik-regular, sans-serif;
   font-size: 20px;
   margin-top: 1%;
   color:#A8C3D6;
@@ -236,17 +240,19 @@ body {
 .jobDescription {
   margin-top: 0%;
   font-size: 20px;
+  font-family: aeonik-regular, sans-serif;
   line-height: 28px;
-
 }
 
 .resumeAppsAndParadigmsTitle {
+  font-family: aeonik-regular, sans-serif;
   font-size: 30px;
   margin-bottom: 2%;
   font-weight: 600;
 }
 
 .resumeSkills {
+  font-family: aeonik-regular, sans-serif;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 2%;
@@ -255,34 +261,29 @@ body {
 .resumeAppsParadigms,
 .resumeTechnical,
 .resumeDesign {
+  font-family: aeonik-regular, sans-serif;
   font-size: 30px;
   color: #A8C3D6;
   margin-bottom: 1%;
 }
 
-/* .resumeTechnicalSkills {
-  display: flex;
-  flex-direction: row;
-} */
-
-/* .resumeApplicationsParadigms {
-  display: flex;
-  flex-direction: row;
-} */
-
 .resumeAppsAndParadigms {
   font-size: 25px;
+  font-family: aeonik-regular, sans-serif;
+
 }
 
 .educationTitle {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 2%;
+  font-family: aeonik-regular, sans-serif;
 }
 
 .education {
   font-size: 25px;
   margin-bottom: 0%;
+  font-family: aeonik-regular, sans-serif;
 }
 
 
