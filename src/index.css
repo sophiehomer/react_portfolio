@@ -1204,6 +1204,11 @@ footer {
         line-height: 24px;
       }
 
+      .aboutExtended {
+        font-size: 20px;
+
+      }
+
       .contact,
       .resume,
       .portfolio,
