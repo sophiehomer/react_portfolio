@@ -1367,7 +1367,9 @@ footer {
     font-size: 16.5px;
   }
 
-  .resumeDesign {
+  .resumeDesign,
+  .resumeTechnical,
+  .resumeAppsParadigms {
     font-size: 16.5px;
   }
 
