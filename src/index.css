@@ -1240,7 +1240,7 @@ footer {
  @media only screen and (max-width: 600px) {
 
  .product {
-  font-size: 16px;
+  font-size: 16.5px;
   margin-bottom: 0%;
  }
 
@@ -1264,8 +1264,22 @@ footer {
    .role {
     font-size: 12px;
    }
+
+   .aboutNav,
+   .portfolioNav,
+    .resumeNav,
+    .contactNav{
+    font-size: 16px;
+   }
   
   }
+
+  @media only screen and (max-width: 314px) {
+    .product {
+      font-size: 13px;
+      margin-bottom: 0%;
+     }
+    }
 
   
 /* -------------------------- MORE ABOUT ME MEDIA QUERIES --------------------------- */
