@@ -78,7 +78,7 @@ body {
   background-color: transparent !important;
   font-family: aeonik-regular, sans-serif;
   text-decoration: none;
-  margin-left: 5%;
+  margin-left: 4%;
 }
 
 .aboutNav:hover,
@@ -96,7 +96,7 @@ body {
   background-color: transparent !important;
   font-family: aeonik-regular, sans-serif;
   text-decoration: none;
-  margin-left: 5%;
+  margin-left: 4%;
 }
 
 .resumeNav {
@@ -107,10 +107,10 @@ body {
   background-color: transparent !important;
   font-family: aeonik-regular, sans-serif;
   text-decoration: none;
-  margin-left: 5%;
+  margin-left: 4%;
 }
 
-.linkedinNav {
+/* .linkedinNav {
   font-size: 20px;
   font-weight: 400;
   color: #1D1D1F;
@@ -119,7 +119,7 @@ body {
   font-family: aeonik-regular, sans-serif;
   text-decoration: none;
   margin-left: 2%;
-}
+} */
 
 .contactNav {
   font-size: 20px;
@@ -129,8 +129,8 @@ body {
   background-color: transparent !important;
   font-family: aeonik-regular, sans-serif;
   text-decoration: none;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 /* ---------------------------------- ABOUT --------------------------------- */
@@ -203,37 +203,61 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .workHistory {
-  font-size: 20px;
-  margin-bottom: 0%;
+  font-size: 30px;
+  margin-bottom: 2%;
   font-weight: 600;
 }
 
 .job {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 0%;
+  /* margin-top: 0%; */
 
 }
 
 .jobDate {
-  font-size: 18px;
-  margin-top: 0%;
+  font-size: 20px;
+  margin-top: 1%;
   color:#A8C3D6;
+}
 
+.stromaJobDate {
+  font-size: 20px;
+  margin-top: 1%;
+  color:#A8C3D6;
+  margin-bottom: 1%;
 }
 
 .jobDescription {
   margin-top: 0%;
   font-size: 20px;
+  line-height: 28px;
 
 }
 
+.resumeAppsAndParadigmsTitle {
+  font-size: 30px;
+  margin-bottom: 2%;
+  font-weight: 600;
+}
+
 .resumeSkills {
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+
+.resumeAppsParadigms,
+.resumeTechnical,
+.resumeDesign {
+  font-size: 30px;
+  color: #A8C3D6;
+  margin-bottom: 1%;
 }
 
 /* .resumeTechnicalSkills {
@@ -247,25 +271,31 @@ body {
 } */
 
 .resumeAppsAndParadigms {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.educationTitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 2%;
 }
 
 .education {
-  font-size: 20px;
+  font-size: 25px;
+  margin-bottom: 0%;
 }
+
 
 .resumeDownload {
-  font-size: 18px;
-  color: #1D1D1F;
   text-decoration: none;
+  color: #1D1D1F;
+  font-size: 25px;
+  font-family: aeonik-regular, sans-serif;
   margin-top: 4%;
   margin-bottom: 4%;
+  cursor: pointer;
 }
 
-.resumeDownload:hover{
-  color:#A8C3D6;
-
-}
 /* ---------------------------------  WORK -------------------------------- */
 .moreAboutMeContainer {
   display: flex;
@@ -280,7 +310,7 @@ body {
 .third,
 .fourth {
 text-align: left;
-font-size: 25px;
+font-size: 30px;
 /* color: #6E6E73; */
 /* color: #A8D80A; */
 color:#A8C3D6;
@@ -289,30 +319,38 @@ margin-bottom: 0%;
 }
 
 .firstSummary,
-.secondSummary,
+.secondSummary {
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: normal;
+}
+
 .thirdSummary {
   font-size: 20px;
   line-height: 35px;
   font-weight: normal;
+  margin-bottom: 4%;
 }
 
 .fourthSummary {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 35px;
   font-weight: normal;
+  margin-top: 0%;
 }
 
 .skillsContainer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .design,
 .technical,
 .appsParadigms,
 .personal {
-font-size: 20px
+font-size: 20px;
+color:#A8C3D6;
+
 }
 
 .portfolioImages {
@@ -525,10 +563,11 @@ font-size: 20px
 /* ----------------------------- FEMME DEPT PAGE ---------------------------- */
 .projectTitle {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: left;
   margin-bottom: 4%;
   margin-top: 0%;
+  color:#A8C3D6;
 
 }
 
@@ -607,7 +646,7 @@ padding-top: 4%;
   /* letter-spacing: 0.02em; */
   font-size: 18px;
   font-family: aeonik-regular, sans-serif;
-
+  cursor: pointer;
 }
 
 .myRole{
@@ -869,6 +908,7 @@ font-family: aeonik-medium;
   border: 2.5px solid #A8C3D6;
   font-size: 18px;
   font-family: aeonik-regular, sans-serif;
+  cursor: pointer;
 }
 
 .gitHubLink {
@@ -878,9 +918,9 @@ font-family: aeonik-medium;
   background-color: transparent;
   color: #1D1D1F;
   border: 2.5px solid #A8C3D6;
-  /* letter-spacing: 0.02em; */
   font-size: 18px;
   font-family: aeonik-regular, sans-serif;
+  cursor: pointer;
 }
 
 .gitHubWebsiteContainer {
@@ -1081,7 +1121,6 @@ label {
   color: #1D1D1F;
   text-decoration: none;
   font-size: 1.5em;
-  margin-top: 5%;
 }
 
 .downloadResume:hover {
@@ -1146,11 +1185,9 @@ footer {
 
     .nav {
       padding-top: 5%;
-      padding-bottom: 45%;
     }
    
     }
-
 
     @media only screen and (max-width: 735px) {
       .title {
@@ -1204,6 +1241,22 @@ footer {
     padding-right: 5%;
    }
  }
+
+/* -------------------------- FEMME DEPT MEDIA QUERIES ------------------------- */
+@media only screen and (max-width: 1100px) {
+  .resumePage {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .resumePage {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
 
 
 

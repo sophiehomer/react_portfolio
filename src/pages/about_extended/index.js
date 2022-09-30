@@ -29,7 +29,7 @@ const AboutExtended = () => {
         <p className="thirdSummary">
           I hope to find a company that affords me the opportunity to learn from and grow with others, to solve problems collaboratively, to add value, and to generate innovative design of which I can be proud.
         </p>
-        <p className="fourth">Skills</p>
+        {/* <p className="fourth">Skills</p>
         <div className="skillsContainer">
           <div className="designSkills">
             <p className="design">Design</p>
@@ -75,7 +75,7 @@ const AboutExtended = () => {
               Leadership
             </p>
           </div>
-        </div>
+        </div> */}
       </main>  
     </div>
     )

@@ -50,7 +50,7 @@ const FemmeDept = () => {
     <main className="femmeDeptPage">
        <section className="summaryAndImageContainer">
        <section className="summaryContainer">
-      <p class="projectTitle">Femme Dept.</p>
+      <p class="projectTitle">Femme Dept. Intimate Soap</p>
           <p className="femmeDeptSummary">
             A lot of women don't use feminine hygiene soap because it can disrupt the pH balance, causing itching and irritation. When it comes to feminine hygiene soap, there are limited options for women. Most options contain harmful chemicals and synthetic fragrances as well as reflect a corporate design sensibility that doesn’t appeal to most women and isn’t conducive to bath or shower display. Furthermore, the majority of companies lack consciousness in their branding and feed into stigmas that fuel body shame. Many women are shy about their feminine hygiene products, and don't typically display them with pride. 
           </p>

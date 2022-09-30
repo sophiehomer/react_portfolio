@@ -22,7 +22,7 @@ const Navigation = (props) => {
         View my resume <AiOutlineArrowRight className="arrow" size={20}/>
         </Link>
 
-        <a href='mailto:sophiehomer94@gmail.com' className='contact'>Reach out <AiOutlineArrowRight className="arrow" size={20}/></a>
+        <a href='mailto:sophiehomer94@gmail.com' className='aboutExtended'>Reach out <AiOutlineArrowRight className="arrow" size={20}/></a>
   </nav>
   
   )

@@ -16,7 +16,7 @@ const Resume = () => {
                 <p className="job">
                     Product Design Intern - Strōma Medical
                 </p>
-                <p className="jobDate">    
+                <p className="stromaJobDate">    
                      June 2022 - August 2022
                 </p>
                 <p className="jobDescription">     
@@ -26,13 +26,6 @@ const Resume = () => {
 
                 <p className="job">
                 Costume Designer - 21st Century Fox
-                </p>
-                <p className="jobDate">  
-                October 2017 - June 2022 
-                </p>
-
-                <p className="job">
-                Costume Designer - CBS
                 </p>
                 <p className="jobDate">  
                 October 2017 - June 2022 
@@ -52,19 +45,26 @@ const Resume = () => {
                 January 2014 - March 2016
                 </p>
 
+                <p className="resumeAppsAndParadigmsTitle">Applications & Paradigms</p>
                 <p className="resumeAppsAndParadigms">
-                    Applications & Paradigms <br></br>
                     Figma, Webflow, MVC, RESTful API’s, Object-oriented programming, Git & GitHub
                 </p>
-                <p className="education">
-                Education <br></br>
-                Trilogy, UCLA Extension - Full-Stack Coding Bootcamp December 2021 - June 2022
+                <p className="educationTitle">
+                    Education
                 </p>
+                <p className="education">
+                Trilogy, UCLA Extension - Full-Stack Coding Bootcamp
+                </p>
+                <p className="jobDate">  
+                December 2021 - June 2022
+                </p>
+  
+           
 
                 <p className="resumeSkills">Skills</p>
                 <div className="skillsContainer">
                     <div className="resumeDesignSkills">
-                        <p className="design">Design</p>
+                        <p className="resumeDesign">Design</p>
                         <p className="fourthSummary">
                             UX Design <br></br>
                             UI Design <br></br>
@@ -74,7 +74,7 @@ const Resume = () => {
                         </p>
                     </div>
                      <div className="resumeTechnicalSkills">
-                        <p className="technical">Technical</p>   
+                        <p className="resumeTechnical">Technical</p>   
                         <p className="fourthSummary">
                             HTML <br></br>
                             CSS <br></br>
@@ -88,7 +88,7 @@ const Resume = () => {
                     </div>
 
                     <div className="resumeApplicationsParadigms">
-                        <p className="appsParadigms">Software</p>   
+                        <p className="resumeAppsParadigms">Software</p>   
                         <p className="fourthSummary">
                             Figma <br></br>
                             Webflow <br></br>
@@ -108,7 +108,8 @@ const Resume = () => {
                         </p>
                     </div> */}
                 </div> 
-                <a download href= {Pdf} rel="noreferrer" target="_blank" className="resumeDownload">Download my resume</a>    
+                <a download href= {Pdf} rel="noreferrer" target="_blank" className="resumeDownload">Download my resume here</a>    
+                
             </main>
     </div>
     )
