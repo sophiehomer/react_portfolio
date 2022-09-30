@@ -305,17 +305,24 @@ body {
   padding-right: 20%;
 }
 
-.first,
+
 .second,
 .third,
 .fourth {
 text-align: left;
 font-size: 30px;
-/* color: #6E6E73; */
-/* color: #A8D80A; */
 color:#A8C3D6;
 font-family: aeonik-regular, sans-serif !important;
 margin-bottom: 0%;
+}
+
+.first {
+text-align: left;
+font-size: 30px;
+color:#A8C3D6;
+font-family: aeonik-regular, sans-serif !important;
+margin-bottom: 0%;
+margin-top: 0%;
 }
 
 .firstSummary,
@@ -424,7 +431,6 @@ color:#A8C3D6;
   align-content: center;
   width: 100%;
   margin-bottom: 4%;
-  /* margin-top: 10%; */
 }
 
 .dinnerDrinksContainer {
@@ -1215,16 +1221,9 @@ footer {
       .moreAboutMe {
         font-size: 20px;
       }
-
      
       }
 /* -------------------------- WORK MEDIA QUERIES --------------------------- */
-@media only screen and (max-width: 1269px) {
-  .femmeDeptContainer {
-    margin-top: 4%;
-  }
- }
-
 @media only screen and (max-width: 800px) {
   .femmeDeptImg,
   .kitImg,
@@ -1240,6 +1239,23 @@ footer {
   .fdProductAndRole {
     margin-left: 0%;
   }
+ }
+
+ @media only screen and (max-width: 450px) {
+
+ .product {
+  font-size: 16.5px;
+  margin-bottom: 0%;
+ }
+
+ .role {
+  font-size: 14px;
+ }
+
+ .portfolioImages {
+  margin-top: 10%;
+}
+
  }
 
   
@@ -1269,9 +1285,15 @@ footer {
     padding-left: 5%;
     padding-right: 5%;
    }
+
+   @media only screen and (max-width: 450px) {
+    .moreAboutMeContainer {
+     margin-top: 10%;
+     }
+   }
  }
 
-/* -------------------------- FEMME DEPT MEDIA QUERIES ------------------------- */
+/* -------------------------- RESUME MEDIA QUERIES ------------------------- */
 @media only screen and (max-width: 1100px) {
   .resumePage {
     padding-left: 10%;
@@ -1285,6 +1307,70 @@ footer {
     padding-right: 10%;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .workHistory {
+    font-size: 20px;
+    margin-top: 0%;
+  }
+
+  .resumePage {
+    margin-top: 10%;
+  }
+
+  .resumePage {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .workHistory,
+  .resumeAppsAndParadigmsTitle,
+  .educationTitle,
+  .resumeSkills {
+    font-size: 20px;
+  }
+
+  .job {
+    font-size: 16.5px;
+  }
+
+  .jobDate,
+  .stromaJobDate {
+    font-size: 14px;
+  }
+
+  .jobDescription {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .resumeAppsAndParadigms {
+    font-size: 16.5px;
+    line-height: 20px;
+  }
+
+  .education {
+    font-size: 16.5px;
+  }
+
+  .resumeDesign {
+    font-size: 16.5px;
+  }
+
+  .fourthSummary {
+    font-size: 16.5px;
+    line-height: 20px;
+    margin-bottom: 0%;
+  }
+
+  .resumeDownload {
+    font-size: 16.5px;
+    margin-bottom: 10%;
+  }
+}
+
+
+
 
 
 
