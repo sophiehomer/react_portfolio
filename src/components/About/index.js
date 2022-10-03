@@ -4,7 +4,7 @@ import Navigation from '../Navigation'
 import Portfolio from '../../components/Portfolio'
 
 
-const Work = () => {
+const About = () => {
   return (
     <section className="aboutContent" id="aboutContent">
       <div className="aboutTextDiv">
@@ -21,4 +21,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default About

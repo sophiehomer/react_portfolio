@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.css'
+
 // import Navigation from '../Navigation'
 
 const Header = (props) => {
@@ -7,7 +8,9 @@ const Header = (props) => {
     <header className="header">
         {/* <Navigation setPage = {props.setPage} /> */}
         <>
-       {/* <h1 className="sophieHomer">SOPHIE HOMER</h1> */}
+          {/* <Link to="/about_extended" className="aboutNav">
+            Sophie Homer
+          </Link> */}
         </>
     </header>
   )

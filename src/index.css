@@ -20,6 +20,12 @@ body {
 }
 
 @font-face {
+  font-family: aeonik-RegularItalic;
+  src: local("aeonik-regularItalic"), url("./fonts/Aeonik-RegularItalic.ttf") format("truetype");
+
+}
+
+@font-face {
   font-family: mattone-regular;
   src: local("mattone-regular"), url("./fonts/Mattone-Regular.ttf") format("truetype");
 }
@@ -29,7 +35,6 @@ body {
   display:flex;
   flex-direction: column;
   margin-top: 2%;
-
 }
 
 .about, 
@@ -66,8 +71,28 @@ body {
   display:flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: #1D1D1F;
+  width:80%;
+}
+
+.nav-project {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #1D1D1F;
+
+}
+
+.home {
+font-size: 35px;
+text-decoration: none;
+margin-left: 2%;
+margin-top: 2%;
+/* color: #1D1D1F; */
+color:#A8C3D6;
+
 }
 
 .aboutNav {
@@ -171,7 +196,7 @@ body {
 .aboutText {
   font-weight: normal;
   font-size: 25px;
-  line-height: 35px;
+  line-height: 32px;
   padding-bottom: 2%;
   margin-bottom: 0%;
   letter-spacing: 0.01em !important;
@@ -196,7 +221,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
 }
 /* ---------------------------------  RESUME -------------------------------- */
 .resumePage {
@@ -209,48 +234,52 @@ body {
 
 .workHistory {
   font-family: aeonik-regular, sans-serif !important;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 2%;
+  margin-top: 0%;
 }
 
 .job {
   font-family: aeonik-regular, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 0%;
 
 }
 
 .jobDate {
   font-family: aeonik-regular, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 1%;
-  color:#A8C3D6;
+  /* color:#A8C3D6; */
+  color: #6E6E73;
+
 }
 
 .stromaJobDate {
   font-family: aeonik-regular, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 1%;
-  color:#A8C3D6;
+  /* color:#A8C3D6; */
+  color: #6E6E73;
   margin-bottom: 1%;
 }
 
 .jobDescription {
   margin-top: 0%;
-  font-size: 20px;
+  font-size: 18px;
   font-family: aeonik-regular, sans-serif;
-  line-height: 28px;
+  line-height: 32px;
 }
 
 .resumeAppsAndParadigmsTitle {
   font-family: aeonik-regular, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 2%;
 }
 
 .resumeSkills {
   font-family: aeonik-regular, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 2%;
 }
 
@@ -258,24 +287,25 @@ body {
 .resumeTechnical,
 .resumeDesign {
   font-family: aeonik-regular, sans-serif;
-  font-size: 30px;
-  color: #A8C3D6;
+  font-size: 20px;
+  /* color: #A8C3D6; */
+  color: #6E6E73;
   margin-bottom: 1%;
 }
 
 .resumeAppsAndParadigms {
-  font-size: 25px;
+  font-size: 20px;
   font-family: aeonik-regular, sans-serif;
 }
 
 .educationTitle {
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 2%;
   font-family: aeonik-regular, sans-serif !important;
 }
 
 .education {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 0%;
   font-family: aeonik-regular, sans-serif;
 }
@@ -283,12 +313,16 @@ body {
 
 .resumeDownload {
   text-decoration: none;
-  color: #1D1D1F;
-  font-size: 25px;
-  font-family: aeonik-regular, sans-serif;
-  margin-top: 4%;
+  color: #6E6E73;
+  font-size: 20px;
+  font-family: aeonik-regularItalic;
+  margin-top: 8%;
   margin-bottom: 4%;
   cursor: pointer;
+}
+
+.resumeDownload:hover {
+  text-decoration: underline;
 }
 
 /* ---------------------------------  WORK -------------------------------- */
@@ -305,16 +339,18 @@ body {
 .third,
 .fourth {
 text-align: left;
-font-size: 30px;
-color:#A8C3D6;
+font-size: 25px;
+/* color:#A8C3D6; */
+color: #6E6E73;
 font-family: aeonik-regular, sans-serif !important;
 margin-bottom: 0%;
 }
 
 .first {
 text-align: left;
-font-size: 30px;
-color:#A8C3D6;
+font-size: 25px;
+/* color:#A8C3D6; */
+color: #6E6E73;
 font-family: aeonik-regular, sans-serif !important;
 margin-bottom: 0%;
 margin-top: 0%;
@@ -323,20 +359,20 @@ margin-top: 0%;
 .firstSummary,
 .secondSummary {
   font-size: 20px;
-  line-height: 35px;
+  line-height: 32px;
   font-weight: normal;
 }
 
 .thirdSummary {
   font-size: 20px;
-  line-height: 35px;
+  line-height: 32px;
   font-weight: normal;
   margin-bottom: 8%;
 }
 
 .fourthSummary {
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 32px;
   font-weight: normal;
   margin-top: 0%;
 }
@@ -563,12 +599,14 @@ color:#A8C3D6;
 }
 /* ----------------------------- FEMME DEPT PAGE ---------------------------- */
 .projectTitle {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   text-align: left;
   margin-bottom: 4%;
   margin-top: 0%;
-  color:#A8C3D6;
+  /* color:#A8C3D6; */
+  color: #6E6E73;
+
 
 }
 
@@ -600,7 +638,7 @@ color:#A8C3D6;
 .femmeDeptSummary {
   text-align:left;
   font-weight: normal;
-  line-height: 35px;
+  line-height: 32px;
   margin-top: 0%;
   margin-bottom: 0%;
   font-size: 20px;
@@ -610,9 +648,7 @@ color:#A8C3D6;
   font-size: 25px;
   margin-bottom: 2%;
   margin-top: 2%;
-  /* color: #1D1D1F; */
-  /* color: #A8D80A; */
-  color:#A8C3D6;
+  color: #1D1D1F;
   font-weight: 500;
   text-decoration: none !important;
 }
@@ -624,7 +660,7 @@ color:#A8C3D6;
 .technologiesUsed {
   text-align:left;
   font-weight: normal;
-  line-height: 35px;
+  line-height: 32px;
   margin-top: 0%;
   margin-bottom: 3%;
   /* letter-spacing: 0.01em; */
@@ -643,7 +679,7 @@ padding-top: 4%;
   border-radius: 24px;
   background-color: transparent;
   color: #1D1D1F;
-  border: 2.5px solid #A8C3D6;
+  border: 2px solid #6E6E73;
   /* letter-spacing: 0.02em; */
   font-size: 18px;
   font-family: aeonik-regular, sans-serif;
@@ -656,15 +692,17 @@ padding-top: 4%;
   align-items: flex-start;
   font-family: aeonik-medium, sans-serif;
   margin: 0;
-  font-size: 30px;
-  line-height: 2;
-  color:#A8C3D6;
+  font-size: 25px;
+  line-height: 32px;
+  /* color:#A8C3D6; */
+  color: #6E6E73;
 
 }
 
 .femmeDeptRole {
   margin: 0;
   font-size: 20px;
+ line-height: 32px;
 }
 
 .femmeDeptTechnology {
@@ -673,9 +711,10 @@ padding-top: 4%;
   align-items: flex-start;
   padding-left: 100%;
   width: 120%;
-  font-size: 30px;
-  color:#A8C3D6;
-  line-height: 2;
+  font-size: 25px;
+  /* color:#A8C3D6; */
+  color: #6E6E73;
+  line-height: 32px;
   font-family: aeonik-medium, sans-serif;
 }
 
@@ -685,7 +724,7 @@ padding-top: 4%;
   align-items: baseline;
   font-size: 20px;
   text-align: left;
-  line-height: 35px;
+  line-height: 32px;
 }
 
 .femmedeptsvg {
@@ -696,7 +735,7 @@ padding-top: 4%;
   font-weight: 400;
   margin: 0;
   font-size: 20px;
-  line-height: 1.75;
+  line-height: 32px;
   font-family: aeonik-regular, sans-serif;
   color: #1D1D1F;
 }
@@ -722,11 +761,12 @@ padding-top: 4%;
 .problem,
 .solution,
 .research {
-font-size: 30px;
+font-size: 25px;
 margin: 0;
 font-weight: 500;
 /* letter-spacing: 0.01em; */
-color:#A8C3D6;
+/* color:#A8C3D6; */
+color: #6E6E73;
 font-family: aeonik-medium;
 
 }
@@ -735,38 +775,43 @@ font-family: aeonik-medium;
 .solutionSummary,
 .researchSummary {
   width: 33%;
+  font-size: 20px;
   text-align: left;
   margin: 0;
-  line-height: 35px;
-  /* letter-spacing: 0.01em; */
+  line-height: 32px;
 
 }
 
 .competitiveAnalysis {
   margin-top: 4%;
   margin-bottom: 2%;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
-  color:#A8C3D6;
+  /* color:#A8C3D6; */
+color: #6E6E73;
   font-family: aeonik-medium, sans-serif;
 }
 
 .basicDesignElements {
   margin-top: 4%;
   margin-bottom: 2%;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   font-family: aeonik-medium, sans-serif;
-  color:#A8C3D6;
+  /* color:#A8C3D6; */
+color: #6E6E73;
+
 }
 
 .finalDesign {
   margin-top: 4%;
   margin-bottom: 2%;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   font-family: aeonik-medium, sans-serif;
-  color:#A8C3D6;
+  /* color:#A8C3D6; */
+color: #6E6E73;
+
 }
 
 
@@ -864,7 +909,7 @@ font-family: aeonik-medium;
 .kitSummary {
   text-align:left;
   font-weight: normal;
-  line-height: 35px;
+  line-height: 32px;
   margin-top: 0%;
   font-size: 20px;
   /* letter-spacing: 0.01em; */
@@ -881,7 +926,7 @@ font-family: aeonik-medium;
   align-items: baseline;
   font-size: 20px;
   text-align: left;
-  line-height: 35px;
+  line-height: 32px;
   width: 100%;
   margin-top: -5%;
 } 
@@ -890,6 +935,7 @@ font-family: aeonik-medium;
   margin: 0;
   font-size: 20px;
   width: 120%;
+ line-height: 32px;
 }
 
 .kitTechnology {
@@ -897,8 +943,8 @@ font-family: aeonik-medium;
   font-family: aeonik-medium, sans-serif;
   font-size: 30px;
   margin-left: 80%;
-  line-height: 2;
   color:#A8C3D6;
+ line-height: 32px;
 }
 
 .website {
@@ -959,7 +1005,7 @@ font-family: aeonik-medium;
 .dinnerDrinkSummary {
   text-align:left;
   font-weight: normal;
-  line-height: 35px;
+  line-height: 32px;
   margin-top: 0%;
   font-size: 20px;
   width: 100%
@@ -971,7 +1017,8 @@ font-family: aeonik-medium;
   align-items: baseline;
   font-size: 20px;
   text-align: left;
-  line-height: 35px;
+  line-height: 32px;
+
   width: 100%;
 } 
 
@@ -986,7 +1033,7 @@ font-family: aeonik-medium;
   font-size: 30px;
   width: 120%;
   margin-left: 80%;
-  line-height: 2;
+  line-height: 32px;
   color: #A8C3D6;
 
 }
@@ -997,6 +1044,7 @@ font-family: aeonik-medium;
   font-size: 20px;
   margin: 0%;
   color: #1D1D1F;
+ line-height: 32px;
 }
 
 .dinnerDrinkImage {
