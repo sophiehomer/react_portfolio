@@ -34,7 +34,7 @@ body {
 .nav {
   display:flex;
   flex-direction: column;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .about, 
@@ -164,8 +164,8 @@ color:#A8C3D6;
   /* font-size: 80px; */
   font-size: 60px;
   font-weight: 400;
-  margin-bottom: 2%;
-  margin-top: 2%;
+  margin-bottom: 3%;
+  margin-top: 8%;
   /* color: #A8D80A; */
   color:#A8C3D6;
 }
@@ -188,16 +188,13 @@ color:#A8C3D6;
   align-content: center;
   text-align: left;
   width: 60%;
-  padding-top: 2%;
-  /* padding-left: 10%;
-  padding-right: 10%; */
 }
 
 .aboutText {
   font-weight: normal;
   font-size: 25px;
   line-height: 32px;
-  padding-bottom: 2%;
+  /* padding-bottom: 2%; */
   margin-bottom: 0%;
   letter-spacing: 0.01em !important;
 }
@@ -1183,7 +1180,6 @@ label {
 .linkedInIcon, 
 .emailIcon,
 .twitterIcon {
-  /* color: #1D1D1F; */
   color:#A8C3D6;
   margin-right: 1%;
   margin-left: 1%;
@@ -1194,8 +1190,6 @@ footer {
   position: relative;
   width: 100%;
   bottom: 0;
-  padding-top: 3%;
-  padding-bottom: 3%;
 }
 
 /* ---------------------------- NAV MEDIA QUERIES --------------------------- */
@@ -1221,70 +1215,76 @@ footer {
   }
   
   @media only screen and (max-width: 827px) {
-    .title {
-      padding-bottom: 1%;
-      padding-top: 1%;
-    }
-
-    .introText {
-      padding-bottom: 1%;
-    }
 
     .aboutTextDiv{
       width: 90%;
     }
 
     .nav {
-      padding-top: 4%;
+      padding-top: 2%;
     }
    
     }
 
+    @media only screen and (max-width: 735px) {
+      .introText {
+        font-size: 30px;
+      }
+    }
+
     @media only screen and (max-width: 566px) {
      .title {
-      font-size: 50px ;
+      margin-top: 12%;
+      font-size: 50px;
+      margin-bottom: 6%;
      }
+
+     .introText {
+      font-size: 25px;
     }
+
+    .aboutText {
+      font-size: 20px;
+      margin-top: 8%;
+    }
+
+    .aboutExtended {
+      font-size: 20px;
+    }
+
+    .nav {
+      margin-top: 8%;
+    }
+
+    }
+
+
 
 
     @media only screen and (max-width: 472px) {
       .title {
-       font-size: 40px ;
+       font-size: 40px;
       }
 
-      .introText {
-        font-size: 30px;
-      }
+
+     .introText {
+      font-size: 20px;
+    }
+
+    .aboutText {
+      font-size: 18px;
+      line-height: 25px;
+    }
+
+    .aboutExtended {
+      font-size: 18px;
+    }
+
+  
+
      }
 
-    /* @media only screen and (max-width: 735px) {
-      .title {
-        font-size: 40px;
-      }
-
-      .introText {
-        font-size: 30px;
-
-      }
-
-      .aboutText {
-        font-size: 20px;
-        line-height: 24px;
-      }
-
-      .aboutExtended {
-        font-size: 20px;
-
-      }
-
-      .contact,
-      .resume,
-      .portfolio,
-      .moreAboutMe {
-        font-size: 20px;
-      }
-     
-      } */
+   
 /* -------------------------- WORK MEDIA QUERIES --------------------------- */
 @media only screen and (max-width: 800px) {
   .femmeDeptImg,
