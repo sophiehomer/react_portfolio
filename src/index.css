@@ -1192,315 +1192,28 @@ footer {
   bottom: 0;
 }
 
-/* ---------------------------- NAV MEDIA QUERIES --------------------------- */
-@media only screen and (max-width: 900px) {
-  .projectNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+/* ---------------------------- MORE ABOUT ME MEDIA QUERIES max-width: 1269px --------------------------- */
+@media only screen and (max-width: 1100px) {
+  .moreAboutMeContainer {
+   padding-left: 15%;
+   padding-right: 15%;
   }
-}
-
-/* ---------------------------------- ABOUT MEDIA QUERIES --------------------------------- */
+ } 
+ /* ---------------------------- LANDING PAGE MEDIA QUERIES max-width: 1103px --------------------------- */
 @media only screen and (max-width: 1103px) {
-.aboutTextDiv{
-  width: 70%;
-}
-}
-
-@media only screen and (max-width: 945px) {
   .aboutTextDiv{
-    width: 80%;
+    width: 70%;
   }
   }
-  
-  @media only screen and (max-width: 827px) {
-
-    .aboutTextDiv{
-      width: 90%;
+/* ---------------------------- MEDIA QUERIES max-width: 1100px --------------------------- */
+  /* -------------------------- RESUME MEDIA QUERIES max-width: 1100px------------------------- */
+  @media only screen and (max-width: 1100px) {
+    .resumePage {
+      padding-left: 10%;
+      padding-right: 10%;
     }
-
-    .nav {
-      padding-top: 2%;
-    }
-   
-    }
-
-    @media only screen and (max-width: 735px) {
-      .introText {
-        font-size: 30px;
-      }
-    }
-
-    @media only screen and (max-width: 566px) {
-     .title {
-      margin-top: 12%;
-      font-size: 50px;
-      margin-bottom: 6%;
-     }
-
-     .introText {
-      font-size: 25px;
-      line-height: 35px;
-    }
-
-    .aboutText {
-      font-size: 20px;
-      line-height: 30px;
-      margin-top: 8%;
-    }
-
-    .aboutExtended {
-      font-size: 20px;
-    }
-
-    .nav {
-      margin-top: 8%;
-    }
-
-    }
-
-
-
-
-    @media only screen and (max-width: 472px) {
-      .title {
-       font-size: 40px;
-      }
-
-
-     .introText {
-      font-size: 20px;
-    }
-
-    .aboutText {
-      font-size: 18px;
-      line-height: 25px;
-    }
-
-    .aboutExtended {
-      font-size: 18px;
-    }
-
-  
-
-     }
-
-   
-/* -------------------------- WORK MEDIA QUERIES --------------------------- */
-@media only screen and (max-width: 800px) {
-  .femmeDeptImg,
-  .kitImg,
-  .dinnerDrinksImg {
-    width: 100%;
   }
-
-  .ddProductAndRole,
-  .dinnerDrinkPageLink,
-  .kitPageLink,
-  .kitProductAndRole,
-  .fdPageLink,
-  .fdProductAndRole {
-    margin-left: 0%;
-  }
- }
-
- @media only screen and (max-width: 600px) {
-
- .product {
-  font-size: 20px;
-  margin-bottom: 0%;
- }
-
- .role {
-  font-size: 18px;
- }
-
- .portfolioImages {
-  margin-top: 10%;
-}
-
- }
-
-
- @media only screen and (max-width: 357px) {
-  .product {
-    font-size: 14px;
-    margin-bottom: 0%;
-   }
-
-   .role {
-    font-size: 12px;
-   }
-
-   .aboutNav,
-   .portfolioNav,
-    .resumeNav,
-    .contactNav{
-    font-size: 16px;
-   }
-  
-  }
-
-  @media only screen and (max-width: 314px) {
-    .product {
-      font-size: 13px;
-      margin-bottom: 0%;
-     }
-    }
-
-  
-/* -------------------------- MORE ABOUT ME MEDIA QUERIES --------------------------- */
-@media only screen and (max-width: 1269px) {
- .moreAboutMeContainer {
-  padding-left: 15%;
-  padding-right: 15%;
- }
-}
-
-@media only screen and (max-width: 900px) {
-  .skillsContainer {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 10%;
-  }
-
-  .moreAboutMeContainer {
-    padding-top: 4%;
-  }
-
- }
-
- @media only screen and (max-width: 850px) {
-  .moreAboutMeContainer {
-    padding-left: 10%;
-    padding-right: 10%;
-   }
-  }
-
-   @media only screen and (max-width: 600px) {
-    /* .moreAboutMeContainer {
-     margin-top: 10%;
-     } */
-
-     .firstSummary,
-     .secondSummary,
-     .thirdSummary {
-      font-size: 18px;
-      line-height: 25px;
-     }
-
-     .first,
-     .second,
-     .third {
-      font-size: 20px;
-     }
-   }
- 
-
-/* -------------------------- RESUME MEDIA QUERIES ------------------------- */
-@media only screen and (max-width: 1100px) {
-  .resumePage {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  .resumePage {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .workHistory {
-    font-size: 20px;
-    margin-top: 0%;
-    font-family: aeonik-regular, sans-serif;
-
-  }
-
-  .resumePage {
-    margin-top: 10%;
-  }
-
-  .resumePage {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .resumeAppsAndParadigmsTitle,
-  .educationTitle,
-  .resumeSkills {
-    font-size: 20px;
-    font-family: aeonik-regular, sans-serif;
-    font-weight: normal;
-  }
-
-  .job {
-    font-size: 16.5px;
-    margin-top: 2%;
-  }
-
-  .jobDate,
-  .stromaJobDate {
-    font-size: 14px;
-  }
-
-  .jobDescription {
-    font-size: 16.5px;
-    line-height: 20px;
-  }
-
-  .resumeAppsAndParadigms {
-    font-size: 16.5px;
-    line-height: 20px;
-    margin-top: 2%;
-  }
-
-  .education {
-    font-size: 16.5px;
-    margin-top: 2%;
-
-  }
-
-  
-  .resumeTechnical,
-  .resumeAppsParadigms {
-    font-size: 16.5px;
-  }
-
-  .resumeDesign {
-    font-size: 16.5px;
-    margin-top: 2%;
-  }
-  .resumeDesignSkills {
-    margin-top: 0%;
-  }
-
-  .fourthSummary {
-    font-size: 16.5px;
-    line-height: 20px;
-    margin-bottom: 0%;
-  }
-
-  .resumeDownload {
-    font-size: 16.5px;
-    margin-bottom: 10%;
-  }
-}
-
-
-
-
-
-
-
-      
-    
-
-/* -------------------------- FEMME DEPT MEDIA QUERIES ------------------------- */
+  /* -------------------------- FEMME DEPT MEDIA QUERIES max-width: 1100px ------------------------- */
 @media only screen and (max-width: 1100px) {
   .femmeDeptPage {
     padding-top: 2%;
@@ -1570,7 +1283,7 @@ footer {
 .competitiveAnalysis,
 .basicDesignElements,
 .finalDesign  {
-  font-size: 30px;
+  font-size: 25px;
 }
 .competitiveAnalysisContainer,
 .basicDesignElementsContainer {
@@ -1589,7 +1302,7 @@ footer {
 
 }
 
-/* ---------------------------- KIT MEDIA QUERIES --------------------------- */
+/* ---------------------------- KIT MEDIA QUERIES max-width: 1100px --------------------------- */
 
 @media only screen and (max-width: 1100px) {
   .kitPage {
@@ -1630,7 +1343,7 @@ footer {
   }
 } 
 
-/* ----------------------- DINNER DRINKS MEDIA QUERIES ---------------------- */
+/* ----------------------- DINNER DRINKS MEDIA QUERIES max-width: 1100px---------------------- */
 @media only screen and (max-width: 1100px) {
   .dinnerDrinkPage {
    display: flex;
@@ -1669,7 +1382,7 @@ footer {
     margin-bottom: 4%;
   }
 } 
-/* ----------------------- FOOTER MEDIA  QUERIES ----------------------- */
+/* ----------------------- FOOTER MEDIA QUERIES max-width: 1100px----------------------- */
 
 @media only screen and (max-width: 1100px) {
 
@@ -1682,4 +1395,271 @@ footer {
   }
   
 }
+/* --------------------- MEDIA QUERIES max-width: 945px --------------------- */
+
+/* ---------------------------------- ABOUT MEDIA QUERIES max-width: 945px --------------------------------- */
+@media only screen and (max-width: 945px) {
+  .aboutTextDiv{
+    width: 80%;
+  }
+  }
+  
+/* -------------------------- 2nd NAV MEDIA QUERIES max-width: 900px------------------------- */
+@media only screen and (max-width: 900px) {
+  .projectNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+/* ----------------------- MORE ABOUT ME MEDIA QUERIES max-width: 900px---------------------- */
+@media only screen and (max-width: 900px) {
+  .skillsContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+  }
+
+  .moreAboutMeContainer {
+    padding-top: 4%;
+  }
+
+ }
+/* ----------------------- MORE ABOUT ME MEDIA QUERIES max-width: 850px---------------------- */
+ @media only screen and (max-width: 850px) {
+  .moreAboutMeContainer {
+    padding-left: 10%;
+    padding-right: 10%;
+   }
+  }
+  /* ----------------------- LANDING PAGE MEDIA QUERIES max-width: 827px----------------------- */
+  @media only screen and (max-width: 827px) {
+
+    .aboutTextDiv{
+      width: 90%;
+    }
+
+    .nav {
+      padding-top: 2%;
+    }
+   
+    }
+/* --------------------------- WORK MEDIA QUERIES max-width: 800px --------------------------- */
+    @media only screen and (max-width: 800px) {
+      .femmeDeptImg,
+      .kitImg,
+      .dinnerDrinksImg {
+        width: 100%;
+      }
+    
+      .ddProductAndRole,
+      .dinnerDrinkPageLink,
+      .kitPageLink,
+      .kitProductAndRole,
+      .fdPageLink,
+      .fdProductAndRole {
+        margin-left: 0%;
+      }
+     }
+     /* ------------------ LANDING PAGE MEDIA QUERIES max-width:735px ----------------- */
+    @media only screen and (max-width: 735px) {
+      .introText {
+        font-size: 30px;
+      }
+    }
+    /* -------------------------- MORE ABOUT ME MEDIA QUERIES max-width: 600px --------------------------- */
+   @media only screen and (max-width: 600px) {
+     .firstSummary,
+     .secondSummary,
+     .thirdSummary {
+      font-size: 18px;
+      line-height: 25px;
+     }
+
+     .first,
+     .second,
+     .third {
+      font-size: 20px;
+     }
+   }
+   /* -------------------------- WORK MEDIA QUERIES max-width: 600px--------------------------- */
+ @media only screen and (max-width: 600px) {
+  .product {
+   font-size: 20px;
+   margin-bottom: 0%;
+  }
+ 
+  .role {
+   font-size: 18px;
+  }
+ 
+  .portfolioImages {
+   margin-top: 10%;
+ }
+ 
+  }
+/* -------------------------- RESUME MEDIA QUERIES max-width: 600px------------------------- */
+@media only screen and (max-width: 600px) {
+  .workHistory {
+    font-size: 20px;
+    margin-top: 0%;
+    font-family: aeonik-regular, sans-serif;
+  }
+
+  .resumePage {
+    margin-top: 10%;
+  }
+
+  .resumePage {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .resumeAppsAndParadigmsTitle,
+  .educationTitle,
+  .resumeSkills {
+    font-size: 20px;
+    font-family: aeonik-regular, sans-serif;
+    font-weight: normal;
+  }
+
+  .job {
+    font-size: 16.5px;
+    margin-top: 2%;
+  }
+
+  .jobDate,
+  .stromaJobDate {
+    font-size: 14px;
+  }
+
+  .jobDescription {
+    font-size: 16.5px;
+    line-height: 20px;
+  }
+
+  .resumeAppsAndParadigms {
+    font-size: 16.5px;
+    line-height: 20px;
+    margin-top: 2%;
+  }
+
+  .education {
+    font-size: 16.5px;
+    margin-top: 2%;
+
+  }
+  
+  .resumeTechnical,
+  .resumeAppsParadigms {
+    font-size: 16.5px;
+  }
+
+  .resumeDesign {
+    font-size: 16.5px;
+    margin-top: 2%;
+  }
+  .resumeDesignSkills {
+    margin-top: 0%;
+  }
+
+  .fourthSummary {
+    font-size: 16.5px;
+    line-height: 20px;
+    margin-bottom: 0%;
+  }
+
+  .resumeDownload {
+    font-size: 16.5px;
+    margin-bottom: 10%;
+  }
+}
+/* ------------------ LANDING PAGE MEDIA QUERIES max-width:566px ----------------- */
+    @media only screen and (max-width: 566px) {
+     .title {
+      margin-top: 12%;
+      font-size: 50px;
+      margin-bottom: 6%;
+     }
+
+     .introText {
+      font-size: 25px;
+      line-height: 35px;
+    }
+
+    .aboutText {
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 8%;
+    }
+
+    .aboutExtended {
+      font-size: 20px;
+    }
+
+    .nav {
+      margin-top: 8%;
+    }
+
+    }
+/* ------------------ LANDING PAGE MEDIA QUERIES max-width:427px ----------------- */
+    @media only screen and (max-width: 472px) {
+      .title {
+       font-size: 40px;
+      }
+
+     .introText {
+      font-size: 20px;
+    }
+
+    .aboutText {
+      font-size: 18px;
+      line-height: 25px;
+    }
+
+    .aboutExtended {
+      font-size: 18px;
+    }
+
+     }
+/* -------------------------- WORK MEDIA QUERIES max-width: 357px--------------------------- */
+ @media only screen and (max-width: 357px) {
+  .product {
+    font-size: 14px;
+    margin-bottom: 0%;
+   }
+
+   .role {
+    font-size: 12px;
+   }
+  }
+/* -------------------------- 2nd NAV MEDIA QUERIES max-width: 357px--------------------------- */
+@media only screen and (max-width: 357px) {
+   .aboutNav,
+   .portfolioNav,
+   .resumeNav,
+   .contactNav {
+    font-size: 16px;
+   }
+  }
+/* -------------------------- WORK MEDIA QUERIES max-width: 314px--------------------------- */
+  @media only screen and (max-width: 314px) {
+    .product {
+      font-size: 13px;
+      margin-bottom: 0%;
+     }
+    }
+
+  
+
+ 
+
+
+
+
+
+
+      
+    
+
 
