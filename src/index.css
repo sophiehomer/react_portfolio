@@ -1241,10 +1241,12 @@ footer {
 
      .introText {
       font-size: 25px;
+      line-height: 35px;
     }
 
     .aboutText {
       font-size: 20px;
+      line-height: 30px;
       margin-top: 8%;
     }
 
@@ -1306,12 +1308,12 @@ footer {
  @media only screen and (max-width: 600px) {
 
  .product {
-  font-size: 16.5px;
+  font-size: 20px;
   margin-bottom: 0%;
  }
 
  .role {
-  font-size: 14px;
+  font-size: 18px;
  }
 
  .portfolioImages {
@@ -1384,8 +1386,8 @@ footer {
      .firstSummary,
      .secondSummary,
      .thirdSummary {
-      font-size: 16.5px;
-      line-height: 20px;
+      font-size: 18px;
+      line-height: 25px;
      }
 
      .first,
