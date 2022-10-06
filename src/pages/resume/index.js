@@ -59,8 +59,6 @@ const Resume = () => {
                 December 2021 - June 2022
                 </p>
   
-           
-
                 <p className="resumeSkills">Skills</p>
                 <div className="skillsContainer">
                     <div className="resumeDesignSkills">

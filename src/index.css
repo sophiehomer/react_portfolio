@@ -22,7 +22,6 @@ body {
 @font-face {
   font-family: aeonik-RegularItalic;
   src: local("aeonik-regularItalic"), url("./fonts/Aeonik-RegularItalic.ttf") format("truetype");
-
 }
 
 @font-face {
@@ -46,7 +45,7 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  font-size: 25px;
+  font-size: 20px;
   color:  #1D1D1F;
   border: none;
   background-color: transparent !important;
@@ -71,8 +70,8 @@ body {
   display:flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 2%;
-  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   color: #1D1D1F;
   width:80%;
 }
@@ -88,9 +87,10 @@ body {
 .home {
 font-size: 35px;
 text-decoration: none;
-margin-left: 2%;
+/* margin-left: 5%; */
 margin-top: 2%;
 /* color: #1D1D1F; */
+width: 27%;
 color:#A8C3D6;
 
 }
@@ -192,9 +192,8 @@ color:#A8C3D6;
 
 .aboutText {
   font-weight: normal;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 32px;
-  /* padding-bottom: 2%; */
   margin-bottom: 0%;
   letter-spacing: 0.01em !important;
 }
@@ -218,7 +217,6 @@ color:#A8C3D6;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  /* padding-bottom: 10%; */
 }
 /* ---------------------------------  RESUME -------------------------------- */
 .resumePage {
@@ -312,7 +310,7 @@ color:#A8C3D6;
   text-decoration: none;
   color: #6E6E73;
   font-size: 20px;
-  font-family: aeonik-regularItalic;
+  font-family: aeonik-regularItalic, sans-serif !important;
   margin-top: 8%;
   margin-bottom: 4%;
   cursor: pointer;
@@ -327,7 +325,7 @@ color:#A8C3D6;
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding-left: 25%;
+  margin-left: 5%;
   padding-right: 25%;
 }
 
@@ -1192,28 +1190,27 @@ footer {
   bottom: 0;
 }
 
-/* ---------------------------- MORE ABOUT ME MEDIA QUERIES max-width: 1269px --------------------------- */
+/* ---------------------------- ABOUT ME MEDIA QUERIES max-width: 1269px --------------------------- */
 @media only screen and (max-width: 1100px) {
   .moreAboutMeContainer {
-   padding-left: 15%;
-   padding-right: 15%;
+   padding-left: 20%;
+   padding-right: 20%;
   }
  } 
- /* ---------------------------- LANDING PAGE MEDIA QUERIES max-width: 1103px --------------------------- */
+/* ---------------------------- LANDING PAGE MEDIA QUERIES max-width: 1103px --------------------------- */
 @media only screen and (max-width: 1103px) {
-  .aboutTextDiv{
-    width: 70%;
-  }
-  }
-/* ---------------------------- MEDIA QUERIES max-width: 1100px --------------------------- */
-  /* -------------------------- RESUME MEDIA QUERIES max-width: 1100px------------------------- */
-  @media only screen and (max-width: 1100px) {
-    .resumePage {
+.aboutTextDiv{
+  width: 70%;
+}
+}
+/* -------------------------- RESUME MEDIA QUERIES max-width: 1100px------------------------- */
+@media only screen and (max-width: 1100px) {
+  .resumePage {
       padding-left: 10%;
       padding-right: 10%;
-    }
-  }
-  /* -------------------------- FEMME DEPT MEDIA QUERIES max-width: 1100px ------------------------- */
+  } 
+}
+/* -------------------------- FEMME DEPT MEDIA QUERIES max-width: 1100px ------------------------- */
 @media only screen and (max-width: 1100px) {
   .femmeDeptPage {
     padding-top: 2%;
@@ -1249,15 +1246,13 @@ footer {
   padding-left: 0%;
 }
 
-
 .problemContainer,
 .solutionContainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  align-items: flex-start
-
+  align-items: flex-start;
 }
 
 .researchContainer {
@@ -1267,7 +1262,6 @@ footer {
   align-content: center;
   align-items: flex-start;
   margin-left: 0%;
-
 }
 
 .problemSummary,
@@ -1294,16 +1288,13 @@ footer {
   align-items: flex-start;
 }
 
-
 .competitiveAnalysisImg,
 .basicDesignElementsImg {
   width: 70%;
 }
 
 }
-
 /* ---------------------------- KIT MEDIA QUERIES max-width: 1100px --------------------------- */
-
 @media only screen and (max-width: 1100px) {
   .kitPage {
    display: flex;
@@ -1397,22 +1388,14 @@ footer {
 }
 /* --------------------- MEDIA QUERIES max-width: 945px --------------------- */
 
-/* ---------------------------------- ABOUT MEDIA QUERIES max-width: 945px --------------------------------- */
+/* ---------------------------------- LANDING PAGE MEDIA QUERIES max-width: 945px --------------------------------- */
 @media only screen and (max-width: 945px) {
   .aboutTextDiv{
     width: 80%;
   }
   }
-  
-/* -------------------------- 2nd NAV MEDIA QUERIES max-width: 900px------------------------- */
-@media only screen and (max-width: 900px) {
-  .projectNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-}
-/* ----------------------- MORE ABOUT ME MEDIA QUERIES max-width: 900px---------------------- */
+
+/* ----------------------- ABOUT ME MEDIA QUERIES max-width: 900px---------------------- */
 @media only screen and (max-width: 900px) {
   .skillsContainer {
     display: flex;
@@ -1425,7 +1408,7 @@ footer {
   }
 
  }
-/* ----------------------- MORE ABOUT ME MEDIA QUERIES max-width: 850px---------------------- */
+/* ----------------------- ABOUT ME MEDIA QUERIES max-width: 850px---------------------- */
  @media only screen and (max-width: 850px) {
   .moreAboutMeContainer {
     padding-left: 10%;
@@ -1467,7 +1450,7 @@ footer {
         font-size: 30px;
       }
     }
-    /* -------------------------- MORE ABOUT ME MEDIA QUERIES max-width: 600px --------------------------- */
+    /* -------------------------- ABOUT ME MEDIA QUERIES max-width: 600px --------------------------- */
    @media only screen and (max-width: 600px) {
      .firstSummary,
      .secondSummary,
@@ -1492,22 +1475,66 @@ footer {
   .role {
    font-size: 18px;
   }
- 
-  .portfolioImages {
-   margin-top: 10%;
- }
- 
   }
+/* -------------------------- ALL PROJECT MEDIA QUERIES max-width: 600px--------------------------- */
+@media only screen and (max-width: 600px) {
+.projectTitle {
+  font-size: 20px;
+}
+
+.femmeDeptSummary,
+.kitSummary,
+.dinnerDrinkSummary {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.myRole {
+  font-size: 20px;
+}
+
+.femmeDeptRole,
+.kitRole,
+.dinnerDrinkRole {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.femmeDeptTechnology,
+.kitTechnology,
+.dinnerDrinkTechnology {
+  font-size: 20px;
+}
+
+.figma,
+.dinnerDrinkTechnologies {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.problem, 
+.solution, 
+.research, 
+.competitiveAnalysis, 
+.basicDesignElements, 
+.finalDesign {
+  font-size: 20px;
+}
+
+.problemSummary,
+.solutionSummary,
+.researchSummary {
+  font-size: 18px;
+  line-height: 25px;
+}
+  }
+
 /* -------------------------- RESUME MEDIA QUERIES max-width: 600px------------------------- */
 @media only screen and (max-width: 600px) {
   .workHistory {
     font-size: 20px;
     margin-top: 0%;
     font-family: aeonik-regular, sans-serif;
-  }
-
-  .resumePage {
-    margin-top: 10%;
   }
 
   .resumePage {
@@ -1524,39 +1551,39 @@ footer {
   }
 
   .job {
-    font-size: 16.5px;
+    font-size: 18px;
     margin-top: 2%;
   }
 
   .jobDate,
   .stromaJobDate {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .jobDescription {
-    font-size: 16.5px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 25px;
   }
 
   .resumeAppsAndParadigms {
-    font-size: 16.5px;
+    font-size: 18px;
     line-height: 20px;
     margin-top: 2%;
   }
 
   .education {
-    font-size: 16.5px;
+    font-size: 18px;
     margin-top: 2%;
 
   }
   
   .resumeTechnical,
   .resumeAppsParadigms {
-    font-size: 16.5px;
+    font-size: 18px;
   }
 
   .resumeDesign {
-    font-size: 16.5px;
+    font-size: 18px;
     margin-top: 2%;
   }
   .resumeDesignSkills {
@@ -1564,18 +1591,18 @@ footer {
   }
 
   .fourthSummary {
-    font-size: 16.5px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 25px;
     margin-bottom: 0%;
   }
 
   .resumeDownload {
-    font-size: 16.5px;
+    font-size: 16px;
     margin-bottom: 10%;
   }
 }
 /* ------------------ LANDING PAGE MEDIA QUERIES max-width:566px ----------------- */
-    @media only screen and (max-width: 566px) {
+    @media only screen and (max-width: 600px) {
      .title {
       margin-top: 12%;
       font-size: 50px;
@@ -1647,6 +1674,10 @@ footer {
     .product {
       font-size: 13px;
       margin-bottom: 0%;
+     }
+
+     .role {
+      font-size: 11px;
      }
     }
 
