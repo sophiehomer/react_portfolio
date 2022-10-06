@@ -1206,8 +1206,8 @@ footer {
 /* -------------------------- RESUME MEDIA QUERIES max-width: 1100px------------------------- */
 @media only screen and (max-width: 1100px) {
   .resumePage {
-      padding-left: 10%;
-      padding-right: 10%;
+      padding-left: 15%;
+      padding-right: 15%;
   } 
 }
 /* -------------------------- FEMME DEPT MEDIA QUERIES max-width: 1100px ------------------------- */
@@ -1402,11 +1402,6 @@ footer {
     flex-direction: column;
     padding-bottom: 10%;
   }
-
-  .moreAboutMeContainer {
-    padding-top: 4%;
-  }
-
  }
 /* ----------------------- ABOUT ME MEDIA QUERIES max-width: 850px---------------------- */
  @media only screen and (max-width: 850px) {
@@ -1538,8 +1533,8 @@ footer {
   }
 
   .resumePage {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .resumeAppsAndParadigmsTitle,
@@ -1574,7 +1569,6 @@ footer {
   .education {
     font-size: 18px;
     margin-top: 2%;
-
   }
   
   .resumeTechnical,
@@ -1586,6 +1580,7 @@ footer {
     font-size: 18px;
     margin-top: 2%;
   }
+
   .resumeDesignSkills {
     margin-top: 0%;
   }

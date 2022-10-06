@@ -20,7 +20,7 @@ const Resume = () => {
                      June 2022 - August 2022
                 </p>
                 <p className="jobDescription">     
-                • Facilitated design discussions with cross-functional teams to gather business and user <br></br> insights to inform design decisions <br></br>
+                • Facilitated design discussions with cross-functional teams to gather business and user insights to inform design decisions <br></br>
                 • Delivered high-fidelity prototypes
                 </p>
 
