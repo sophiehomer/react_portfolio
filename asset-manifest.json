@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sophie_homer_portfolio/static/css/main.cbb9c652.css",
-    "main.js": "/sophie_homer_portfolio/static/js/main.50bb0aee.js",
-    "static/js/787.0e6c9168.chunk.js": "/sophie_homer_portfolio/static/js/787.0e6c9168.chunk.js",
+    "main.css": "/sophie_homer_portfolio/static/css/main.c979ba7a.css",
+    "main.js": "/sophie_homer_portfolio/static/js/main.287ca010.js",
+    "static/js/787.1e5526ac.chunk.js": "/sophie_homer_portfolio/static/js/787.1e5526ac.chunk.js",
     "static/media/femme_dept.webp": "/sophie_homer_portfolio/static/media/femme_dept.4a61753a4c57c14203eb.webp",
     "static/media/kit.webp": "/sophie_homer_portfolio/static/media/kit.a4a753a5ece44e9be72c.webp",
     "static/media/LandingPage.webp": "/sophie_homer_portfolio/static/media/LandingPage.df457316d48aa9c696f0.webp",
@@ -39,16 +39,15 @@
     "static/media/myAccount2.webp": "/sophie_homer_portfolio/static/media/myAccount2.ac2417331afb7248f6e0.webp",
     "static/media/myAccountUpdateAddress.webp": "/sophie_homer_portfolio/static/media/myAccountUpdateAddress.a1abf98bccd3edc829d2.webp",
     "static/media/orderComplete.webp": "/sophie_homer_portfolio/static/media/orderComplete.759c67d0b7d31406e0d9.webp",
-    "static/media/Mattone-Regular.ttf": "/sophie_homer_portfolio/static/media/Mattone-Regular.0ecbf9fae63bb09ba495.ttf",
     "static/media/myAccount.webp": "/sophie_homer_portfolio/static/media/myAccount.8d054f0438190cd2413b.webp",
     "static/media/sophie-homer-resume.pdf": "/sophie_homer_portfolio/static/media/sophie-homer-resume.cbae703d30da0341e83f.pdf",
     "index.html": "/sophie_homer_portfolio/index.html",
-    "main.cbb9c652.css.map": "/sophie_homer_portfolio/static/css/main.cbb9c652.css.map",
-    "main.50bb0aee.js.map": "/sophie_homer_portfolio/static/js/main.50bb0aee.js.map",
-    "787.0e6c9168.chunk.js.map": "/sophie_homer_portfolio/static/js/787.0e6c9168.chunk.js.map"
+    "main.c979ba7a.css.map": "/sophie_homer_portfolio/static/css/main.c979ba7a.css.map",
+    "main.287ca010.js.map": "/sophie_homer_portfolio/static/js/main.287ca010.js.map",
+    "787.1e5526ac.chunk.js.map": "/sophie_homer_portfolio/static/js/787.1e5526ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbb9c652.css",
-    "static/js/main.50bb0aee.js"
+    "static/css/main.c979ba7a.css",
+    "static/js/main.287ca010.js"
   ]
 }
