@@ -71,10 +71,8 @@ text-decoration: underline;
   display:flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 3%;
   margin-bottom: 3%;
   color: #1C1C1C;
-  width:80%;
 }
 
 .nav-project {
@@ -82,7 +80,7 @@ text-decoration: underline;
   flex-direction: row;
   justify-content: space-between;
   color: #1C1C1C;
-
+  padding-bottom: 5%;
 }
 
 .home {
@@ -90,16 +88,16 @@ font-size: 35px;
 text-decoration: none;
 /* margin-left: 5%; */
 margin-top: 2%;
-/* color: #1D1D1F; */
 width: 27%;
-color:#A8C3D6;
+/* color:#A8C3D6; */
+color: #1C1C1C;
 font-family: aeonik-regular, sans-serif !important; 
 }
 
 .aboutNav {
   font-size: 20px;
   font-weight: 400;
-  color: #1C1C1C;
+  color: white;
   border: none;
   background-color: transparent !important;
   font-family: aeonik-regular, sans-serif;
@@ -117,7 +115,7 @@ font-family: aeonik-regular, sans-serif !important;
 .portfolioNav {
   font-size: 20px;
   font-weight: 400;
-  color: #1C1C1C;
+  color: white;
   border: none;
   background-color: transparent !important;
   font-family: aeonik-regular, sans-serif;
@@ -128,7 +126,7 @@ font-family: aeonik-regular, sans-serif !important;
 .resumeNav {
   font-size: 20px;
   font-weight: 400;
-  color: #1C1C1C;
+  color: white;
   border: none;
   background-color: transparent !important;
   font-family: aeonik-regular, sans-serif;
@@ -150,7 +148,7 @@ font-family: aeonik-regular, sans-serif !important;
 .contactNav {
   font-size: 20px;
   font-weight: 400;
-  color: #1C1C1C;
+  color: white !important;
   border: none;
   background-color: transparent !important;
   font-family: aeonik-regular, sans-serif;
@@ -166,12 +164,15 @@ font-family: aeonik-regular, sans-serif !important;
   font-weight: 400;
   margin-bottom: 3%;
   margin-top: 12%;
-  color:#A8C3D6;
+  color:#1C1C1C;
+  /* color:#A8C3D6; */
 }
 
 .word {
   margin-left: 1%;
-  color:#A8C3D6;
+  /* color:#A8C3D6; */
+  /* color:#1C1C1C; */
+  color: #8F8F8F;
   font-family: aeonik-regular, sans-serif !important; 
 }
 
@@ -184,7 +185,8 @@ font-family: aeonik-regular, sans-serif !important;
   margin-bottom: 0;
   font-weight: 400;
   margin-top: 0;
-  color:#1C1C1C;
+  /* color:#1C1C1C; */
+  color: #8F8F8F;
   letter-spacing: 0.01em !important;
   font-family: aeonik-regular, sans-serif !important; 
 }
@@ -256,9 +258,7 @@ font-family: aeonik-regular, sans-serif !important;
   font-family: aeonik-regular, sans-serif;
   font-size: 16px;
   margin-top: 1%;
-  /* color:#A8C3D6; */
-  color: #1C1C1C;
-
+  color: #8F8F8F;
 
 }
 
@@ -266,8 +266,7 @@ font-family: aeonik-regular, sans-serif !important;
   font-family: aeonik-regular, sans-serif;
   font-size: 16px;
   margin-top: 1%;
-  /* color:#A8C3D6; */
-  color: #1C1C1C;
+  color: #8F8F8F;
   margin-bottom: 1%;
 }
 
@@ -295,8 +294,7 @@ font-family: aeonik-regular, sans-serif !important;
 .resumeDesign {
   font-family: aeonik-regular, sans-serif;
   font-size: 20px;
-  /* color: #A8C3D6; */
-  color: #1C1C1C;
+  color: #8F8F8F;
   margin-bottom: 1%;
 }
 
@@ -320,7 +318,7 @@ font-family: aeonik-regular, sans-serif !important;
 
 .resumeDownload {
   text-decoration: none;
-  color: #1C1C1C;
+  color: #8F8F8F;
   font-size: 20px;
   font-family: aeonik-regularItalic, sans-serif !important;
   margin-top: 8%;
@@ -651,7 +649,7 @@ color:#A8C3D6;
   font-size: 25px;
   margin-bottom: 2%;
   margin-top: 2%;
-  color: #444444;
+  color: #1C1C1C;
   font-weight: 500;
   text-decoration: none !important;
   
@@ -740,7 +738,7 @@ padding-top: 4%;
   font-size: 20px;
   line-height: 32px;
   font-family: aeonik-regular, sans-serif;
-  color: #444444;
+  color: #1C1C1C;
 }
 
 .problemContainer,
@@ -767,10 +765,7 @@ padding-top: 4%;
 font-size: 25px;
 margin: 0;
 font-weight: 500;
-/* letter-spacing: 0.01em; */
-/* color:#A8C3D6; */
-color: #444444;
-
+color: #1C1C1C;
 font-family: aeonik-medium;
 
 }
@@ -792,8 +787,7 @@ font-family: aeonik-medium;
   font-size: 25px;
   font-weight: 500;
   /* color:#A8C3D6; */
-  color: #444444;
-
+  color: #1C1C1C;
   font-family: aeonik-medium, sans-serif;
 }
 
@@ -804,9 +798,7 @@ font-family: aeonik-medium;
   font-weight: 500;
   font-family: aeonik-medium, sans-serif;
   /* color:#A8C3D6; */
-  color: #444444;
-
-
+  color: #1C1C1C;
 }
 
 .finalDesign {
@@ -815,12 +807,8 @@ font-family: aeonik-medium;
   font-size: 25px;
   font-weight: 500;
   font-family: aeonik-medium, sans-serif;
-  /* color:#A8C3D6; */
-  color: #444444;
-
-
+  color: #1C1C1C;
 }
-
 
 .competitiveAnalysisImg {
   width: 70%;
@@ -919,8 +907,7 @@ font-family: aeonik-medium;
   line-height: 32px;
   margin-top: 0%;
   font-size: 20px;
-  /* letter-spacing: 0.01em; */
-  width: 100%;
+  width: 95%;
 }
 
 .kitUsernameAndPassword {
@@ -950,9 +937,7 @@ font-family: aeonik-medium;
   font-family: aeonik-medium, sans-serif;
   font-size: 25px;
   margin-left: 80%;
-  /* color:#A8C3D6; */
-  color: #444444;
-
+color: #1C1C1C;
  line-height: 32px;
 }
 
@@ -960,7 +945,7 @@ font-family: aeonik-medium;
   padding: .5em 2.5em;
   border-radius: 24px;
   background-color: transparent;
-  color: #444444;
+  color: #1C1C1C;
   border: 2px solid #6E6E73;
   font-size: 18px;
   font-family: aeonik-regular, sans-serif;
@@ -972,7 +957,7 @@ font-family: aeonik-medium;
   padding: .5em 3.37em;
   border-radius: 24px;
   background-color: transparent;
-  color: #444444;
+  color: #1C1C1C;
   border: 2px solid #6E6E73;
   font-size: 18px;
   font-family: aeonik-regular, sans-serif;
@@ -1017,7 +1002,7 @@ font-family: aeonik-medium;
   line-height: 32px;
   margin-top: 0%;
   font-size: 20px;
-  width: 100%
+  width: 95%
 }
 
 .dinnerDrinkRoleAndTechnology {
@@ -1042,7 +1027,8 @@ font-family: aeonik-medium;
   width: 120%;
   margin-left: 80%;
   line-height: 32px;
-  color: #444444;
+  color: #1C1C1C;
+
 }
 
 .dinnerDrinkTechnologies {
@@ -1050,7 +1036,7 @@ font-family: aeonik-medium;
   font-weight: 400;
   font-size: 20px;
   margin: 0%;
-  color: #444444;
+  color: #1C1C1C;
  line-height: 32px;
 }
 
@@ -1174,7 +1160,7 @@ label {
 }
 
 .downloadResume {
-  color: #444444;
+  color: #1C1C1C;
   text-decoration: none;
   font-size: 1.5em;
 }
