@@ -5,10 +5,8 @@ import Resume from '../../components/Resume'
 
 const home = () => {
   return (
-    <div>
+    <div className="landingPageContainer">
         <About/>
-        {/* <Portfolio/> */}
-        {/* <Resume/> */}
     </div>
   )
 }

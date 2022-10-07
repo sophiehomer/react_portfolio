@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import { AiOutlineArrowRight } from 'react-icons/ai'
+// import { AiOutlineArrowRight } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
 const Navigation = (props) => {
@@ -11,18 +11,23 @@ const Navigation = (props) => {
   return (
     <nav className="nav"> 
         <Link to="/about_extended" className="aboutExtended">
-          Learn more about me <AiOutlineArrowRight className="arrow" size={20}/>
+          Learn more <span className="word"> about me </span> 
+          {/* <AiOutlineArrowRight className="arrow" size={20}/> */}
         </Link>
 
         <Link to="/work" className="aboutExtended">
-        Check out my work <AiOutlineArrowRight className="arrow" size={20}/>
+        Check out <span className="word"> my work </span>
+        {/* <AiOutlineArrowRight className="arrow" size={20}/> */}
         </Link>
 
         <Link to="/resume" className="aboutExtended">
-        View my resume <AiOutlineArrowRight className="arrow" size={20}/>
+        View my <span className="word"> resume </span> 
+        {/* <AiOutlineArrowRight className="arrow" size={20}/> */}
         </Link>
 
-        <a href='mailto:sophiehomer94@gmail.com' className='aboutExtended'>Reach out <AiOutlineArrowRight className="arrow" size={20}/></a>
+        <a href='mailto:sophiehomer94@gmail.com' className='reachOut'>Reach out 
+        {/* <AiOutlineArrowRight className="arrow" size={20}/> */}
+        </a>
   </nav>
   
   )
