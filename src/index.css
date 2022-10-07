@@ -84,12 +84,10 @@ text-decoration: underline;
 }
 
 .home {
-font-size: 35px;
+margin-left: 2%;
+font-size: 25px;
 text-decoration: none;
-/* margin-left: 5%; */
 margin-top: 2%;
-width: 27%;
-/* color:#A8C3D6; */
 color: #1C1C1C;
 font-family: aeonik-regular, sans-serif !important; 
 }
