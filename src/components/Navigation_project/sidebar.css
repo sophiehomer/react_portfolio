@@ -40,10 +40,10 @@
   /* General sidebar styles */
   .bm-menu {
     background: black;
-    padding: 2.5em 1.5em;
+    padding: 1.5em 1.5em;
     font-size: 1.15em;
     border-radius: 24px 0px 0px 24px;
-    height: 45% !important;
+    height: 40% !important;
   }
   
   /* Morph shape necessary with bubble or elastic */

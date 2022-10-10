@@ -1706,18 +1706,13 @@ footer {
     font-size: 12px;
    }
   }
-  /* -------------------------- NAV MEDIA QUERIES max-width: 350px--------------------------- */
-  @media only screen and (max-width: 350px) {
+  /* -------------------------- NAV MEDIA QUERIES max-width: 400px--------------------------- */
+  @media only screen and (max-width: 400px) {
     .nav-project {
       margin-bottom: 35%;
     }
-    
-    .bm-menu {
-      padding: 0% !important;
-    }
-    }
 
-
+  }
 /* -------------------------- WORK MEDIA QUERIES max-width: 314px--------------------------- */
   @media only screen and (max-width: 314px) {
     .product {
