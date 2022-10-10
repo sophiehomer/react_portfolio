@@ -67,29 +67,23 @@ text-decoration: underline;
   text-decoration-color: #A8C3D6;
 } */
 /* ----------------------------- PROJECT NAV BAR ---------------------------- */
-.projectNav {
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-bottom: 3%;
-  color: #1C1C1C;
-}
 
 .nav-project {
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   color: #1C1C1C;
-  padding-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .home {
-margin-left: 2%;
-font-size: 25px;
-text-decoration: none;
-margin-top: 2%;
-color: #1C1C1C;
-font-family: aeonik-regular, sans-serif !important; 
+  position: absolute;
+  top: 38px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #1C1C1C;
+  width: 100%;
+  font-family: aeonik-regular, sans-serif !important; 
 }
 
 .aboutNav {
@@ -1191,6 +1185,13 @@ footer {
    padding-right: 20%;
   }
  } 
+
+ /* -------------------------- NAV MEDIA QUERIES max-width: 1269px------------------------- */
+@media only screen and (max-width: 1269px) {
+  .nav-project  {
+      margin-bottom: 12%
+  } 
+}
 /* ---------------------------- LANDING PAGE MEDIA QUERIES max-width: 1103px --------------------------- */
 @media only screen and (max-width: 1103px) {
 .aboutTextDiv{
@@ -1204,6 +1205,14 @@ footer {
       padding-right: 15%;
   } 
 }
+
+/* -------------------------- WORK MEDIA QUERIES max-width: 1100px------------------------- */
+/* @media only screen and (max-width: 1100px) {
+  .nav-project  {
+      margin-bottom: 15%
+  } 
+} */
+
 /* -------------------------- FEMME DEPT MEDIA QUERIES max-width: 1100px ------------------------- */
 @media only screen and (max-width: 1100px) {
   .femmeDeptPage {
@@ -1368,9 +1377,7 @@ footer {
   }
 } 
 /* ----------------------- FOOTER MEDIA QUERIES max-width: 1100px----------------------- */
-
 @media only screen and (max-width: 1100px) {
-
   .githubIcon, 
   .linkedInIcon, 
   .emailIcon,
@@ -1397,11 +1404,15 @@ footer {
     padding-bottom: 10%;
   }
  }
-/* ----------------------- ABOUT ME MEDIA QUERIES max-width: 850px---------------------- */
+ /* ----------------------- NAV MEDIA QUERIES max-width: 850px---------------------- */
  @media only screen and (max-width: 850px) {
+  .nav-project {
+    margin-bottom: 18%;
+  }
+/* ----------------------- ABOUT ME MEDIA QUERIES max-width: 850px---------------------- */
   .moreAboutMeContainer {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    /* padding-right: 10%; */
    }
   }
   /* ----------------------- LANDING PAGE MEDIA QUERIES max-width: 827px----------------------- */
@@ -1433,13 +1444,50 @@ footer {
         margin-left: 0%;
       }
      }
-     /* ------------------ LANDING PAGE MEDIA QUERIES max-width:735px ----------------- */
+    /* ------------------ LANDING PAGE MEDIA QUERIES max-width:735px ----------------- */
     @media only screen and (max-width: 735px) {
       .introText {
         font-size: 30px;
       }
     }
-    /* -------------------------- ABOUT ME MEDIA QUERIES max-width: 600px --------------------------- */
+
+  /* ------------------ LANDING PAGE MEDIA QUERIES max-width:735px ----------------- */
+    @media only screen and (max-width: 735px) {
+      .introText {
+        font-size: 30px;
+      }
+    }
+  /* ------------------ NAV PAGE MEDIA QUERIES max-width:700px ----------------- */
+    @media only screen and (max-width: 700px) {
+      .nav-project  {
+          margin-bottom: 20%;
+      } 
+    }
+
+  /* ------------------ NAV MEDIA QUERIES max-width:700px ----------------- */
+  @media only screen and (max-width: 700px) {
+    .home {
+      width: auto;
+      margin-left: 15%;
+      font-size: 25px;
+    }
+  }
+
+    /* ------------------ KIT MEDIA QUERIES max-width:700px ----------------- */
+    @media only screen and (max-width: 700px) {
+      .dinnerDrinkSummaryContainer,
+      .kitSummaryContainer {
+        width: 75%;
+        
+      }
+    }
+  /* -------------------------- ABOUT ME MEDIA QUERIES max-width: 600px --------------------------- */
+    @media only screen and (max-width: 600px) {
+      .nav-project  {
+          margin-bottom: 25%;
+      } 
+    }
+
    @media only screen and (max-width: 600px) {
      .firstSummary,
      .secondSummary,
@@ -1527,8 +1575,7 @@ footer {
   }
 
   .resumePage {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
   }
 
   .resumeAppsAndParadigmsTitle,
@@ -1618,6 +1665,8 @@ footer {
     }
 
     }
+
+
 /* ------------------ LANDING PAGE MEDIA QUERIES max-width:427px ----------------- */
     @media only screen and (max-width: 472px) {
       .title {
@@ -1638,6 +1687,14 @@ footer {
     }
 
      }
+
+  /* -------------------------- NAV MEDIA QUERIES max-width: 400px--------------------------- */
+ @media only screen and (max-width: 400px) {
+  .nav-project {
+    margin-bottom: 30%;
+  } 
+  }
+
 /* -------------------------- WORK MEDIA QUERIES max-width: 357px--------------------------- */
  @media only screen and (max-width: 357px) {
   .product {
@@ -1649,15 +1706,12 @@ footer {
     font-size: 12px;
    }
   }
-/* -------------------------- 2nd NAV MEDIA QUERIES max-width: 357px--------------------------- */
-@media only screen and (max-width: 357px) {
-   .aboutNav,
-   .portfolioNav,
-   .resumeNav,
-   .contactNav {
-    font-size: 16px;
-   }
-  }
+  /* -------------------------- NAV MEDIA QUERIES max-width: 350px--------------------------- */
+  @media only screen and (max-width: 350px) {
+    .nav-project {
+      margin-bottom: 35%;
+    } 
+    }
 /* -------------------------- WORK MEDIA QUERIES max-width: 314px--------------------------- */
   @media only screen and (max-width: 314px) {
     .product {
@@ -1668,6 +1722,13 @@ footer {
      .role {
       font-size: 11px;
      }
+    }
+
+/* -------------------------- NAV MEDIA QUERIES max-width: 300px--------------------------- */
+  @media only screen and (max-width: 300px) {
+    .nav-project {
+      margin-bottom: 40%;
+    } 
     }
 
   

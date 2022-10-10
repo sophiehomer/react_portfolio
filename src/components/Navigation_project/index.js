@@ -10,7 +10,6 @@ const NavProject = (props) => {
   }
   
   return (
-   
     <div className="nav-project">
      <Link to="/sophie_homer_portfolio" className="home">
         Sophie Homer
