@@ -1710,8 +1710,14 @@ footer {
   @media only screen and (max-width: 350px) {
     .nav-project {
       margin-bottom: 35%;
-    } 
     }
+    
+    .bm-menu {
+      height:50% !important;
+    }
+    }
+
+
 /* -------------------------- WORK MEDIA QUERIES max-width: 314px--------------------------- */
   @media only screen and (max-width: 314px) {
     .product {
