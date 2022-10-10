@@ -15,11 +15,6 @@ body {
 }
 
 @font-face {
-  font-family: aeonik-medium;
-  src: local("aeonik-regular"), url("./fonts/Aeonik-Medium.ttf") format("truetype");
-}
-
-@font-face {
   font-family: aeonik-RegularItalic;
   src: local("aeonik-regularItalic"), url("./fonts/Aeonik-RegularItalic.ttf") format("truetype");
 }
@@ -597,6 +592,7 @@ color:#A8C3D6;
   margin-bottom: 4%;
   margin-top: 0%;
   color: #8F8F8F;
+  font-family: aeonik-regular, sans-serif;
 }
 
 .femmeDeptPage {
@@ -679,7 +675,7 @@ padding-top: 4%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-family: aeonik-medium, sans-serif;
+  font-family: aeonik-regular, sans-serif;
   margin: 0;
   font-size: 25px;
   line-height: 32px;
@@ -700,7 +696,7 @@ padding-top: 4%;
   font-size: 25px;
   color: #8F8F8F;
   line-height: 32px;
-  font-family: aeonik-medium, sans-serif;
+  font-family: aeonik-regular, sans-serif;
 }
 
 .femmeDeptRoleAndTechnology {
@@ -750,7 +746,7 @@ margin: 0;
 font-weight: 500;
 /* color: #1C1C1C; */
 color: #8F8F8F;
-font-family: aeonik-medium;
+font-family: aeonik-regular, sans-serif;
 
 }
 
@@ -770,9 +766,8 @@ font-family: aeonik-medium;
   margin-bottom: 2%;
   font-size: 25px;
   font-weight: 500;
-  /* color: #1C1C1C; */
   color: #8F8F8F;
-  font-family: aeonik-medium, sans-serif;
+  font-family: aeonik-regular, sans-serif;
 }
 
 .basicDesignElements {
@@ -780,9 +775,8 @@ font-family: aeonik-medium;
   margin-bottom: 2%;
   font-size: 25px;
   font-weight: 500;
-  font-family: aeonik-medium, sans-serif;
+  font-family: aeonik-regular, sans-serif;
   color: #8F8F8F;
-  /* color: #1C1C1C; */
 }
 
 .finalDesign {
@@ -790,8 +784,7 @@ font-family: aeonik-medium;
   margin-bottom: 2%;
   font-size: 25px;
   font-weight: 500;
-  font-family: aeonik-medium, sans-serif;
-  /* color: #1C1C1C; */
+  font-family: aeonik-regular, sans-serif;
   color: #8F8F8F;
 
 }
@@ -919,7 +912,7 @@ font-family: aeonik-medium;
 
 .kitTechnology {
   width: 120%;
-  font-family: aeonik-medium, sans-serif;
+  font-family: aeonik-regular, sans-serif;
   font-size: 25px;
   margin-left: 80%;
 /* color: #1C1C1C; */
@@ -1007,7 +1000,7 @@ color: #8F8F8F;
 }
 
 .dinnerDrinkTechnology {
-  font-family: aeonik-medium;
+  font-family: aeonik-regular, sans-serif;
   font-size: 25px;
   width: 120%;
   margin-left: 80%;
