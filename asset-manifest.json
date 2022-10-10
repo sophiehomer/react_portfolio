@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sophie_homer_portfolio/static/css/main.fff29a1d.css",
+    "main.css": "/sophie_homer_portfolio/static/css/main.e88f53aa.css",
     "main.js": "/sophie_homer_portfolio/static/js/main.287ca010.js",
     "static/js/787.1e5526ac.chunk.js": "/sophie_homer_portfolio/static/js/787.1e5526ac.chunk.js",
     "static/media/femme_dept.webp": "/sophie_homer_portfolio/static/media/femme_dept.4a61753a4c57c14203eb.webp",
@@ -10,7 +10,6 @@
     "static/media/About.webp": "/sophie_homer_portfolio/static/media/About.bb972abd7f34a9bee16a.webp",
     "static/media/Subscription.webp": "/sophie_homer_portfolio/static/media/Subscription.3a82e8e6d628353b9eed.webp",
     "static/media/Aeonik-RegularItalic.ttf": "/sophie_homer_portfolio/static/media/Aeonik-RegularItalic.d0b1ade911e1f2eba5c6.ttf",
-    "static/media/Aeonik-Medium.ttf": "/sophie_homer_portfolio/static/media/Aeonik-Medium.97841d7813eb8a83f6ea.ttf",
     "static/media/Aeonik-Regular.ttf": "/sophie_homer_portfolio/static/media/Aeonik-Regular.902aaaf9f24796dc3274.ttf",
     "static/media/basicDesignElements.webp": "/sophie_homer_portfolio/static/media/basicDesignElements.184b5d30db79e7cc5775.webp",
     "static/media/intimateSoapIngredients.webp": "/sophie_homer_portfolio/static/media/intimateSoapIngredients.b7067ef2e7ec1edd0a8c.webp",
@@ -42,12 +41,12 @@
     "static/media/myAccount.webp": "/sophie_homer_portfolio/static/media/myAccount.8d054f0438190cd2413b.webp",
     "static/media/sophie-homer-resume.pdf": "/sophie_homer_portfolio/static/media/sophie-homer-resume.cbae703d30da0341e83f.pdf",
     "index.html": "/sophie_homer_portfolio/index.html",
-    "main.fff29a1d.css.map": "/sophie_homer_portfolio/static/css/main.fff29a1d.css.map",
+    "main.e88f53aa.css.map": "/sophie_homer_portfolio/static/css/main.e88f53aa.css.map",
     "main.287ca010.js.map": "/sophie_homer_portfolio/static/js/main.287ca010.js.map",
     "787.1e5526ac.chunk.js.map": "/sophie_homer_portfolio/static/js/787.1e5526ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fff29a1d.css",
+    "static/css/main.e88f53aa.css",
     "static/js/main.287ca010.js"
   ]
 }
