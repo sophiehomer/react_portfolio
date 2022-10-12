@@ -76,8 +76,7 @@ text-decoration: underline;
   top: 38px;
   font-size: 30px;
   text-decoration: none;
-  /* color: #1C1C1C; */
-  color: red;
+  color: #1C1C1C;
   width: 100%;
   font-family: aeonik-regular, sans-serif !important; 
 }
