@@ -39,7 +39,7 @@ function App() {
   return (
     <div className="App" id="App">
       <Header />
-      <Router id="page-wrap" basename="/sophie_homer_portfolio">
+      <Router id="page-wrap">
         <Routes>
           <Route path="/sophie_homer_portfolio" element={<Home />} />
           <Route path="/about_extended" element={<AboutExtended />} />
